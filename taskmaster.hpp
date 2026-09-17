@@ -1,6 +1,7 @@
 #ifndef TASKMASTER_HPP
 #define TASKMASTER_HPP
 
+#include <csignal>
 #include <string>
 #include <vector>
 #include <map>
@@ -11,7 +12,8 @@
 #include <fcntl.h>
 #include <ctime>
 #include <iostream>
-
+#include <fstream>
+#include <json/json.h>
 
 
 enum class ProgramRestart
