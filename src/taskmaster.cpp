@@ -1,5 +1,7 @@
 #include "taskmaster.hpp"
 
+
+
 Taskmaster::Taskmaster(const std::string &path) : config_path(path)
 {
 	log("Taskmaster initalized");
@@ -12,10 +14,10 @@ void Taskmaster::loadConfig()
 	std::ifstream file(config_path);
 	if (!file.is_open())
 	{
-		log("ERROR: Cannot open config file")
+		log("ERROR: Cannot open config file");
 		return;
 	}
-	Json::value root;
+	Json::Value root;
 	file >> root;
 	programs.clear();
 	for (auto &name : root["programs"].getMemberNames())
@@ -27,12 +29,12 @@ void Taskmaster::loadConfig()
 		cfg.numprocs = p["numprocs"].asInt();
 		cfg.autostart = p["autostart"].asBool();
 		std::string ar = p["autorestart"].asString();
-		if (ar == "always")
+		if (ar == "always")    
 			cfg.autorestart =  ProgramRestart::ALWAYS;
 		else if (ar == "never")
 			cfg.autorestart = ProgramRestart::NEVER;
 		else
-			cfg.autorestart = ProcessRestart::UNEXPECTED;
+			cfg.autorestart = ProgramRestart::UNEXPECTED;
 		for (auto &c : p["exitcodes"])
 			cfg.exitcodes.push_back(c.asInt());
 		cfg.startretries = p["startretries"].asInt();
@@ -46,6 +48,11 @@ void Taskmaster::loadConfig()
 
 		for (auto &key : p["env"]. getMemberNames())
 			cfg.env[key] = p["env"][key].asString();
+		if (!validateProgramConfig(cfg))
+		{
+			log("ERROR: Invalid config for program: " + name);
+			continue;
+		}
 		Program prog;
 		prog.config = cfg;
 		prog.processes.resize(cfg.numprocs);
@@ -57,7 +64,14 @@ void Taskmaster::loadConfig()
 
 void Taskmaster::log(const std::string &msg)
 {
-	std::cout << "[LOG] " << msg << std::endl;
+	LogLevel lvl = LogLevel::INFO;
+
+	if (msg.find("error") != std::string::npos || msg.find("ERROR") != std::string::npos ||
+		msg.find("fatal") != std::string::npos || msg.find("FATAL") != std::string::npos)
+		lvl = LogLevel::ERROR;
+	else if (msg.find("warn") != std::string::npos || msg.find("WARN") != std::string::npos || msg.find("changed") != std::string::npos)
+		lvl = LogLevel::WARN;
+	log(msg, lvl);
 }
 
 

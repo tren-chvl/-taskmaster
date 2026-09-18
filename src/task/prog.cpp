@@ -1,16 +1,8 @@
 #include "taskmaster.hpp"
 
-
-
-void Taskmaster::applyConfigChanges()
-{
-	log("reloading configuration...");
-	loadConfig();
-}
-
 void Taskmaster::startAutostart()
 {
-	for (auto &pair : progams)
+	for (auto &pair : programs)
 	{
 		Program &prog = pair.second;
 		if (prog.config.autostart)
@@ -18,9 +10,9 @@ void Taskmaster::startAutostart()
 	}
 }
 
-
 void Taskmaster::startProgram(const std::string &name)
 {
+	std::lock_guard<std::mutex> lock(programs_mutex);
 	if (!programs.count(name))
 	{
 		log("ERROR: program not found: " + name);
@@ -28,20 +20,35 @@ void Taskmaster::startProgram(const std::string &name)
 	}
 	Program &prog = programs[name];
 	log("Starting program: " + name);
-	for (auto &proc : prog.processes)
-		spawnProcess(prog, proc);
+	startProgram(prog);
 }
 
+void Taskmaster::startProgram(Program &prog)
+{
+	log("Starting program: " + prog.config.name);
+	for (auto &proc : prog.processes)
+	{
+		proc.state = ProcessState::STARTING;
+		spawnProcess(prog, proc);
+	}
+}
 
 void Taskmaster::stopProgram(const std::string &name)
 {
-	if (!programs.count (name))
+	std::lock_guard<std::mutex> lock(programs_mutex);
+	if (!programs.count(name))
 	{
 		log("ERROR: Program not found: " + name);
 		return;
 	}
 	Program &prog = programs[name];
-	log("Stoppping program: " + name);
+	log("Stopping program: " + name);
+	stopProgram(prog);
+}
+
+void Taskmaster::stopProgram(Program &prog)
+{
+	log("Stopping program: " + prog.config.name);
 	for (auto &proc : prog.processes)
 		stopProcess(prog, proc);
 }
