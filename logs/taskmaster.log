@@ -1,0 +1,13 @@
+2026-09-18 09:27:28 [INFO] Taskmaster initalized
+2026-09-18 09:27:28 [INFO] Loading configuration: config/task.json
+2026-09-18 09:27:28 [ERROR] ERROR: Invalid JSON: * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+2026-09-18 09:27:28 [INFO] Starting  interactive Shell
+2026-09-18 09:27:34 [INFO] Reloadding conifguration 
+2026-09-18 09:27:34 [INFO] Loading configuration: config/task.json
+2026-09-18 09:27:34 [ERROR] ERROR: Invalid JSON: * Line 1, Column 1
+  Syntax error: value, object or array expected.
+
+2026-09-18 09:27:34 [INFO] Reload diff complete.
+2026-09-18 09:27:38 [ERROR] ERROR: program not found: test
