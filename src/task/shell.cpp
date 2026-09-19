@@ -28,20 +28,3 @@ void Taskmaster::shell()
 }
 
 
-void Taskmaster::status()
-{
-	for (auto &pair : programs)
-	{
-		const std::string &name = pair.first;
-		Program &prog = pair.second;
-		std::cout << "Program: " << name << "\n";
-		std::cout << "  numprocs: " << prog.config.numprocs << "\n";
-		for (auto &proc : prog.processes)
-		{
-			std::cout << "    PID: " << proc.pid << " | State: " << colorState(proc.state)
-					  << " | Exit: " << proc.exitcode << " | Uptime: " << formatUptime(proc.start_timestamp)
-					  << " | Retries: " << proc.retries << "\n";
-		}
-		std::cout << "\n";
-	}
-}

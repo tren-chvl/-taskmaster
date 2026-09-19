@@ -40,72 +40,102 @@ void Taskmaster::handleSignals()
 	}
 }
 
+
+
 void Taskmaster::spawnProcess(Program &prog, ProcessInfo &proc)
 {
-	log("Spawning process for: " + prog.config.name);
-	pid_t pid = fork();
-	if (pid < 0)
-	{
-		log("ERROR: fork() failed");
-		return;
-	}
-	if (pid == 0)
-	{
-		if (!prog.config.workingdir.empty())
-		{
-			if (chdir(prog.config.workingdir.c_str()) != 0)
-			{
-				perror("chdir");
-				_exit(1);
-			}
-		}
-		umask(prog.config.umask_value);
-		for (auto &tmp : prog.config.env)
-			setenv(tmp.first.c_str(), tmp.second.c_str(), 1);
-		if (!prog.config.stdout_file.empty())
-		{
-			int fd = open(prog.config.stdout_file.c_str(), O_WRONLY | O_CREAT | O_APPEND, 0644);
-			if (fd < 0)
-			{
-				perror("open stdout");
-				_exit(1);
-			}
-			dup2(fd, STDOUT_FILENO);
-			close(fd);
-		}
-		if (!prog.config.stderr_file.empty())
-		{
-			int fd = open(prog.config.stderr_file.c_str(), O_WRONLY | O_CREAT | O_APPEND, 0644);
-			if (fd < 0)
-			{
-				perror("open stderr");
-				_exit(1);
-			}
-			dup2(fd, STDERR_FILENO);
-			close(fd);
-		}
-		std::vector<std::string> parts;
-		{
-			std::istringstream iss(prog.config.cmd);
-			std::string tmp;
-			while (iss >> tmp)
-				parts.push_back(tmp);
-		}
-		char **argv = new char *[parts.size() + 1];
-		for (size_t i = 0; i < parts.size(); ++i)
-			argv[i] = strdup(parts[i].c_str());
-		argv[parts.size()] = nullptr;
-		execvp(argv[0], argv);
-		perror("execvp");
-		for (size_t i = 0; i < parts.size(); ++i)
-			free(argv[i]);
-		delete [] argv;
-		_exit(1);
-	}
+    log("Spawning process for: " + prog.config.name);
 
-	proc.pid = pid;
-	proc.state = ProcessState::STARTING;
-	proc.start_timestamp = time(nullptr);
+    pid_t pid = fork();
+    if (pid < 0)
+    {
+        log("ERROR: fork() failed");
+        return;
+    }
 
-	log("Spawned PID " + std::to_string(pid));
+    if (pid == 0)
+    {
+        // CHILD
+        char cwd[1024];
+        getcwd(cwd, sizeof(cwd));
+        std::cerr << "CHILD initial cwd = " << cwd << "\n";
+
+        // 1) Changer de répertoire AVANT tout
+        if (!prog.config.workingdir.empty())
+        {
+            if (chdir(prog.config.workingdir.c_str()) != 0)
+            {
+                perror("chdir");
+                _exit(1);
+            }
+        }
+
+        // Vérifier où on est
+        getcwd(cwd, sizeof(cwd));
+        std::cerr << "CHILD after chdir cwd = " << cwd << "\n";
+
+        // 2) Résoudre les chemins
+        std::string stdout_path = resolvePath(prog.config.stdout_file, prog.config.workingdir);
+        std::string stderr_path = resolvePath(prog.config.stderr_file, prog.config.workingdir);
+
+        // 3) Créer les dossiers au bon endroit
+        mkdir("logs", 0755);
+        mkdir("logs/archive", 0755);
+
+        // 4) Redirections
+        if (!prog.config.stdout_file.empty())
+        {
+            int fd = open(stdout_path.c_str(), O_WRONLY | O_CREAT | O_APPEND, 0644);
+            if (fd < 0)
+            {
+                perror("open stdout");
+                _exit(1);
+            }
+            dup2(fd, STDOUT_FILENO);
+            close(fd);
+        }
+
+        if (!prog.config.stderr_file.empty())
+        {
+            int fd = open(stderr_path.c_str(), O_WRONLY | O_CREAT | O_APPEND, 0644);
+            if (fd < 0)
+            {
+                perror("open stderr");
+                _exit(1);
+            }
+            dup2(fd, STDERR_FILENO);
+            close(fd);
+        }
+
+        // 5) Préparer argv
+        std::vector<std::string> parts;
+        {
+            std::istringstream iss(prog.config.cmd);
+            std::string tmp;
+            while (iss >> tmp)
+                parts.push_back(tmp);
+        }
+
+        char **argv = new char *[parts.size() + 1];
+        for (size_t i = 0; i < parts.size(); ++i)
+            argv[i] = strdup(parts[i].c_str());
+        argv[parts.size()] = nullptr;
+
+        // 6) Lancer le programme
+        execvp(argv[0], argv);
+
+        perror("execvp");
+        for (size_t i = 0; i < parts.size(); ++i)
+            free(argv[i]);
+        delete [] argv;
+        _exit(1);
+    }
+
+    // PARENT
+    proc.pid = pid;
+    proc.state = ProcessState::STARTING;
+    proc.start_timestamp = time(nullptr);
+    proc.retries = 0;
+
+    log("Spawned PID " + std::to_string(pid));
 }

@@ -1,0 +1,23 @@
+{
+	"programs":
+	{
+		"test":
+		{
+			"cmd": "/bin/sleep 5",
+			"numprocs": 1,
+			"autorestart": "unexpected",
+			"exitcodes": [0],
+			"startretries": 3,
+			"starttime": 1,
+			"stoptime": 5,
+			"stdout": "./logs/test.out",
+			"stderr": "./logs/test.err",
+			"workingdir":"/tmp",
+			"umask": 22,
+			"env":
+			{
+				"VAR":"VALUE"
+			} 
+		}
+	}
+}

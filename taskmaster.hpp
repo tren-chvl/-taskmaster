@@ -101,6 +101,7 @@ class Taskmaster
 		void restartProgram(const std::string &name);
 		void startAutostart();
 		void superviseLoop();
+		std::string resolvePath(const std::string &path, const std::string &workindir);
 		void handleSignals();
 		void checkProcessStatus(Program &prog, ProcessInfo &proc);
 		void spawnProcess(Program &prog, ProcessInfo &proc);
