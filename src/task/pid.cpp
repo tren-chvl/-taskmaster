@@ -2,36 +2,41 @@
 
 void Taskmaster::stopProcess(Program &prog, ProcessInfo &proc)
 {
-    if (proc.pid <= 0)
-        return;
+	if (proc.pid <= 0)
+		return;
 
-    log("Stopping PID " + std::to_string(proc.pid));
-
-    kill(proc.pid, prog.config.stopsignal);
-
-    time_t start = time(nullptr);
-
-    while (true)
-    {
-        int status = 0;
-        pid_t result = waitpid(proc.pid, &status, WNOHANG);
-
-        if (result == proc.pid)
-            break;
-
-        if (time(nullptr) - start >= prog.config.stoptime)
-        {
-            kill(proc.pid, SIGKILL);
-            waitpid(proc.pid, NULL, 0);
-            break;
-        }
-
-        usleep(100000);
-    }
-
-    proc.pid = -1;
-    proc.state = ProcessState::STOPPED;
-    proc.exitcode = 0;
+	log("Stopping PID " + std::to_string(proc.pid));
+	kill(proc.pid, prog.config.stopsignal);
+	time_t start = time(nullptr);
+	bool exited = false;
+	while (true)
+	{
+		int status = 0;
+		pid_t result = waitpid(proc.pid, &status, WNOHANG);
+		if (result == proc.pid)
+		{
+			exited = true;
+			break;
+		}
+		if (time(nullptr) - start >= prog.config.stoptime)
+		{
+			kill(proc.pid, SIGKILL);
+			waitpid(proc.pid, NULL, 0);
+			break;
+		}
+		usleep(100000);
+	}
+	proc.pid = -1;
+	if (exited)
+	{
+		proc.state = ProcessState::EXITED;
+		proc.exitcode = 0;
+	}
+	else
+	{
+		proc.state = ProcessState::STOPPED;
+		proc.exitcode = 0;
+	}
 }
 
 

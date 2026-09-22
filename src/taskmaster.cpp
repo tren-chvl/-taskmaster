@@ -7,6 +7,8 @@ Taskmaster::Taskmaster(const std::string &path) : config_path(path)
 	log("Taskmaster initalized");
 }
 
+
+
 void Taskmaster::loadConfig()
 {
 	log("Loading configuration: " + config_path);
@@ -17,17 +19,14 @@ void Taskmaster::loadConfig()
 		log("ERROR: Cannot open config file");
 		return;
 	}
-
 	Json::Value root;
 	Json::CharReaderBuilder builder;
 	std::string errs;
-
 	if (!Json::parseFromStream(builder, file, &root, &errs))
 	{
 		log("ERROR: Invalid JSON: " + errs);
 		return;
 	}
-
 	if (!root.isMember("programs") || !root["programs"].isObject())
 	{
 		log("ERROR: Config missing 'programs' object");
@@ -63,25 +62,42 @@ void Taskmaster::loadConfig()
 			cfg.exitcodes.push_back(c.asInt());
 		cfg.startretries = p.get("startretries", 3).asInt();
 		cfg.starttime = p.get("starttime", 1).asInt();
-		cfg.stopsignal = SIGTERM;
+		std::string sig = p.get("stopsignal", "TERM").asString();
+		if (sig == "TERM") cfg.stopsignal = SIGTERM;
+		else if (sig == "INT") cfg.stopsignal = SIGINT;
+		else if (sig == "QUIT") cfg.stopsignal = SIGQUIT;
+		else if (sig == "HUP") cfg.stopsignal = SIGHUP;
+		else if (sig == "USR1") cfg.stopsignal = SIGUSR1;
+		else if (sig == "USR2") cfg.stopsignal = SIGUSR2;
+		else if (sig == "KILL") cfg.stopsignal = SIGKILL;
+		else
+		{
+			log("WARN: Unknown stopsignal '" + sig + "', defaulting to TERM");
+			cfg.stopsignal = SIGTERM;
+		}
+
 		cfg.stoptime = p.get("stoptime", 5).asInt();
 		cfg.stdout_file = p.get("stdout", "").asString();
 		cfg.stderr_file = p.get("stderr", "").asString();
 		cfg.workingdir = p.get("workingdir", "").asString();
 		cfg.umask_value = p.get("umask", 022).asInt();
+
 		if (p.isMember("env"))
 		{
 			for (auto &key : p["env"].getMemberNames())
 				cfg.env[key] = p["env"][key].asString();
 		}
+
 		if (!validateProgramConfig(cfg))
 		{
 			log("ERROR: Invalid config for program: " + name);
 			continue;
 		}
+
 		Program prog;
 		prog.config = cfg;
 		prog.processes.resize(cfg.numprocs);
+
 		for (auto &proc : prog.processes)
 		{
 			proc.pid = -1;
@@ -90,10 +106,13 @@ void Taskmaster::loadConfig()
 			proc.retries = 0;
 			proc.start_timestamp = 0;
 		}
+
 		programs[name] = prog;
 	}
+
 	log("Configuration loaded successfully");
 }
+
 
 
 

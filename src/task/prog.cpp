@@ -66,11 +66,9 @@ bool Taskmaster::handleAutorestart(Program &prog, ProcessInfo &proc, int exitcod
 
     if (prog.config.autorestart == ProgramRestart::ALWAYS)
         restart = true;
-
     else if (prog.config.autorestart == ProgramRestart::UNEXPECTED)
     {
         bool expected = false;
-
         for (int c : prog.config.exitcodes)
         {
             if (c == exitcode)
@@ -79,7 +77,6 @@ bool Taskmaster::handleAutorestart(Program &prog, ProcessInfo &proc, int exitcod
                 break;
             }
         }
-
         if (!expected)
             restart = true;
     }
@@ -88,7 +85,6 @@ bool Taskmaster::handleAutorestart(Program &prog, ProcessInfo &proc, int exitcod
         return false;
 
     proc.retries++;
-
     if (proc.retries > prog.config.startretries)
     {
         proc.state = ProcessState::FATAL;
@@ -96,11 +92,18 @@ bool Taskmaster::handleAutorestart(Program &prog, ProcessInfo &proc, int exitcod
         return false;
     }
 
-    log("Restarting process " + prog.config.name);
+    // 🟩 BACKOFF (manquant dans ton code)
+    time_t now = time(nullptr);
+    if (now - proc.start_timestamp < prog.config.starttime)
+    {
+        proc.state = ProcessState::BACKOFF;
+        log("Process " + prog.config.name + " died too fast -> BACKOFF");
+        return false;
+    }
 
+    log("Restarting process " + prog.config.name);
     spawnProcess(prog, proc);
     proc.start_timestamp = time(nullptr);
     proc.state = ProcessState::STARTING;
-
     return true;
 }
