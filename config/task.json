@@ -3,12 +3,12 @@
 	{
 		"test":
 		{
-			"cmd": "/bin/sleep 5",
+			"cmd": "/bin/sleep 100",
 			"numprocs": 1,
 			"autorestart": "unexpected",
 			"exitcodes": [0],
 			"startretries": 3,
-			"starttime": 1,
+			"starttime": 3,
 			"stoptime": 5,
 			"stdout": "./logs/test.out",
 			"stderr": "./logs/test.err",

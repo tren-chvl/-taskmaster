@@ -20561,3 +20561,182 @@
 2026-09-21 10:28:42 [INFO] Loading configuration: config/task.json
 2026-09-21 10:28:42 [INFO] Configuration loaded successfully
 2026-09-21 10:28:42 [INFO] Reload diff complete.
+2026-09-22 04:56:11 [INFO] Taskmaster initalized
+2026-09-22 04:56:11 [INFO] Loading configuration: config/task.json
+2026-09-22 04:56:11 [INFO] Configuration loaded successfully
+2026-09-22 04:56:11 [INFO] Starting interactive Shell
+2026-09-22 04:57:23 [INFO] Taskmaster initalized
+2026-09-22 04:57:23 [INFO] Loading configuration: config/task.json
+2026-09-22 04:57:23 [INFO] Configuration loaded successfully
+2026-09-22 04:57:23 [INFO] Starting interactive Shell
+2026-09-22 04:57:53 [INFO] Starting program: test
+2026-09-22 04:57:53 [INFO] Starting program: test
+2026-09-22 04:57:53 [INFO] Spawning process for: test
+2026-09-22 04:57:53 [INFO] Spawned PID 5918
+2026-09-22 04:58:46 [INFO] Stopping program: test
+2026-09-22 04:58:46 [INFO] Stopping program: test
+2026-09-22 04:58:46 [INFO] Stopping PID 5918
+2026-09-22 04:59:13 [INFO] Stopping program: test
+2026-09-22 04:59:13 [INFO] Stopping program: test
+2026-09-22 04:59:13 [INFO] Stopping PID 5918
+2026-09-22 04:59:18 [INFO] Starting program: test
+2026-09-22 04:59:18 [INFO] Starting program: test
+2026-09-22 04:59:18 [INFO] Spawning process for: test
+2026-09-22 04:59:18 [INFO] Spawned PID 5973
+2026-09-22 05:17:01 [INFO] Taskmaster initalized
+2026-09-22 05:17:01 [INFO] Loading configuration: config/task.json
+2026-09-22 05:17:01 [INFO] Configuration loaded successfully
+2026-09-22 05:17:01 [INFO] Starting interactive Shell
+2026-09-22 05:17:10 [INFO] Starting program: test
+2026-09-22 05:17:10 [INFO] Starting program: test
+2026-09-22 05:17:10 [INFO] Spawning process for: test
+2026-09-22 05:17:10 [INFO] Spawned PID 6686
+2026-09-22 05:22:58 [INFO] Taskmaster initalized
+2026-09-22 05:22:58 [INFO] Loading configuration: config/task.json
+2026-09-22 05:22:58 [INFO] Configuration loaded successfully
+2026-09-22 05:22:58 [INFO] Starting interactive Shell
+2026-09-22 05:23:05 [INFO] Starting program: test
+2026-09-22 05:23:05 [INFO] Starting program: test
+2026-09-22 05:23:05 [INFO] Spawning process for: test
+2026-09-22 05:23:05 [INFO] Spawned PID 6865
+2026-09-22 05:23:35 [INFO] Stopping program: test
+2026-09-22 05:23:35 [INFO] Stopping program: test
+2026-09-22 05:23:35 [INFO] Stopping PID 6865
+2026-09-22 05:23:35 [INFO] Spawning process for: test
+2026-09-22 05:23:35 [INFO] Spawned PID 6907
+2026-09-22 05:23:35 [INFO] Starting program: test
+2026-09-22 05:23:35 [INFO] Starting program: test
+2026-09-22 05:23:35 [INFO] Spawning process for: test
+2026-09-22 05:23:35 [INFO] Spawning process for: test
+2026-09-22 05:23:35 [INFO] Spawned PID 6909
+2026-09-22 05:23:35 [INFO] Spawned PID 6908
+2026-09-22 05:23:47 [INFO] Stopping program: test
+2026-09-22 05:23:47 [INFO] Stopping program: test
+2026-09-22 05:23:47 [INFO] Stopping PID 6908
+2026-09-22 05:23:47 [INFO] Spawning process for: test
+2026-09-22 05:23:47 [INFO] Spawned PID 6911
+2026-09-22 05:23:47 [INFO] Spawning process for: test
+2026-09-22 05:23:47 [INFO] Spawned PID 6912
+2026-09-22 05:23:55 [INFO] Reloadding conifguration 
+2026-09-22 05:23:55 [INFO] Loading configuration: config/task.json
+2026-09-22 05:23:55 [INFO] Configuration loaded successfully
+2026-09-22 05:23:55 [INFO] Reload diff complete.
+2026-09-22 05:24:26 [INFO] Taskmaster initalized
+2026-09-22 05:24:26 [INFO] Loading configuration: config/task.json
+2026-09-22 05:24:26 [INFO] Configuration loaded successfully
+2026-09-22 05:24:26 [INFO] Starting interactive Shell
+2026-09-22 05:24:30 [INFO] Starting program: test
+2026-09-22 05:24:30 [INFO] Starting program: test
+2026-09-22 05:24:30 [INFO] Spawning process for: test
+2026-09-22 05:24:30 [INFO] Spawned PID 7003
+2026-09-22 07:07:05 [INFO] Taskmaster initalized
+2026-09-22 07:07:05 [INFO] Loading configuration: config/task.json
+2026-09-22 07:07:05 [INFO] Configuration loaded successfully
+2026-09-22 07:07:05 [INFO] Starting interactive Shell
+2026-09-22 07:07:13 [INFO] Starting program: test
+2026-09-22 07:07:13 [INFO] Starting program: test
+2026-09-22 07:07:13 [INFO] Spawning process for: test
+2026-09-22 07:07:13 [INFO] Spawned PID 11576
+2026-09-22 07:07:14 [INFO] Process test is now RUNNING
+2026-09-22 07:07:47 [INFO] Taskmaster initalized
+2026-09-22 07:07:47 [INFO] Loading configuration: config/task.json
+2026-09-22 07:07:47 [INFO] Configuration loaded successfully
+2026-09-22 07:07:47 [INFO] Starting interactive Shell
+2026-09-22 07:08:10 [INFO] Starting program: test
+2026-09-22 07:08:10 [INFO] Starting program: test
+2026-09-22 07:08:10 [INFO] Spawning process for: test
+2026-09-22 07:08:10 [INFO] Spawned PID 11621
+2026-09-22 07:08:11 [INFO] Process test is now RUNNING
+2026-09-22 07:09:06 [INFO] Taskmaster initalized
+2026-09-22 07:09:06 [INFO] Loading configuration: config/task.json
+2026-09-22 07:09:06 [INFO] Configuration loaded successfully
+2026-09-22 07:09:06 [INFO] Starting interactive Shell
+2026-09-22 07:09:15 [INFO] Taskmaster initalized
+2026-09-22 07:09:15 [INFO] Loading configuration: config/task.json
+2026-09-22 07:09:15 [INFO] Configuration loaded successfully
+2026-09-22 07:09:15 [INFO] Starting interactive Shell
+2026-09-22 07:09:29 [INFO] Starting program: test
+2026-09-22 07:09:29 [INFO] Starting program: test
+2026-09-22 07:09:29 [INFO] Spawning process for: test
+2026-09-22 07:09:29 [INFO] Spawned PID 11746
+2026-09-22 07:09:32 [INFO] Process test is now RUNNING
+2026-09-22 07:10:43 [INFO] Reloadding conifguration 
+2026-09-22 07:10:43 [INFO] Loading configuration: config/task.json
+2026-09-22 07:10:43 [INFO] Configuration loaded successfully
+2026-09-22 07:10:43 [INFO] Reload diff complete.
+2026-09-22 07:11:10 [INFO] Starting program: test
+2026-09-22 07:11:10 [INFO] Starting program: test
+2026-09-22 07:11:10 [INFO] Spawning process for: test
+2026-09-22 07:11:10 [INFO] Spawned PID 11811
+2026-09-22 07:11:13 [INFO] Process test is now RUNNING
+2026-09-22 07:11:22 [INFO] Stopping program: test
+2026-09-22 07:11:22 [INFO] Stopping program: test
+2026-09-22 07:11:22 [INFO] Stopping PID 11811
+2026-09-22 07:25:23 [INFO] Taskmaster initalized
+2026-09-22 07:25:23 [INFO] Loading configuration: config/task.json
+2026-09-22 07:25:23 [INFO] Configuration loaded successfully
+2026-09-22 07:25:23 [INFO] Starting interactive Shell
+2026-09-22 07:25:41 [INFO] Starting program: test
+2026-09-22 07:25:41 [INFO] Starting program: test
+2026-09-22 07:25:41 [INFO] Spawning process for: test
+2026-09-22 07:25:41 [INFO] Spawned PID 12467
+2026-09-22 07:25:44 [INFO] Process test is now RUNNING
+2026-09-22 07:26:16 [INFO] Stopping program: test
+2026-09-22 07:26:16 [INFO] Stopping program: test
+2026-09-22 07:26:16 [INFO] Stopping PID 12467
+2026-09-22 07:26:25 [INFO] Reloadding conifguration 
+2026-09-22 07:26:25 [INFO] Loading configuration: config/task.json
+2026-09-22 07:26:25 [INFO] Configuration loaded successfully
+2026-09-22 07:26:25 [INFO] Reload diff complete.
+2026-09-22 07:26:35 [INFO] Stopping program: test
+2026-09-22 07:26:35 [INFO] Stopping program: test
+2026-09-22 07:26:35 [INFO] Starting program: test
+2026-09-22 07:26:35 [INFO] Starting program: test
+2026-09-22 07:26:35 [INFO] Spawning process for: test
+2026-09-22 07:26:35 [INFO] Spawned PID 12481
+2026-09-22 07:26:38 [INFO] Process test is now RUNNING
+2026-09-22 07:34:05 [INFO] Taskmaster initalized
+2026-09-22 07:34:05 [INFO] Loading configuration: config/task.json
+2026-09-22 07:34:05 [INFO] Configuration loaded successfully
+2026-09-22 07:34:05 [INFO] Starting interactive Shell
+2026-09-22 07:34:35 [INFO] Starting program: test
+2026-09-22 07:34:35 [INFO] Starting program: test
+2026-09-22 07:34:35 [INFO] Spawning process for: test
+2026-09-22 07:34:35 [INFO] Spawned PID 12827
+2026-09-22 07:34:38 [INFO] Process test is now RUNNING
+2026-09-22 07:36:21 [INFO] Stopping program: test
+2026-09-22 07:36:21 [INFO] Stopping program: test
+2026-09-22 07:37:19 [INFO] Reloadding conifguration 
+2026-09-22 07:37:19 [INFO] Loading configuration: config/task.json
+2026-09-22 07:37:19 [INFO] Configuration loaded successfully
+2026-09-22 07:37:19 [INFO] Reload diff complete.
+2026-09-22 07:37:39 [INFO] Stopping program: test
+2026-09-22 07:37:39 [INFO] Stopping program: test
+2026-09-22 07:37:39 [INFO] Starting program: test
+2026-09-22 07:37:39 [INFO] Starting program: test
+2026-09-22 07:37:39 [INFO] Spawning process for: test
+2026-09-22 07:37:39 [INFO] Spawned PID 12930
+2026-09-22 07:37:42 [INFO] Process test is now RUNNING
+2026-09-22 08:21:24 [INFO] Taskmaster initalized
+2026-09-22 08:21:24 [INFO] Loading configuration: config/task.json
+2026-09-22 08:21:24 [INFO] Configuration loaded successfully
+2026-09-22 08:21:24 [INFO] Starting interactive Shell
+2026-09-22 08:21:46 [INFO] Starting program: test
+2026-09-22 08:21:46 [INFO] Starting program: test
+2026-09-22 08:21:46 [INFO] Spawning process for: test
+2026-09-22 08:21:46 [INFO] Spawned PID 14497
+2026-09-22 08:21:49 [INFO] Process test is now RUNNING
+2026-09-22 08:22:15 [INFO] Stopping program: test
+2026-09-22 08:22:15 [INFO] Stopping program: test
+2026-09-22 08:22:15 [INFO] Stopping PID 14497
+2026-09-22 08:22:28 [INFO] Reloadding conifguration 
+2026-09-22 08:22:28 [INFO] Loading configuration: config/task.json
+2026-09-22 08:22:28 [INFO] Configuration loaded successfully
+2026-09-22 08:22:28 [INFO] Reload diff complete.
+2026-09-22 08:23:54 [INFO] Stopping program: test
+2026-09-22 08:23:54 [INFO] Stopping program: test
+2026-09-22 08:23:54 [INFO] Starting program: test
+2026-09-22 08:23:54 [INFO] Starting program: test
+2026-09-22 08:23:54 [INFO] Spawning process for: test
+2026-09-22 08:23:54 [INFO] Spawned PID 14514
+2026-09-22 08:23:57 [INFO] Process test is now RUNNING

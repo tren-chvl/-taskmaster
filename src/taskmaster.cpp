@@ -7,25 +7,27 @@ Taskmaster::Taskmaster(const std::string &path) : config_path(path)
 	log("Taskmaster initalized");
 }
 
-
-
 void Taskmaster::loadConfig()
 {
 	log("Loading configuration: " + config_path);
+
 	std::ifstream file(config_path);
 	if (!file.is_open())
 	{
 		log("ERROR: Cannot open config file");
 		return;
 	}
+
 	Json::Value root;
 	Json::CharReaderBuilder builder;
 	std::string errs;
+
 	if (!Json::parseFromStream(builder, file, &root, &errs))
 	{
 		log("ERROR: Invalid JSON: " + errs);
 		return;
 	}
+
 	if (!root.isMember("programs") || !root["programs"].isObject())
 	{
 		log("ERROR: Config missing 'programs' object");
@@ -80,10 +82,19 @@ void Taskmaster::loadConfig()
 		Program prog;
 		prog.config = cfg;
 		prog.processes.resize(cfg.numprocs);
+		for (auto &proc : prog.processes)
+		{
+			proc.pid = -1;
+			proc.state = ProcessState::STOPPED;
+			proc.exitcode = 0;
+			proc.retries = 0;
+			proc.start_timestamp = 0;
+		}
 		programs[name] = prog;
 	}
 	log("Configuration loaded successfully");
 }
+
 
 
 void Taskmaster::log(const std::string &msg)

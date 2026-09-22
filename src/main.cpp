@@ -2,6 +2,7 @@
 
 Taskmaster *g_taskmaster = nullptr;
 
+
 void signal_handler(int sig)
 {
 	if (!g_taskmaster)
@@ -11,8 +12,7 @@ void signal_handler(int sig)
 		g_taskmaster->log("Received SIGHUP: reloading configuration");
 		g_taskmaster->reloadConfigDiff();
 	}
-	else if (sig == SIGCHLD)
-		g_taskmaster->handleSignals();
+	else if (sig == SIGCHLD){}
 }
 
 int main(int argc, char *argv[])
@@ -28,7 +28,10 @@ int main(int argc, char *argv[])
 	task.loadConfig();
 	std::signal(SIGHUP, signal_handler);
 	std::signal(SIGCHLD, signal_handler);
+	std::thread supervisor(&Taskmaster::supervision, &task);
+	supervisor.detach();
 	task.startAutostart();
 	task.shell();
 	return 0;
 }
+

@@ -64,16 +64,13 @@ void Taskmaster::rotateLog()
 void Taskmaster::log(const std::string &msg, LogLevel lvl)
 {
 	ensureLogArchiveDir();
-
 	const char *path = "./logs/taskmaster.log";
 	rotateLog();
-
 	std::ofstream ofs(path, std::ios::app);
 	if (!ofs)
 	{
 		std::cerr << "[LOGGER ERROR] Cannot open log file: " << path << "\n";
 		return;
 	}
-
 	ofs << timestamp() << " [" << levelToString(lvl) << "] " << msg << "\n";
 }

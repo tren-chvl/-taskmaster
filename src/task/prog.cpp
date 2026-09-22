@@ -58,3 +58,49 @@ void Taskmaster::restartProgram(const std::string &name)
 	stopProgram(name);
 	startProgram(name);
 }
+
+
+bool Taskmaster::handleAutorestart(Program &prog, ProcessInfo &proc, int exitcode)
+{
+    bool restart = false;
+
+    if (prog.config.autorestart == ProgramRestart::ALWAYS)
+        restart = true;
+
+    else if (prog.config.autorestart == ProgramRestart::UNEXPECTED)
+    {
+        bool expected = false;
+
+        for (int c : prog.config.exitcodes)
+        {
+            if (c == exitcode)
+            {
+                expected = true;
+                break;
+            }
+        }
+
+        if (!expected)
+            restart = true;
+    }
+
+    if (!restart)
+        return false;
+
+    proc.retries++;
+
+    if (proc.retries > prog.config.startretries)
+    {
+        proc.state = ProcessState::FATAL;
+        log("Process " + prog.config.name + " exceeded retries -> FATAL");
+        return false;
+    }
+
+    log("Restarting process " + prog.config.name);
+
+    spawnProcess(prog, proc);
+    proc.start_timestamp = time(nullptr);
+    proc.state = ProcessState::STARTING;
+
+    return true;
+}

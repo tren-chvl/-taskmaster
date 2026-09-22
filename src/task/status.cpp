@@ -26,13 +26,22 @@ void Taskmaster::status()
 		std::cout << "  numprocs: " << prog.config.numprocs << "\n";
 		for (auto &proc : prog.processes)
 		{
-			std::cout << "    PID: " << proc.pid << " | State: " << colorState(proc.state)
-					  << " | Exit: " << proc.exitcode << " | Uptime: " << formatUptime(proc.start_timestamp)
-					  << " | Retries: " << proc.retries << "\n";
+			std::string state = colorState(proc.state);
+			std::string uptime = formatUptime(proc.start_timestamp);
+			int exitcode = proc.exitcode;
+			if (proc.state == ProcessState::STOPPED || proc.state == ProcessState::EXITED || proc.state == ProcessState::FATAL)
+				uptime = "0s";
+			std::cout << "    PID: " << proc.pid
+					  << " | State: " << state
+					  << " | Exit: " << exitcode
+					  << " | Uptime: " << uptime
+					  << " | Retries: " << proc.retries
+					  << "\n";
 		}
 		std::cout << "\n";
 	}
 }
+
 
 std::string Taskmaster::resolvePath(const std::string &path, const std::string &workindir)
 {
@@ -41,4 +50,39 @@ std::string Taskmaster::resolvePath(const std::string &path, const std::string &
 	if (path[0] == '/')
 		return path;
 	return workindir +"/" + path;
+}
+
+
+
+void Taskmaster::checkProcessStatus(Program &prog, ProcessInfo &proc)
+{
+	int status = 0;
+	pid_t result = waitpid(proc.pid, &status, WNOHANG);
+
+	if (result == 0)
+		return;
+	if (result == -1)
+		return;
+
+	proc.state = ProcessState::EXITED;
+	if (WIFEXITED(status))
+		proc.exitcode = WEXITSTATUS(status);
+	else
+		proc.exitcode = -1;
+	bool expected = false;
+	for (int c : prog.config.exitcodes)
+	{
+		if (c == proc.exitcode)
+		{
+			expected = true;
+			break;
+		}
+	}
+	if (!expected)
+	{
+		if (prog.config.autorestart == ProgramRestart::UNEXPECTED)
+		{
+			spawnProcess(prog, proc);
+		}
+	}
 }

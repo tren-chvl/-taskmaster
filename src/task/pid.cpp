@@ -2,32 +2,38 @@
 
 void Taskmaster::stopProcess(Program &prog, ProcessInfo &proc)
 {
-	if (proc.pid <= 0)
-		return;
+    if (proc.pid <= 0)
+        return;
 
-	log("Stopping PID " + std::to_string(proc.pid));
+    log("Stopping PID " + std::to_string(proc.pid));
 
-	kill(proc.pid, prog.config.stopsignal);
-	sleep(prog.config.stoptime);
-	kill(proc.pid, SIGKILL);
+    kill(proc.pid, prog.config.stopsignal);
+
+    time_t start = time(nullptr);
+
+    while (true)
+    {
+        int status = 0;
+        pid_t result = waitpid(proc.pid, &status, WNOHANG);
+
+        if (result == proc.pid)
+            break;
+
+        if (time(nullptr) - start >= prog.config.stoptime)
+        {
+            kill(proc.pid, SIGKILL);
+            waitpid(proc.pid, NULL, 0);
+            break;
+        }
+
+        usleep(100000);
+    }
+
+    proc.pid = -1;
+    proc.state = ProcessState::STOPPED;
+    proc.exitcode = 0;
 }
 
-void Taskmaster::checkProcessStatus(Program &prog, ProcessInfo &proc)
-{
-	int status = 0;
-	pid_t result = waitpid(proc.pid, &status, WNOHANG);
-
-	if (result == 0 || result == -1)
-		return;
-	proc.state = ProcessState::EXITED;
-	proc.exitcode = WIFEXITED(status) ? WEXITSTATUS(status) : -1;
-	bool expected = false;
-	for (int c : prog.config.exitcodes)
-		if (c == proc.exitcode)
-			expected = true;
-	if (!expected && prog.config.autorestart == ProgramRestart::UNEXPECTED)
-		spawnProcess(prog, proc);
-}
 
 
 void Taskmaster::handleSignals()
