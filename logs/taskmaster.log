@@ -69,3 +69,22 @@
 2026-09-22 10:00:04 [INFO] Process test died too fast -> BACKOFF
 2026-09-22 10:04:21 [ERROR] ERROR: Program not found: tets
 2026-09-22 10:04:21 [ERROR] ERROR: program not found: tets
+2026-09-22 11:41:18 [INFO] Received SIGHUP: reloading configuration
+2026-09-22 11:41:18 [INFO] Restarting process test
+2026-09-22 11:41:18 [INFO] Spawning process for: test
+2026-09-22 11:41:18 [INFO] Spawned PID 39502
+2026-09-22 11:41:19 [INFO] Process test is now RUNNING
+2026-09-22 11:41:19 [INFO] Reloadding conifguration 
+2026-09-22 11:41:19 [INFO] Loading configuration: config/task.json
+2026-09-22 11:41:19 [INFO] Configuration loaded successfully
+2026-09-22 11:41:19 [WARN] Program changed: test
+2026-09-22 11:41:19 [INFO] Stopping program: test
+2026-09-22 11:41:19 [INFO] Stopping PID 39502
+2026-09-22 11:41:19 [INFO] Starting program: test
+2026-09-22 11:41:19 [INFO] Spawning process for: test
+2026-09-22 11:41:19 [INFO] Spawned PID 39510
+2026-09-22 11:41:19 [INFO] Spawning process for: test
+2026-09-22 11:41:19 [INFO] Spawned PID 39511
+2026-09-22 11:41:19 [INFO] Spawning process for: test
+2026-09-22 11:41:19 [INFO] Spawned PID 39512
+2026-09-22 11:41:19 [INFO] Reload diff complete.

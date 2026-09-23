@@ -48,16 +48,11 @@ void Taskmaster::rotateLog()
 		return;
 
 	ensureLogArchiveDir();
-
 	std::time_t t = std::time(nullptr);
 	std::tm tm{};
 	localtime_r(&t, &tm);
-
 	std::ostringstream oss;
-	oss << "./logs/archive/taskmaster_" 
-		<< std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") 
-		<< ".log";
-
+	oss << "./logs/archive/taskmaster_" << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << ".log";
 	rename(log_path, oss.str().c_str());
 }
 

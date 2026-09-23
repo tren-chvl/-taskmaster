@@ -62,48 +62,43 @@ void Taskmaster::restartProgram(const std::string &name)
 
 bool Taskmaster::handleAutorestart(Program &prog, ProcessInfo &proc, int exitcode)
 {
-    bool restart = false;
+	bool restart = false;
 
-    if (prog.config.autorestart == ProgramRestart::ALWAYS)
-        restart = true;
-    else if (prog.config.autorestart == ProgramRestart::UNEXPECTED)
-    {
-        bool expected = false;
-        for (int c : prog.config.exitcodes)
-        {
-            if (c == exitcode)
-            {
-                expected = true;
-                break;
-            }
-        }
-        if (!expected)
-            restart = true;
-    }
-
-    if (!restart)
-        return false;
-
-    proc.retries++;
-    if (proc.retries > prog.config.startretries)
-    {
-        proc.state = ProcessState::FATAL;
-        log("Process " + prog.config.name + " exceeded retries -> FATAL");
-        return false;
-    }
-
-    // 🟩 BACKOFF (manquant dans ton code)
-    time_t now = time(nullptr);
-    if (now - proc.start_timestamp < prog.config.starttime)
-    {
-        proc.state = ProcessState::BACKOFF;
-        log("Process " + prog.config.name + " died too fast -> BACKOFF");
-        return false;
-    }
-
-    log("Restarting process " + prog.config.name);
-    spawnProcess(prog, proc);
-    proc.start_timestamp = time(nullptr);
-    proc.state = ProcessState::STARTING;
-    return true;
+	if (prog.config.autorestart == ProgramRestart::ALWAYS)
+		restart = true;
+	else if (prog.config.autorestart == ProgramRestart::UNEXPECTED)
+	{
+		bool expected = false;
+		for (int c : prog.config.exitcodes)
+		{
+			if (c == exitcode)
+			{
+				expected = true;
+				break;
+			}
+		}
+		if (!expected)
+			restart = true;
+	}
+	if (!restart)
+		return false;
+	proc.retries++;
+	if (proc.retries > prog.config.startretries)
+	{
+		proc.state = ProcessState::FATAL;
+		log("Process " + prog.config.name + " exceeded retries -> FATAL");
+		return false;
+	}
+	time_t now = time(nullptr);
+	if (now - proc.start_timestamp < prog.config.starttime)
+	{
+		proc.state = ProcessState::BACKOFF;
+		log("Process " + prog.config.name + " died too fast -> BACKOFF");
+		return false;
+	}
+	log("Restarting process " + prog.config.name);
+	spawnProcess(prog, proc);
+	proc.start_timestamp = time(nullptr);
+	proc.state = ProcessState::STARTING;
+	return true;
 }
