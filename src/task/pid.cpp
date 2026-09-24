@@ -1,11 +1,26 @@
 #include "taskmaster.hpp"
 
+
+std::string Taskmaster::signalName(int sig)
+{
+    switch (sig)
+    {
+        case SIGTERM: return "SIGTERM";
+        case SIGKILL: return "SIGKILL";
+        case SIGUSR1: return "SIGUSR1";
+        case SIGUSR2: return "SIGUSR2";
+        default: return "UNKNOWN_SIGNAL";
+    }
+}
+
+
 void Taskmaster::stopProcess(Program &prog, ProcessInfo &proc)
 {
 	if (proc.pid <= 0)
 		return;
 
-	log("Stopping PID " + std::to_string(proc.pid));
+	log("Stopping PID " + std::to_string(proc.pid) +
+    " using " + signalName(prog.config.stopsignal));
 	kill(proc.pid, prog.config.stopsignal);
 	time_t start = time(nullptr);
 	bool exited = false;
@@ -70,6 +85,7 @@ void Taskmaster::spawnProcess(Program &prog, ProcessInfo &proc)
 			if (chdir(prog.config.workingdir.c_str()) != 0)
 				_exit(1);
 		}
+		
 		std::string stdout_path = resolvePath(prog.config.stdout_file, prog.config.workingdir);
 		std::string stderr_path = resolvePath(prog.config.stderr_file, prog.config.workingdir);
 		mkdir("logs", 0755);

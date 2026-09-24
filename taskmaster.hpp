@@ -91,6 +91,7 @@ class Taskmaster
 	public:
 		Taskmaster(const std::string &config_path);
 		void loadConfig();
+		std::string signalName(int sig);
 		bool validateProgramConfig(const ProgramConfig &cfg);
 		bool compareProgramConfig(const ProgramConfig &old_prog, const ProgramConfig &new_prog);
 		void reloadConfigDiff();
