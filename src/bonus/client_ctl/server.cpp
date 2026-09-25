@@ -1,5 +1,26 @@
 #include "taskmaster.hpp"
 
+std::string stateToString(ProcessState state)
+{
+	switch (state)
+	{
+		case ProcessState::STOPPED:
+			return "STOPPED";
+		case ProcessState::STARTING:	
+			return "STARTING";
+		case ProcessState::RUNNING:
+			return "RUNNING";
+		case ProcessState::BACKOFF:	
+			return "BACKOFF";
+		case ProcessState::EXITED:
+			return "EXITED";
+		case ProcessState::FATAL:
+			return "FATAL";
+		default:	
+			return "UNKNOWN";
+	}
+}
+
 
 std::string Taskmaster::getStatusString()
 {
@@ -46,7 +67,7 @@ std::string Taskmaster::handleCommand(const std::string &cmd)
 		reloadConfigDiff();
 		return "OK\n";
 	}
-	if (cmd == "shutdown")
+	if (cmd == "quit")
 		exit(0);
 	return "ERROR: unknown command\n";
 }

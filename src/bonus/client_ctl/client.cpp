@@ -13,6 +13,8 @@ int main()
 		std::getline(std::cin, cmd);
 		if (cmd.empty())
 			continue;
+		if (cmd == "quit" || cmd == "exit")
+        	break;
 		int fd = socket(AF_UNIX, SOCK_STREAM, 0);
 		if (fd < 0)
 		{

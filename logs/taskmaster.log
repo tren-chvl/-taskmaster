@@ -11788,3 +11788,54 @@
 2026-09-25 08:38:34 [INFO] Process test_err is now RUNNING
 2026-09-25 08:38:34 [INFO] Process test_err exited with code 0
 2026-09-25 08:38:34 [INFO] Exit code is expected → no autorestart
+2026-09-25 09:47:16 [INFO] Taskmaster initalized
+2026-09-25 09:47:16 [INFO] Loading configuration: config/task.json
+2026-09-25 09:47:16 [INFO] Configuration loaded successfully
+2026-09-25 09:47:16 [INFO] Server listening on /tmp/taskmaster.sock
+2026-09-25 09:47:16 [INFO] Starting interactive Shell
+2026-09-25 09:49:24 [INFO] Starting program: running
+2026-09-25 09:49:24 [INFO] Starting program: running
+2026-09-25 09:49:24 [INFO] Spawning process for: running
+2026-09-25 09:49:24 [INFO] Spawned PID 57658
+2026-09-25 09:49:24 [INFO] Process running exited with code 1
+2026-09-25 09:49:24 [INFO] Process running died too fast -> BACKOFF
+2026-09-25 09:49:25 [INFO] BACKOFF: retrying process running
+2026-09-25 09:49:25 [INFO] Spawning process for: running
+2026-09-25 09:49:25 [INFO] Spawned PID 57666
+2026-09-25 09:49:26 [INFO] Process running is now RUNNING
+2026-09-25 09:49:26 [INFO] Process running exited with code 1
+2026-09-25 09:49:26 [INFO] Restarting process running
+2026-09-25 09:49:26 [INFO] Spawning process for: running
+2026-09-25 09:49:26 [INFO] Spawned PID 57670
+2026-09-25 09:49:26 [INFO] Process running exited with code 1
+2026-09-25 09:49:26 [ERROR] Process running exceeded retries -> FATAL
+2026-09-25 09:53:57 [INFO] Taskmaster initalized
+2026-09-25 09:53:57 [INFO] Loading configuration: config/task.json
+2026-09-25 09:53:57 [INFO] Configuration loaded successfully
+2026-09-25 09:53:57 [INFO] Starting interactive Shell
+2026-09-25 09:53:57 [INFO] Server listening on /tmp/taskmaster.sock
+2026-09-25 09:55:40 [INFO] Taskmaster initalized
+2026-09-25 09:55:40 [INFO] Loading configuration: config/task.json
+2026-09-25 09:55:40 [INFO] Configuration loaded successfully
+2026-09-25 09:55:40 [INFO] Starting interactive Shell
+2026-09-25 09:55:40 [INFO] Server listening on /tmp/taskmaster.sock
+2026-09-25 10:01:16 [INFO] Taskmaster initalized
+2026-09-25 10:01:16 [INFO] Loading configuration: config/task.json
+2026-09-25 10:01:16 [INFO] Configuration loaded successfully
+2026-09-25 10:01:16 [INFO] Starting interactive Shell
+2026-09-25 10:01:16 [INFO] Server listening on /tmp/taskmaster.sock
+2026-09-25 10:01:30 [INFO] Taskmaster initalized
+2026-09-25 10:01:30 [INFO] Loading configuration: config/task.json
+2026-09-25 10:01:30 [INFO] Configuration loaded successfully
+2026-09-25 10:01:30 [INFO] Starting interactive Shell
+2026-09-25 10:01:30 [INFO] Server listening on /tmp/taskmaster.sock
+2026-09-25 10:01:56 [INFO] Taskmaster initalized
+2026-09-25 10:01:56 [INFO] Loading configuration: config/task.json
+2026-09-25 10:01:56 [INFO] Configuration loaded successfully
+2026-09-25 10:01:56 [INFO] Starting interactive Shell
+2026-09-25 10:01:56 [INFO] Server listening on /tmp/taskmaster.sock
+2026-09-25 10:04:54 [INFO] Taskmaster initalized
+2026-09-25 10:04:54 [INFO] Loading configuration: config/task.json
+2026-09-25 10:04:54 [INFO] Configuration loaded successfully
+2026-09-25 10:04:54 [INFO] Starting interactive Shell
+2026-09-25 10:04:54 [INFO] Server listening on /tmp/taskmaster.sock
