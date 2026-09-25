@@ -2,6 +2,7 @@
 
 echo "Hello from STDOUT"
 echo "This is an error" >&2
+echo "VAR = $VAR"
 
 sleep 1
 

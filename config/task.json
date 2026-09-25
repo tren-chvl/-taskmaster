@@ -1,7 +1,7 @@
 {
 	"programs":
 	{
-		"test":
+		"test_err":
 		{
 			"cmd": "/home/marcheva/taskmaster/test_err_out.sh",
 			"numprocs": 3,
@@ -19,6 +19,21 @@
 			{
 				"VAR":"VALUE"
 			} 
+		},
+		"running": 
+		{
+			"cmd": "/home/marcheva/taskmaster/running.sh",
+			"numprocs": 1,
+			"autorestart": "unexpected",
+			"exitcodes": [0],
+			"startretries": 2,
+			"starttime": 1,
+			"stoptime": 5,
+			"stopsignal": "TERM",
+			"stdout": "./logs/test2.out",
+			"stderr": "./logs/test2.err",
+			"workingdir": "/tmp",
+			"umask": 22
 		}
 	}
 }
