@@ -51,38 +51,3 @@ std::string Taskmaster::resolvePath(const std::string &path, const std::string &
 		return path;
 	return workindir +"/" + path;
 }
-
-
-
-void Taskmaster::checkProcessStatus(Program &prog, ProcessInfo &proc)
-{
-	int status = 0;
-	pid_t result = waitpid(proc.pid, &status, WNOHANG);
-
-	if (result == 0)
-		return;
-	if (result == -1)
-		return;
-
-	proc.state = ProcessState::EXITED;
-	if (WIFEXITED(status))
-		proc.exitcode = WEXITSTATUS(status);
-	else
-		proc.exitcode = -1;
-	bool expected = false;
-	for (int c : prog.config.exitcodes)
-	{
-		if (c == proc.exitcode)
-		{
-			expected = true;
-			break;
-		}
-	}
-	if (!expected)
-	{
-		if (prog.config.autorestart == ProgramRestart::UNEXPECTED)
-		{
-			spawnProcess(prog, proc);
-		}
-	}
-}

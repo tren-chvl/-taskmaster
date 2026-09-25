@@ -30,8 +30,9 @@ int main(int argc, char *argv[])
 	std::signal(SIGCHLD, signal_handler);
 	std::thread supervisor(&Taskmaster::supervision, &task);
 	supervisor.detach();
+	std::thread server(&Taskmaster::runServer, &task);
+	server.detach();
 	task.startAutostart();
 	task.shell();
 	return 0;
 }
-

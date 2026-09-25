@@ -10,6 +10,8 @@
 #include <signal.h>
 #include <sys/wait.h>
 #include <fcntl.h>
+#include <sys/socket.h>
+#include <sys/un.h>
 #include <ctime>
 #include <iostream>
 #include <iomanip>
@@ -102,8 +104,10 @@ class Taskmaster
 		void restartProgram(const std::string &name);
 		void startAutostart();
 		void superviseLoop();
+		void runServer();
+		std::string getStatusString();
+		std::string handleCommand(const std::string &cmd);
 		std::string resolvePath(const std::string &path, const std::string &workindir);
-		void handleSignals();
 		void checkProcessStatus(Program &prog, ProcessInfo &proc);
 		void spawnProcess(Program &prog, ProcessInfo &proc);
 		void stopProcess(Program &prog, ProcessInfo &proc);

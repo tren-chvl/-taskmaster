@@ -56,17 +56,6 @@ void Taskmaster::stopProcess(Program &prog, ProcessInfo &proc)
 
 
 
-void Taskmaster::handleSignals()
-{
-	for (auto &pair : programs)
-	{
-		Program &prog = pair.second;
-		for (auto &proc : prog.processes)
-			checkProcessStatus(prog, proc);
-	}
-}
-
-
 void Taskmaster::spawnProcess(Program &prog, ProcessInfo &proc)
 {
 	log("Spawning process for: " + prog.config.name);
