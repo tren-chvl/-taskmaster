@@ -9622,3 +9622,1576 @@
 2026-09-24 10:50:16 [INFO] Process test is now RUNNING
 2026-09-24 10:50:16 [INFO] Process test is now RUNNING
 2026-09-24 10:50:16 [INFO] Process test is now RUNNING
+2026-09-25 04:06:05 [INFO] Taskmaster initalized
+2026-09-25 04:06:05 [INFO] Loading configuration: config/task.json
+2026-09-25 04:06:05 [INFO] Configuration loaded successfully
+2026-09-25 04:06:05 [INFO] Starting interactive Shell
+2026-09-25 04:06:19 [INFO] Starting program: test
+2026-09-25 04:06:19 [INFO] Starting program: test
+2026-09-25 04:06:19 [INFO] Spawning process for: test
+2026-09-25 04:06:19 [INFO] Spawned PID 4353
+2026-09-25 04:06:19 [INFO] Spawning process for: test
+2026-09-25 04:06:19 [INFO] Spawned PID 4354
+2026-09-25 04:06:19 [INFO] Spawning process for: test
+2026-09-25 04:06:19 [INFO] Spawned PID 4355
+2026-09-25 04:06:20 [INFO] Process test is now RUNNING
+2026-09-25 04:06:20 [INFO] Process test is now RUNNING
+2026-09-25 04:06:20 [INFO] Process test is now RUNNING
+2026-09-25 04:06:22 [INFO] Restarting process test
+2026-09-25 04:06:22 [INFO] Spawning process for: test
+2026-09-25 04:06:22 [INFO] Spawned PID 4359
+2026-09-25 04:06:22 [INFO] Restarting process test
+2026-09-25 04:06:22 [INFO] Spawning process for: test
+2026-09-25 04:06:22 [INFO] Spawned PID 4360
+2026-09-25 04:06:22 [INFO] Restarting process test
+2026-09-25 04:06:22 [INFO] Spawning process for: test
+2026-09-25 04:06:22 [INFO] Spawned PID 4361
+2026-09-25 04:06:23 [INFO] Process test is now RUNNING
+2026-09-25 04:06:23 [INFO] Process test is now RUNNING
+2026-09-25 04:06:23 [INFO] Process test is now RUNNING
+2026-09-25 04:06:24 [INFO] Restarting process test
+2026-09-25 04:06:24 [INFO] Spawning process for: test
+2026-09-25 04:06:24 [INFO] Spawned PID 4367
+2026-09-25 04:06:24 [INFO] Restarting process test
+2026-09-25 04:06:24 [INFO] Spawning process for: test
+2026-09-25 04:06:24 [INFO] Spawned PID 4368
+2026-09-25 04:06:24 [INFO] Restarting process test
+2026-09-25 04:06:24 [INFO] Spawning process for: test
+2026-09-25 04:06:24 [INFO] Spawned PID 4369
+2026-09-25 04:06:25 [INFO] Process test is now RUNNING
+2026-09-25 04:06:25 [INFO] Process test is now RUNNING
+2026-09-25 04:06:25 [INFO] Process test is now RUNNING
+2026-09-25 04:06:26 [INFO] Restarting process test
+2026-09-25 04:06:26 [INFO] Spawning process for: test
+2026-09-25 04:06:26 [INFO] Spawned PID 4376
+2026-09-25 04:06:26 [INFO] Restarting process test
+2026-09-25 04:06:26 [INFO] Spawning process for: test
+2026-09-25 04:06:26 [INFO] Spawned PID 4377
+2026-09-25 04:06:26 [INFO] Restarting process test
+2026-09-25 04:06:26 [INFO] Spawning process for: test
+2026-09-25 04:06:26 [INFO] Spawned PID 4378
+2026-09-25 04:06:27 [INFO] Process test is now RUNNING
+2026-09-25 04:06:27 [INFO] Process test is now RUNNING
+2026-09-25 04:06:27 [INFO] Process test is now RUNNING
+2026-09-25 04:06:28 [INFO] Restarting process test
+2026-09-25 04:06:28 [INFO] Spawning process for: test
+2026-09-25 04:06:28 [INFO] Spawned PID 4382
+2026-09-25 04:06:28 [INFO] Restarting process test
+2026-09-25 04:06:28 [INFO] Spawning process for: test
+2026-09-25 04:06:28 [INFO] Spawned PID 4383
+2026-09-25 04:06:28 [INFO] Restarting process test
+2026-09-25 04:06:28 [INFO] Spawning process for: test
+2026-09-25 04:06:28 [INFO] Spawned PID 4384
+2026-09-25 04:06:29 [INFO] Process test is now RUNNING
+2026-09-25 04:06:29 [INFO] Process test is now RUNNING
+2026-09-25 04:06:29 [INFO] Process test is now RUNNING
+2026-09-25 04:06:30 [INFO] Restarting process test
+2026-09-25 04:06:30 [INFO] Spawning process for: test
+2026-09-25 04:06:30 [INFO] Spawned PID 4388
+2026-09-25 04:06:30 [INFO] Restarting process test
+2026-09-25 04:06:30 [INFO] Spawning process for: test
+2026-09-25 04:06:30 [INFO] Spawned PID 4389
+2026-09-25 04:06:30 [INFO] Restarting process test
+2026-09-25 04:06:30 [INFO] Spawning process for: test
+2026-09-25 04:06:30 [INFO] Spawned PID 4390
+2026-09-25 04:06:31 [INFO] Process test is now RUNNING
+2026-09-25 04:06:31 [INFO] Process test is now RUNNING
+2026-09-25 04:06:31 [INFO] Process test is now RUNNING
+2026-09-25 04:06:32 [INFO] Restarting process test
+2026-09-25 04:06:32 [INFO] Spawning process for: test
+2026-09-25 04:06:32 [INFO] Spawned PID 4394
+2026-09-25 04:06:32 [INFO] Restarting process test
+2026-09-25 04:06:32 [INFO] Spawning process for: test
+2026-09-25 04:06:32 [INFO] Spawned PID 4395
+2026-09-25 04:06:32 [INFO] Restarting process test
+2026-09-25 04:06:32 [INFO] Spawning process for: test
+2026-09-25 04:06:32 [INFO] Spawned PID 4396
+2026-09-25 04:06:33 [INFO] Process test is now RUNNING
+2026-09-25 04:06:33 [INFO] Process test is now RUNNING
+2026-09-25 04:06:33 [INFO] Process test is now RUNNING
+2026-09-25 04:06:35 [INFO] Restarting process test
+2026-09-25 04:06:35 [INFO] Spawning process for: test
+2026-09-25 04:06:35 [INFO] Spawned PID 4400
+2026-09-25 04:06:35 [INFO] Restarting process test
+2026-09-25 04:06:35 [INFO] Spawning process for: test
+2026-09-25 04:06:35 [INFO] Spawned PID 4401
+2026-09-25 04:06:35 [INFO] Restarting process test
+2026-09-25 04:06:35 [INFO] Spawning process for: test
+2026-09-25 04:06:35 [INFO] Spawned PID 4402
+2026-09-25 04:06:36 [INFO] Process test is now RUNNING
+2026-09-25 04:06:36 [INFO] Process test is now RUNNING
+2026-09-25 04:06:36 [INFO] Process test is now RUNNING
+2026-09-25 04:06:37 [INFO] Restarting process test
+2026-09-25 04:06:37 [INFO] Spawning process for: test
+2026-09-25 04:06:37 [INFO] Spawned PID 4406
+2026-09-25 04:06:37 [INFO] Restarting process test
+2026-09-25 04:06:37 [INFO] Spawning process for: test
+2026-09-25 04:06:37 [INFO] Spawned PID 4407
+2026-09-25 04:06:37 [INFO] Restarting process test
+2026-09-25 04:06:37 [INFO] Spawning process for: test
+2026-09-25 04:06:37 [INFO] Spawned PID 4408
+2026-09-25 04:06:38 [INFO] Process test is now RUNNING
+2026-09-25 04:06:38 [INFO] Process test is now RUNNING
+2026-09-25 04:06:38 [INFO] Process test is now RUNNING
+2026-09-25 04:06:39 [INFO] Restarting process test
+2026-09-25 04:06:39 [INFO] Spawning process for: test
+2026-09-25 04:06:39 [INFO] Spawned PID 4412
+2026-09-25 04:06:39 [INFO] Restarting process test
+2026-09-25 04:06:39 [INFO] Spawning process for: test
+2026-09-25 04:06:39 [INFO] Spawned PID 4413
+2026-09-25 04:06:39 [INFO] Restarting process test
+2026-09-25 04:06:39 [INFO] Spawning process for: test
+2026-09-25 04:06:39 [INFO] Spawned PID 4414
+2026-09-25 04:06:40 [INFO] Process test is now RUNNING
+2026-09-25 04:06:40 [INFO] Process test is now RUNNING
+2026-09-25 04:06:40 [INFO] Process test is now RUNNING
+2026-09-25 04:06:41 [INFO] Restarting process test
+2026-09-25 04:06:41 [INFO] Spawning process for: test
+2026-09-25 04:06:41 [INFO] Spawned PID 4418
+2026-09-25 04:06:41 [INFO] Restarting process test
+2026-09-25 04:06:41 [INFO] Spawning process for: test
+2026-09-25 04:06:41 [INFO] Spawned PID 4419
+2026-09-25 04:06:41 [INFO] Restarting process test
+2026-09-25 04:06:41 [INFO] Spawning process for: test
+2026-09-25 04:06:41 [INFO] Spawned PID 4420
+2026-09-25 04:06:42 [INFO] Process test is now RUNNING
+2026-09-25 04:06:42 [INFO] Process test is now RUNNING
+2026-09-25 04:06:42 [INFO] Process test is now RUNNING
+2026-09-25 04:06:44 [INFO] Restarting process test
+2026-09-25 04:06:44 [INFO] Spawning process for: test
+2026-09-25 04:06:44 [INFO] Spawned PID 4424
+2026-09-25 04:06:44 [INFO] Restarting process test
+2026-09-25 04:06:44 [INFO] Spawning process for: test
+2026-09-25 04:06:44 [INFO] Spawned PID 4425
+2026-09-25 04:06:44 [INFO] Restarting process test
+2026-09-25 04:06:44 [INFO] Spawning process for: test
+2026-09-25 04:06:44 [INFO] Spawned PID 4426
+2026-09-25 04:06:45 [INFO] Process test is now RUNNING
+2026-09-25 04:06:45 [INFO] Process test is now RUNNING
+2026-09-25 04:06:45 [INFO] Process test is now RUNNING
+2026-09-25 04:06:46 [INFO] Restarting process test
+2026-09-25 04:06:46 [INFO] Spawning process for: test
+2026-09-25 04:06:46 [INFO] Spawned PID 4430
+2026-09-25 04:06:46 [INFO] Restarting process test
+2026-09-25 04:06:46 [INFO] Spawning process for: test
+2026-09-25 04:06:46 [INFO] Spawned PID 4431
+2026-09-25 04:06:46 [INFO] Restarting process test
+2026-09-25 04:06:46 [INFO] Spawning process for: test
+2026-09-25 04:06:46 [INFO] Spawned PID 4432
+2026-09-25 04:06:47 [INFO] Process test is now RUNNING
+2026-09-25 04:06:47 [INFO] Process test is now RUNNING
+2026-09-25 04:06:47 [INFO] Process test is now RUNNING
+2026-09-25 04:06:48 [INFO] Restarting process test
+2026-09-25 04:06:48 [INFO] Spawning process for: test
+2026-09-25 04:06:48 [INFO] Spawned PID 4436
+2026-09-25 04:06:48 [INFO] Restarting process test
+2026-09-25 04:06:48 [INFO] Spawning process for: test
+2026-09-25 04:06:48 [INFO] Spawned PID 4437
+2026-09-25 04:06:48 [INFO] Restarting process test
+2026-09-25 04:06:48 [INFO] Spawning process for: test
+2026-09-25 04:06:48 [INFO] Spawned PID 4438
+2026-09-25 04:06:49 [INFO] Process test is now RUNNING
+2026-09-25 04:06:49 [INFO] Process test is now RUNNING
+2026-09-25 04:06:49 [INFO] Process test is now RUNNING
+2026-09-25 04:06:50 [INFO] Restarting process test
+2026-09-25 04:06:50 [INFO] Spawning process for: test
+2026-09-25 04:06:50 [INFO] Spawned PID 4442
+2026-09-25 04:06:50 [INFO] Restarting process test
+2026-09-25 04:06:50 [INFO] Spawning process for: test
+2026-09-25 04:06:50 [INFO] Spawned PID 4443
+2026-09-25 04:06:50 [INFO] Restarting process test
+2026-09-25 04:06:50 [INFO] Spawning process for: test
+2026-09-25 04:06:50 [INFO] Spawned PID 4444
+2026-09-25 04:06:51 [INFO] Process test is now RUNNING
+2026-09-25 04:06:51 [INFO] Process test is now RUNNING
+2026-09-25 04:06:51 [INFO] Process test is now RUNNING
+2026-09-25 04:06:52 [INFO] Restarting process test
+2026-09-25 04:06:52 [INFO] Spawning process for: test
+2026-09-25 04:06:52 [INFO] Spawned PID 4451
+2026-09-25 04:06:52 [INFO] Restarting process test
+2026-09-25 04:06:52 [INFO] Spawning process for: test
+2026-09-25 04:06:52 [INFO] Spawned PID 4452
+2026-09-25 04:06:52 [INFO] Restarting process test
+2026-09-25 04:06:52 [INFO] Spawning process for: test
+2026-09-25 04:06:52 [INFO] Spawned PID 4453
+2026-09-25 04:06:53 [INFO] Process test is now RUNNING
+2026-09-25 04:06:53 [INFO] Process test is now RUNNING
+2026-09-25 04:06:53 [INFO] Process test is now RUNNING
+2026-09-25 04:08:18 [INFO] Taskmaster initalized
+2026-09-25 04:08:18 [INFO] Loading configuration: config/task.json
+2026-09-25 04:08:18 [INFO] Configuration loaded successfully
+2026-09-25 04:08:18 [INFO] Starting interactive Shell
+2026-09-25 04:10:07 [INFO] Starting program: test
+2026-09-25 04:10:07 [INFO] Starting program: test
+2026-09-25 04:10:07 [INFO] Spawning process for: test
+2026-09-25 04:10:07 [INFO] Spawned PID 4568
+2026-09-25 04:10:07 [INFO] Spawning process for: test
+2026-09-25 04:10:07 [INFO] Spawned PID 4569
+2026-09-25 04:10:07 [INFO] Spawning process for: test
+2026-09-25 04:10:07 [INFO] Spawned PID 4570
+2026-09-25 04:10:08 [INFO] Process test is now RUNNING
+2026-09-25 04:10:08 [INFO] Process test is now RUNNING
+2026-09-25 04:10:08 [INFO] Process test is now RUNNING
+2026-09-25 04:10:09 [INFO] Restarting process test
+2026-09-25 04:10:09 [INFO] Spawning process for: test
+2026-09-25 04:10:09 [INFO] Spawned PID 4574
+2026-09-25 04:10:09 [INFO] Restarting process test
+2026-09-25 04:10:09 [INFO] Spawning process for: test
+2026-09-25 04:10:09 [INFO] Spawned PID 4575
+2026-09-25 04:10:09 [INFO] Restarting process test
+2026-09-25 04:10:09 [INFO] Spawning process for: test
+2026-09-25 04:10:09 [INFO] Spawned PID 4576
+2026-09-25 04:10:10 [INFO] Process test is now RUNNING
+2026-09-25 04:10:10 [INFO] Process test is now RUNNING
+2026-09-25 04:10:10 [INFO] Process test is now RUNNING
+2026-09-25 04:10:12 [INFO] Restarting process test
+2026-09-25 04:10:12 [INFO] Spawning process for: test
+2026-09-25 04:10:12 [INFO] Spawned PID 4580
+2026-09-25 04:10:12 [INFO] Restarting process test
+2026-09-25 04:10:12 [INFO] Spawning process for: test
+2026-09-25 04:10:12 [INFO] Spawned PID 4581
+2026-09-25 04:10:12 [INFO] Restarting process test
+2026-09-25 04:10:12 [INFO] Spawning process for: test
+2026-09-25 04:10:12 [INFO] Spawned PID 4582
+2026-09-25 04:10:13 [INFO] Process test is now RUNNING
+2026-09-25 04:10:13 [INFO] Process test is now RUNNING
+2026-09-25 04:10:13 [INFO] Process test is now RUNNING
+2026-09-25 04:10:14 [INFO] Restarting process test
+2026-09-25 04:10:14 [INFO] Spawning process for: test
+2026-09-25 04:10:14 [INFO] Spawned PID 4586
+2026-09-25 04:10:14 [INFO] Restarting process test
+2026-09-25 04:10:14 [INFO] Spawning process for: test
+2026-09-25 04:10:14 [INFO] Spawned PID 4587
+2026-09-25 04:10:14 [INFO] Restarting process test
+2026-09-25 04:10:14 [INFO] Spawning process for: test
+2026-09-25 04:10:14 [INFO] Spawned PID 4588
+2026-09-25 04:10:15 [INFO] Process test is now RUNNING
+2026-09-25 04:10:15 [INFO] Process test is now RUNNING
+2026-09-25 04:10:15 [INFO] Process test is now RUNNING
+2026-09-25 04:10:16 [INFO] Restarting process test
+2026-09-25 04:10:16 [INFO] Spawning process for: test
+2026-09-25 04:10:16 [INFO] Spawned PID 4592
+2026-09-25 04:10:16 [INFO] Restarting process test
+2026-09-25 04:10:16 [INFO] Spawning process for: test
+2026-09-25 04:10:16 [INFO] Spawned PID 4593
+2026-09-25 04:10:16 [INFO] Restarting process test
+2026-09-25 04:10:16 [INFO] Spawning process for: test
+2026-09-25 04:10:16 [INFO] Spawned PID 4594
+2026-09-25 04:10:17 [INFO] Process test is now RUNNING
+2026-09-25 04:10:17 [INFO] Process test is now RUNNING
+2026-09-25 04:10:17 [INFO] Process test is now RUNNING
+2026-09-25 04:10:18 [INFO] Restarting process test
+2026-09-25 04:10:18 [INFO] Spawning process for: test
+2026-09-25 04:10:18 [INFO] Spawned PID 4598
+2026-09-25 04:10:18 [INFO] Restarting process test
+2026-09-25 04:10:18 [INFO] Spawning process for: test
+2026-09-25 04:10:18 [INFO] Spawned PID 4599
+2026-09-25 04:10:18 [INFO] Restarting process test
+2026-09-25 04:10:18 [INFO] Spawning process for: test
+2026-09-25 04:10:18 [INFO] Spawned PID 4600
+2026-09-25 04:10:19 [INFO] Process test is now RUNNING
+2026-09-25 04:10:19 [INFO] Process test is now RUNNING
+2026-09-25 04:10:19 [INFO] Process test is now RUNNING
+2026-09-25 04:10:20 [INFO] Restarting process test
+2026-09-25 04:10:20 [INFO] Spawning process for: test
+2026-09-25 04:10:20 [INFO] Spawned PID 4608
+2026-09-25 04:10:20 [INFO] Restarting process test
+2026-09-25 04:10:20 [INFO] Spawning process for: test
+2026-09-25 04:10:20 [INFO] Spawned PID 4609
+2026-09-25 04:10:20 [INFO] Restarting process test
+2026-09-25 04:10:20 [INFO] Spawning process for: test
+2026-09-25 04:10:20 [INFO] Spawned PID 4610
+2026-09-25 04:10:21 [INFO] Process test is now RUNNING
+2026-09-25 04:10:21 [INFO] Process test is now RUNNING
+2026-09-25 04:10:21 [INFO] Process test is now RUNNING
+2026-09-25 04:13:34 [INFO] Taskmaster initalized
+2026-09-25 04:13:34 [INFO] Loading configuration: config/task.json
+2026-09-25 04:13:34 [INFO] Configuration loaded successfully
+2026-09-25 04:13:34 [INFO] Starting interactive Shell
+2026-09-25 04:13:42 [INFO] Starting program: test
+2026-09-25 04:13:42 [INFO] Starting program: test
+2026-09-25 04:13:42 [INFO] Spawning process for: test
+2026-09-25 04:13:42 [INFO] Spawned PID 4721
+2026-09-25 04:13:42 [INFO] Spawning process for: test
+2026-09-25 04:13:42 [INFO] Spawned PID 4722
+2026-09-25 04:13:42 [INFO] Spawning process for: test
+2026-09-25 04:13:42 [INFO] Spawned PID 4723
+2026-09-25 04:13:43 [INFO] Process test is now RUNNING
+2026-09-25 04:13:43 [INFO] Process test is now RUNNING
+2026-09-25 04:13:43 [INFO] Process test is now RUNNING
+2026-09-25 04:13:44 [INFO] Restarting process test
+2026-09-25 04:13:44 [INFO] Spawning process for: test
+2026-09-25 04:13:44 [INFO] Spawned PID 4727
+2026-09-25 04:13:44 [INFO] Restarting process test
+2026-09-25 04:13:44 [INFO] Spawning process for: test
+2026-09-25 04:13:44 [INFO] Spawned PID 4728
+2026-09-25 04:13:44 [INFO] Restarting process test
+2026-09-25 04:13:44 [INFO] Spawning process for: test
+2026-09-25 04:13:44 [INFO] Spawned PID 4729
+2026-09-25 04:13:45 [INFO] Process test is now RUNNING
+2026-09-25 04:13:45 [INFO] Process test is now RUNNING
+2026-09-25 04:13:45 [INFO] Process test is now RUNNING
+2026-09-25 04:13:46 [INFO] Restarting process test
+2026-09-25 04:13:46 [INFO] Spawning process for: test
+2026-09-25 04:13:46 [INFO] Spawned PID 4733
+2026-09-25 04:13:46 [INFO] Restarting process test
+2026-09-25 04:13:46 [INFO] Spawning process for: test
+2026-09-25 04:13:46 [INFO] Spawned PID 4734
+2026-09-25 04:13:46 [INFO] Restarting process test
+2026-09-25 04:13:46 [INFO] Spawning process for: test
+2026-09-25 04:13:46 [INFO] Spawned PID 4735
+2026-09-25 04:13:47 [INFO] Process test is now RUNNING
+2026-09-25 04:13:47 [INFO] Process test is now RUNNING
+2026-09-25 04:13:47 [INFO] Process test is now RUNNING
+2026-09-25 04:13:48 [INFO] Restarting process test
+2026-09-25 04:13:48 [INFO] Spawning process for: test
+2026-09-25 04:13:48 [INFO] Spawned PID 4740
+2026-09-25 04:13:48 [INFO] Restarting process test
+2026-09-25 04:13:48 [INFO] Spawning process for: test
+2026-09-25 04:13:48 [INFO] Spawned PID 4741
+2026-09-25 04:13:48 [INFO] Restarting process test
+2026-09-25 04:13:48 [INFO] Spawning process for: test
+2026-09-25 04:13:48 [INFO] Spawned PID 4742
+2026-09-25 04:13:49 [INFO] Process test is now RUNNING
+2026-09-25 04:13:49 [INFO] Process test is now RUNNING
+2026-09-25 04:13:49 [INFO] Process test is now RUNNING
+2026-09-25 04:13:50 [INFO] Restarting process test
+2026-09-25 04:13:50 [INFO] Spawning process for: test
+2026-09-25 04:13:50 [INFO] Spawned PID 4746
+2026-09-25 04:13:50 [INFO] Restarting process test
+2026-09-25 04:13:50 [INFO] Spawning process for: test
+2026-09-25 04:13:50 [INFO] Spawned PID 4747
+2026-09-25 04:13:50 [INFO] Restarting process test
+2026-09-25 04:13:50 [INFO] Spawning process for: test
+2026-09-25 04:13:50 [INFO] Spawned PID 4748
+2026-09-25 04:13:51 [INFO] Process test is now RUNNING
+2026-09-25 04:13:51 [INFO] Process test is now RUNNING
+2026-09-25 04:13:51 [INFO] Process test is now RUNNING
+2026-09-25 04:13:53 [INFO] Restarting process test
+2026-09-25 04:13:53 [INFO] Spawning process for: test
+2026-09-25 04:13:53 [INFO] Spawned PID 4752
+2026-09-25 04:13:53 [INFO] Restarting process test
+2026-09-25 04:13:53 [INFO] Spawning process for: test
+2026-09-25 04:13:53 [INFO] Spawned PID 4753
+2026-09-25 04:13:53 [INFO] Restarting process test
+2026-09-25 04:13:53 [INFO] Spawning process for: test
+2026-09-25 04:13:53 [INFO] Spawned PID 4754
+2026-09-25 04:13:54 [INFO] Process test is now RUNNING
+2026-09-25 04:13:54 [INFO] Process test is now RUNNING
+2026-09-25 04:13:54 [INFO] Process test is now RUNNING
+2026-09-25 04:13:55 [INFO] Restarting process test
+2026-09-25 04:13:55 [INFO] Spawning process for: test
+2026-09-25 04:13:55 [INFO] Spawned PID 4758
+2026-09-25 04:13:55 [INFO] Restarting process test
+2026-09-25 04:13:55 [INFO] Spawning process for: test
+2026-09-25 04:13:55 [INFO] Spawned PID 4759
+2026-09-25 04:13:55 [INFO] Restarting process test
+2026-09-25 04:13:55 [INFO] Spawning process for: test
+2026-09-25 04:13:55 [INFO] Spawned PID 4760
+2026-09-25 04:13:56 [INFO] Process test is now RUNNING
+2026-09-25 04:13:56 [INFO] Process test is now RUNNING
+2026-09-25 04:13:56 [INFO] Process test is now RUNNING
+2026-09-25 04:13:57 [INFO] Restarting process test
+2026-09-25 04:13:57 [INFO] Spawning process for: test
+2026-09-25 04:13:57 [INFO] Spawned PID 4764
+2026-09-25 04:13:57 [INFO] Restarting process test
+2026-09-25 04:13:57 [INFO] Spawning process for: test
+2026-09-25 04:13:57 [INFO] Spawned PID 4765
+2026-09-25 04:13:57 [INFO] Restarting process test
+2026-09-25 04:13:57 [INFO] Spawning process for: test
+2026-09-25 04:13:57 [INFO] Spawned PID 4766
+2026-09-25 04:13:58 [INFO] Process test is now RUNNING
+2026-09-25 04:13:58 [INFO] Process test is now RUNNING
+2026-09-25 04:13:58 [INFO] Process test is now RUNNING
+2026-09-25 04:13:59 [INFO] Restarting process test
+2026-09-25 04:13:59 [INFO] Spawning process for: test
+2026-09-25 04:13:59 [INFO] Spawned PID 4770
+2026-09-25 04:13:59 [INFO] Restarting process test
+2026-09-25 04:13:59 [INFO] Spawning process for: test
+2026-09-25 04:13:59 [INFO] Spawned PID 4771
+2026-09-25 04:13:59 [INFO] Restarting process test
+2026-09-25 04:13:59 [INFO] Spawning process for: test
+2026-09-25 04:13:59 [INFO] Spawned PID 4772
+2026-09-25 04:14:00 [INFO] Process test is now RUNNING
+2026-09-25 04:14:00 [INFO] Process test is now RUNNING
+2026-09-25 04:14:00 [INFO] Process test is now RUNNING
+2026-09-25 04:17:32 [INFO] Taskmaster initalized
+2026-09-25 04:17:32 [INFO] Loading configuration: config/task.json
+2026-09-25 04:17:32 [INFO] Configuration loaded successfully
+2026-09-25 04:17:32 [INFO] Starting interactive Shell
+2026-09-25 04:18:39 [INFO] Starting program: test
+2026-09-25 04:18:39 [INFO] Starting program: test
+2026-09-25 04:18:39 [INFO] Spawning process for: test
+2026-09-25 04:18:39 [INFO] Spawned PID 4929
+2026-09-25 04:18:39 [INFO] Spawning process for: test
+2026-09-25 04:18:39 [INFO] Spawned PID 4930
+2026-09-25 04:18:39 [INFO] Spawning process for: test
+2026-09-25 04:18:39 [INFO] Spawned PID 4931
+2026-09-25 04:18:40 [INFO] Process test is now RUNNING
+2026-09-25 04:18:40 [INFO] Process test is now RUNNING
+2026-09-25 04:18:40 [INFO] Process test is now RUNNING
+2026-09-25 04:18:41 [INFO] SUPERVISOR: PID 4929 died with exitcode 1
+2026-09-25 04:18:41 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:41 [INFO] Restarting process test
+2026-09-25 04:18:41 [INFO] Spawning process for: test
+2026-09-25 04:18:41 [INFO] Spawned PID 4935
+2026-09-25 04:18:41 [INFO] SUPERVISOR: PID 4930 died with exitcode 1
+2026-09-25 04:18:41 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:41 [INFO] Restarting process test
+2026-09-25 04:18:41 [INFO] Spawning process for: test
+2026-09-25 04:18:41 [INFO] Spawned PID 4936
+2026-09-25 04:18:41 [INFO] SUPERVISOR: PID 4931 died with exitcode 1
+2026-09-25 04:18:41 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:41 [INFO] Restarting process test
+2026-09-25 04:18:41 [INFO] Spawning process for: test
+2026-09-25 04:18:41 [INFO] Spawned PID 4937
+2026-09-25 04:18:42 [INFO] Process test is now RUNNING
+2026-09-25 04:18:42 [INFO] Process test is now RUNNING
+2026-09-25 04:18:42 [INFO] Process test is now RUNNING
+2026-09-25 04:18:43 [INFO] SUPERVISOR: PID 4935 died with exitcode 1
+2026-09-25 04:18:43 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:43 [INFO] Restarting process test
+2026-09-25 04:18:43 [INFO] Spawning process for: test
+2026-09-25 04:18:43 [INFO] Spawned PID 4942
+2026-09-25 04:18:43 [INFO] SUPERVISOR: PID 4936 died with exitcode 1
+2026-09-25 04:18:43 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:43 [INFO] Restarting process test
+2026-09-25 04:18:43 [INFO] Spawning process for: test
+2026-09-25 04:18:43 [INFO] Spawned PID 4943
+2026-09-25 04:18:43 [INFO] SUPERVISOR: PID 4937 died with exitcode 1
+2026-09-25 04:18:43 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:43 [INFO] Restarting process test
+2026-09-25 04:18:43 [INFO] Spawning process for: test
+2026-09-25 04:18:43 [INFO] Spawned PID 4944
+2026-09-25 04:18:44 [INFO] Process test is now RUNNING
+2026-09-25 04:18:44 [INFO] Process test is now RUNNING
+2026-09-25 04:18:44 [INFO] Process test is now RUNNING
+2026-09-25 04:18:45 [INFO] SUPERVISOR: PID 4942 died with exitcode 1
+2026-09-25 04:18:45 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:45 [INFO] Restarting process test
+2026-09-25 04:18:45 [INFO] Spawning process for: test
+2026-09-25 04:18:45 [INFO] Spawned PID 4948
+2026-09-25 04:18:45 [INFO] SUPERVISOR: PID 4943 died with exitcode 1
+2026-09-25 04:18:45 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:45 [INFO] Restarting process test
+2026-09-25 04:18:45 [INFO] Spawning process for: test
+2026-09-25 04:18:45 [INFO] Spawned PID 4949
+2026-09-25 04:18:45 [INFO] SUPERVISOR: PID 4944 died with exitcode 1
+2026-09-25 04:18:45 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:45 [INFO] Restarting process test
+2026-09-25 04:18:45 [INFO] Spawning process for: test
+2026-09-25 04:18:45 [INFO] Spawned PID 4950
+2026-09-25 04:18:46 [INFO] Process test is now RUNNING
+2026-09-25 04:18:46 [INFO] Process test is now RUNNING
+2026-09-25 04:18:46 [INFO] Process test is now RUNNING
+2026-09-25 04:18:47 [INFO] SUPERVISOR: PID 4948 died with exitcode 1
+2026-09-25 04:18:47 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:47 [INFO] Restarting process test
+2026-09-25 04:18:47 [INFO] Spawning process for: test
+2026-09-25 04:18:47 [INFO] Spawned PID 4954
+2026-09-25 04:18:48 [INFO] Process test is now RUNNING
+2026-09-25 04:18:48 [INFO] SUPERVISOR: PID 4949 died with exitcode 1
+2026-09-25 04:18:48 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:48 [INFO] Restarting process test
+2026-09-25 04:18:48 [INFO] Spawning process for: test
+2026-09-25 04:18:48 [INFO] Spawned PID 4956
+2026-09-25 04:18:48 [INFO] SUPERVISOR: PID 4950 died with exitcode 1
+2026-09-25 04:18:48 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:48 [INFO] Restarting process test
+2026-09-25 04:18:48 [INFO] Spawning process for: test
+2026-09-25 04:18:48 [INFO] Spawned PID 4957
+2026-09-25 04:18:49 [INFO] Process test is now RUNNING
+2026-09-25 04:18:49 [INFO] Process test is now RUNNING
+2026-09-25 04:18:50 [INFO] SUPERVISOR: PID 4954 died with exitcode 1
+2026-09-25 04:18:50 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:50 [INFO] Restarting process test
+2026-09-25 04:18:50 [INFO] Spawning process for: test
+2026-09-25 04:18:50 [INFO] Spawned PID 4960
+2026-09-25 04:18:50 [INFO] SUPERVISOR: PID 4956 died with exitcode 1
+2026-09-25 04:18:50 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:50 [INFO] Restarting process test
+2026-09-25 04:18:50 [INFO] Spawning process for: test
+2026-09-25 04:18:50 [INFO] Spawned PID 4962
+2026-09-25 04:18:50 [INFO] SUPERVISOR: PID 4957 died with exitcode 1
+2026-09-25 04:18:50 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:50 [INFO] Restarting process test
+2026-09-25 04:18:50 [INFO] Spawning process for: test
+2026-09-25 04:18:50 [INFO] Spawned PID 4963
+2026-09-25 04:18:51 [INFO] Process test is now RUNNING
+2026-09-25 04:18:51 [INFO] Process test is now RUNNING
+2026-09-25 04:18:51 [INFO] Process test is now RUNNING
+2026-09-25 04:18:52 [INFO] SUPERVISOR: PID 4960 died with exitcode 1
+2026-09-25 04:18:52 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:52 [INFO] Restarting process test
+2026-09-25 04:18:52 [INFO] Spawning process for: test
+2026-09-25 04:18:52 [INFO] Spawned PID 4966
+2026-09-25 04:18:52 [INFO] SUPERVISOR: PID 4962 died with exitcode 1
+2026-09-25 04:18:52 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:52 [INFO] Restarting process test
+2026-09-25 04:18:52 [INFO] Spawning process for: test
+2026-09-25 04:18:52 [INFO] Spawned PID 4968
+2026-09-25 04:18:52 [INFO] SUPERVISOR: PID 4963 died with exitcode 1
+2026-09-25 04:18:52 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:52 [INFO] Restarting process test
+2026-09-25 04:18:52 [INFO] Spawning process for: test
+2026-09-25 04:18:52 [INFO] Spawned PID 4969
+2026-09-25 04:18:53 [INFO] Process test is now RUNNING
+2026-09-25 04:18:53 [INFO] Process test is now RUNNING
+2026-09-25 04:18:53 [INFO] Process test is now RUNNING
+2026-09-25 04:18:54 [INFO] SUPERVISOR: PID 4966 died with exitcode 1
+2026-09-25 04:18:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:54 [INFO] Restarting process test
+2026-09-25 04:18:54 [INFO] Spawning process for: test
+2026-09-25 04:18:54 [INFO] Spawned PID 4972
+2026-09-25 04:18:54 [INFO] SUPERVISOR: PID 4968 died with exitcode 1
+2026-09-25 04:18:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:54 [INFO] Restarting process test
+2026-09-25 04:18:54 [INFO] Spawning process for: test
+2026-09-25 04:18:54 [INFO] Spawned PID 4974
+2026-09-25 04:18:54 [INFO] SUPERVISOR: PID 4969 died with exitcode 1
+2026-09-25 04:18:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:54 [INFO] Restarting process test
+2026-09-25 04:18:54 [INFO] Spawning process for: test
+2026-09-25 04:18:54 [INFO] Spawned PID 4975
+2026-09-25 04:18:55 [INFO] Process test is now RUNNING
+2026-09-25 04:18:55 [INFO] Process test is now RUNNING
+2026-09-25 04:18:55 [INFO] Process test is now RUNNING
+2026-09-25 04:18:56 [INFO] SUPERVISOR: PID 4972 died with exitcode 1
+2026-09-25 04:18:56 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:56 [INFO] Restarting process test
+2026-09-25 04:18:56 [INFO] Spawning process for: test
+2026-09-25 04:18:56 [INFO] Spawned PID 4978
+2026-09-25 04:18:57 [INFO] Process test is now RUNNING
+2026-09-25 04:18:57 [INFO] SUPERVISOR: PID 4974 died with exitcode 1
+2026-09-25 04:18:57 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:57 [INFO] Restarting process test
+2026-09-25 04:18:57 [INFO] Spawning process for: test
+2026-09-25 04:18:57 [INFO] Spawned PID 4980
+2026-09-25 04:18:57 [INFO] SUPERVISOR: PID 4975 died with exitcode 1
+2026-09-25 04:18:57 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:57 [INFO] Restarting process test
+2026-09-25 04:18:57 [INFO] Spawning process for: test
+2026-09-25 04:18:57 [INFO] Spawned PID 4981
+2026-09-25 04:18:58 [INFO] Process test is now RUNNING
+2026-09-25 04:18:58 [INFO] Process test is now RUNNING
+2026-09-25 04:18:58 [INFO] SUPERVISOR: PID 4978 died with exitcode 1
+2026-09-25 04:18:58 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:58 [INFO] Restarting process test
+2026-09-25 04:18:58 [INFO] Spawning process for: test
+2026-09-25 04:18:58 [INFO] Spawned PID 4986
+2026-09-25 04:18:59 [INFO] Process test is now RUNNING
+2026-09-25 04:18:59 [INFO] SUPERVISOR: PID 4980 died with exitcode 1
+2026-09-25 04:18:59 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:59 [INFO] Restarting process test
+2026-09-25 04:18:59 [INFO] Spawning process for: test
+2026-09-25 04:18:59 [INFO] Spawned PID 4988
+2026-09-25 04:18:59 [INFO] SUPERVISOR: PID 4981 died with exitcode 1
+2026-09-25 04:18:59 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:18:59 [INFO] Restarting process test
+2026-09-25 04:18:59 [INFO] Spawning process for: test
+2026-09-25 04:18:59 [INFO] Spawned PID 4989
+2026-09-25 04:19:00 [INFO] Process test is now RUNNING
+2026-09-25 04:19:00 [INFO] Process test is now RUNNING
+2026-09-25 04:19:00 [INFO] SUPERVISOR: PID 4986 died with exitcode 1
+2026-09-25 04:19:00 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:19:00 [INFO] Restarting process test
+2026-09-25 04:19:00 [INFO] Spawning process for: test
+2026-09-25 04:19:00 [INFO] Spawned PID 4992
+2026-09-25 04:21:36 [INFO] Taskmaster initalized
+2026-09-25 04:21:36 [INFO] Loading configuration: config/task.json
+2026-09-25 04:21:36 [INFO] Configuration loaded successfully
+2026-09-25 04:21:36 [INFO] Starting interactive Shell
+2026-09-25 04:21:41 [INFO] Starting program: test
+2026-09-25 04:21:41 [INFO] Starting program: test
+2026-09-25 04:21:41 [INFO] Spawning process for: test
+2026-09-25 04:21:41 [INFO] Spawned PID 5028
+2026-09-25 04:21:41 [INFO] Spawning process for: test
+2026-09-25 04:21:41 [INFO] Spawned PID 5029
+2026-09-25 04:21:41 [INFO] Spawning process for: test
+2026-09-25 04:21:41 [INFO] Spawned PID 5030
+2026-09-25 04:21:42 [INFO] Process test is now RUNNING
+2026-09-25 04:21:42 [INFO] Process test is now RUNNING
+2026-09-25 04:21:42 [INFO] Process test is now RUNNING
+2026-09-25 04:21:43 [INFO] SUPERVISOR: PID 5028 died with exitcode 1
+2026-09-25 04:21:43 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:43 [INFO] Restarting process test
+2026-09-25 04:21:43 [INFO] Spawning process for: test
+2026-09-25 04:21:43 [INFO] Spawned PID 5034
+2026-09-25 04:21:43 [INFO] SUPERVISOR: PID 5029 died with exitcode 1
+2026-09-25 04:21:43 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:43 [INFO] Restarting process test
+2026-09-25 04:21:43 [INFO] Spawning process for: test
+2026-09-25 04:21:43 [INFO] Spawned PID 5035
+2026-09-25 04:21:43 [INFO] SUPERVISOR: PID 5030 died with exitcode 1
+2026-09-25 04:21:43 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:43 [INFO] Restarting process test
+2026-09-25 04:21:43 [INFO] Spawning process for: test
+2026-09-25 04:21:43 [INFO] Spawned PID 5036
+2026-09-25 04:21:44 [INFO] Process test is now RUNNING
+2026-09-25 04:21:44 [INFO] Process test is now RUNNING
+2026-09-25 04:21:44 [INFO] Process test is now RUNNING
+2026-09-25 04:21:45 [INFO] SUPERVISOR: PID 5034 died with exitcode 1
+2026-09-25 04:21:45 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:45 [INFO] Restarting process test
+2026-09-25 04:21:45 [INFO] Spawning process for: test
+2026-09-25 04:21:45 [INFO] Spawned PID 5040
+2026-09-25 04:21:45 [INFO] SUPERVISOR: PID 5035 died with exitcode 1
+2026-09-25 04:21:45 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:45 [INFO] Restarting process test
+2026-09-25 04:21:45 [INFO] Spawning process for: test
+2026-09-25 04:21:45 [INFO] Spawned PID 5041
+2026-09-25 04:21:45 [INFO] SUPERVISOR: PID 5036 died with exitcode 1
+2026-09-25 04:21:45 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:45 [INFO] Restarting process test
+2026-09-25 04:21:45 [INFO] Spawning process for: test
+2026-09-25 04:21:45 [INFO] Spawned PID 5042
+2026-09-25 04:21:46 [INFO] Process test is now RUNNING
+2026-09-25 04:21:46 [INFO] Process test is now RUNNING
+2026-09-25 04:21:46 [INFO] Process test is now RUNNING
+2026-09-25 04:21:47 [INFO] SUPERVISOR: PID 5040 died with exitcode 1
+2026-09-25 04:21:47 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:47 [INFO] Restarting process test
+2026-09-25 04:21:47 [INFO] Spawning process for: test
+2026-09-25 04:21:47 [INFO] Spawned PID 5046
+2026-09-25 04:21:47 [INFO] SUPERVISOR: PID 5041 died with exitcode 1
+2026-09-25 04:21:47 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:47 [INFO] Restarting process test
+2026-09-25 04:21:47 [INFO] Spawning process for: test
+2026-09-25 04:21:47 [INFO] Spawned PID 5047
+2026-09-25 04:21:47 [INFO] SUPERVISOR: PID 5042 died with exitcode 1
+2026-09-25 04:21:47 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:47 [INFO] Restarting process test
+2026-09-25 04:21:47 [INFO] Spawning process for: test
+2026-09-25 04:21:47 [INFO] Spawned PID 5048
+2026-09-25 04:21:48 [INFO] Process test is now RUNNING
+2026-09-25 04:21:48 [INFO] Process test is now RUNNING
+2026-09-25 04:21:48 [INFO] Process test is now RUNNING
+2026-09-25 04:21:50 [INFO] SUPERVISOR: PID 5046 died with exitcode 1
+2026-09-25 04:21:50 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:50 [INFO] Restarting process test
+2026-09-25 04:21:50 [INFO] Spawning process for: test
+2026-09-25 04:21:50 [INFO] Spawned PID 5052
+2026-09-25 04:21:50 [INFO] SUPERVISOR: PID 5047 died with exitcode 1
+2026-09-25 04:21:50 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:50 [INFO] Restarting process test
+2026-09-25 04:21:50 [INFO] Spawning process for: test
+2026-09-25 04:21:50 [INFO] Spawned PID 5053
+2026-09-25 04:21:50 [INFO] SUPERVISOR: PID 5048 died with exitcode 1
+2026-09-25 04:21:50 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:50 [INFO] Restarting process test
+2026-09-25 04:21:50 [INFO] Spawning process for: test
+2026-09-25 04:21:50 [INFO] Spawned PID 5054
+2026-09-25 04:21:51 [INFO] Process test is now RUNNING
+2026-09-25 04:21:51 [INFO] Process test is now RUNNING
+2026-09-25 04:21:51 [INFO] Process test is now RUNNING
+2026-09-25 04:21:52 [INFO] SUPERVISOR: PID 5052 died with exitcode 1
+2026-09-25 04:21:52 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:52 [INFO] Restarting process test
+2026-09-25 04:21:52 [INFO] Spawning process for: test
+2026-09-25 04:21:52 [INFO] Spawned PID 5058
+2026-09-25 04:21:52 [INFO] SUPERVISOR: PID 5053 died with exitcode 1
+2026-09-25 04:21:52 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:52 [INFO] Restarting process test
+2026-09-25 04:21:52 [INFO] Spawning process for: test
+2026-09-25 04:21:52 [INFO] Spawned PID 5059
+2026-09-25 04:21:52 [INFO] SUPERVISOR: PID 5054 died with exitcode 1
+2026-09-25 04:21:52 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:52 [INFO] Restarting process test
+2026-09-25 04:21:52 [INFO] Spawning process for: test
+2026-09-25 04:21:52 [INFO] Spawned PID 5060
+2026-09-25 04:21:53 [INFO] Process test is now RUNNING
+2026-09-25 04:21:53 [INFO] Process test is now RUNNING
+2026-09-25 04:21:53 [INFO] Process test is now RUNNING
+2026-09-25 04:21:54 [INFO] SUPERVISOR: PID 5058 died with exitcode 1
+2026-09-25 04:21:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:54 [INFO] Restarting process test
+2026-09-25 04:21:54 [INFO] Spawning process for: test
+2026-09-25 04:21:54 [INFO] Spawned PID 5064
+2026-09-25 04:21:54 [INFO] SUPERVISOR: PID 5059 died with exitcode 1
+2026-09-25 04:21:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:54 [INFO] Restarting process test
+2026-09-25 04:21:54 [INFO] Spawning process for: test
+2026-09-25 04:21:54 [INFO] Spawned PID 5065
+2026-09-25 04:21:54 [INFO] SUPERVISOR: PID 5060 died with exitcode 1
+2026-09-25 04:21:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:54 [INFO] Restarting process test
+2026-09-25 04:21:54 [INFO] Spawning process for: test
+2026-09-25 04:21:54 [INFO] Spawned PID 5066
+2026-09-25 04:21:55 [INFO] Process test is now RUNNING
+2026-09-25 04:21:55 [INFO] Process test is now RUNNING
+2026-09-25 04:21:55 [INFO] Process test is now RUNNING
+2026-09-25 04:21:56 [INFO] SUPERVISOR: PID 5064 died with exitcode 1
+2026-09-25 04:21:56 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:56 [INFO] Restarting process test
+2026-09-25 04:21:56 [INFO] Spawning process for: test
+2026-09-25 04:21:56 [INFO] Spawned PID 5071
+2026-09-25 04:21:56 [INFO] SUPERVISOR: PID 5065 died with exitcode 1
+2026-09-25 04:21:56 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:56 [INFO] Restarting process test
+2026-09-25 04:21:56 [INFO] Spawning process for: test
+2026-09-25 04:21:56 [INFO] Spawned PID 5072
+2026-09-25 04:21:56 [INFO] SUPERVISOR: PID 5066 died with exitcode 1
+2026-09-25 04:21:56 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:21:56 [INFO] Restarting process test
+2026-09-25 04:21:56 [INFO] Spawning process for: test
+2026-09-25 04:21:56 [INFO] Spawned PID 5073
+2026-09-25 04:21:57 [INFO] Process test is now RUNNING
+2026-09-25 04:21:57 [INFO] Process test is now RUNNING
+2026-09-25 04:21:57 [INFO] Process test is now RUNNING
+2026-09-25 04:38:21 [INFO] Taskmaster initalized
+2026-09-25 04:38:21 [INFO] Loading configuration: config/task.json
+2026-09-25 04:38:21 [INFO] Configuration loaded successfully
+2026-09-25 04:38:21 [INFO] Starting interactive Shell
+2026-09-25 04:38:44 [INFO] Starting program: test
+2026-09-25 04:38:44 [INFO] Starting program: test
+2026-09-25 04:38:44 [INFO] Spawning process for: test
+2026-09-25 04:38:44 [INFO] Spawned PID 5569
+2026-09-25 04:38:44 [INFO] Spawning process for: test
+2026-09-25 04:38:44 [INFO] Spawned PID 5570
+2026-09-25 04:38:44 [INFO] Spawning process for: test
+2026-09-25 04:38:44 [INFO] Spawned PID 5571
+2026-09-25 04:38:45 [INFO] Process test is now RUNNING
+2026-09-25 04:38:45 [INFO] Process test is now RUNNING
+2026-09-25 04:38:45 [INFO] Process test is now RUNNING
+2026-09-25 04:38:46 [INFO] SUPERVISOR: PID 5569 died with exitcode 1
+2026-09-25 04:38:46 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:38:46 [INFO] Restarting process test
+2026-09-25 04:38:46 [INFO] Spawning process for: test
+2026-09-25 04:38:46 [INFO] Spawned PID 5578
+2026-09-25 04:38:46 [INFO] SUPERVISOR: PID 5571 died with exitcode 1
+2026-09-25 04:38:46 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:38:46 [INFO] Restarting process test
+2026-09-25 04:38:46 [INFO] Spawning process for: test
+2026-09-25 04:38:46 [INFO] Spawned PID 5579
+2026-09-25 04:38:46 [INFO] SUPERVISOR: PID 5570 died with exitcode 1
+2026-09-25 04:38:46 [INFO] AUTORESTART: retries now = 1
+2026-09-25 04:38:46 [INFO] Restarting process test
+2026-09-25 04:38:46 [INFO] Spawning process for: test
+2026-09-25 04:38:46 [INFO] Spawned PID 5582
+2026-09-25 04:38:47 [INFO] Process test is now RUNNING
+2026-09-25 04:38:47 [INFO] Process test is now RUNNING
+2026-09-25 04:38:47 [INFO] Process test is now RUNNING
+2026-09-25 04:38:48 [INFO] SUPERVISOR: PID 5578 died with exitcode 1
+2026-09-25 04:38:48 [INFO] AUTORESTART: retries now = 2
+2026-09-25 04:38:48 [INFO] Restarting process test
+2026-09-25 04:38:48 [INFO] Spawning process for: test
+2026-09-25 04:38:48 [INFO] Spawned PID 5584
+2026-09-25 04:38:48 [INFO] SUPERVISOR: PID 5582 died with exitcode 1
+2026-09-25 04:38:48 [INFO] AUTORESTART: retries now = 2
+2026-09-25 04:38:48 [INFO] Restarting process test
+2026-09-25 04:38:48 [INFO] Spawning process for: test
+2026-09-25 04:38:48 [INFO] Spawned PID 5586
+2026-09-25 04:38:48 [INFO] SUPERVISOR: PID 5579 died with exitcode 1
+2026-09-25 04:38:48 [INFO] AUTORESTART: retries now = 2
+2026-09-25 04:38:48 [INFO] Restarting process test
+2026-09-25 04:38:48 [INFO] Spawning process for: test
+2026-09-25 04:38:48 [INFO] Spawned PID 5587
+2026-09-25 04:38:49 [INFO] Process test is now RUNNING
+2026-09-25 04:38:49 [INFO] Process test is now RUNNING
+2026-09-25 04:38:49 [INFO] Process test is now RUNNING
+2026-09-25 04:38:51 [INFO] SUPERVISOR: PID 5586 died with exitcode 1
+2026-09-25 04:38:51 [INFO] AUTORESTART: retries now = 3
+2026-09-25 04:38:51 [INFO] Restarting process test
+2026-09-25 04:38:51 [INFO] Spawning process for: test
+2026-09-25 04:38:51 [INFO] Spawned PID 5590
+2026-09-25 04:38:51 [INFO] SUPERVISOR: PID 5587 died with exitcode 1
+2026-09-25 04:38:51 [INFO] AUTORESTART: retries now = 3
+2026-09-25 04:38:51 [INFO] Restarting process test
+2026-09-25 04:38:51 [INFO] Spawning process for: test
+2026-09-25 04:38:51 [INFO] Spawned PID 5591
+2026-09-25 04:38:51 [INFO] SUPERVISOR: PID 5584 died with exitcode 1
+2026-09-25 04:38:51 [INFO] AUTORESTART: retries now = 3
+2026-09-25 04:38:51 [INFO] Restarting process test
+2026-09-25 04:38:51 [INFO] Spawning process for: test
+2026-09-25 04:38:51 [INFO] Spawned PID 5594
+2026-09-25 04:38:52 [INFO] Process test is now RUNNING
+2026-09-25 04:38:52 [INFO] Process test is now RUNNING
+2026-09-25 04:38:52 [INFO] Process test is now RUNNING
+2026-09-25 04:38:53 [INFO] SUPERVISOR: PID 5591 died with exitcode 1
+2026-09-25 04:38:53 [INFO] AUTORESTART: retries now = 4
+2026-09-25 04:38:53 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 04:38:53 [INFO] SUPERVISOR: PID 5590 died with exitcode 1
+2026-09-25 04:38:53 [INFO] AUTORESTART: retries now = 4
+2026-09-25 04:38:53 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 04:38:53 [INFO] SUPERVISOR: PID 5594 died with exitcode 1
+2026-09-25 04:38:53 [INFO] AUTORESTART: retries now = 4
+2026-09-25 04:38:53 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:06:25 [INFO] Taskmaster initalized
+2026-09-25 05:06:25 [INFO] Loading configuration: config/task.json
+2026-09-25 05:06:25 [INFO] Configuration loaded successfully
+2026-09-25 05:06:25 [INFO] Starting interactive Shell
+2026-09-25 05:06:33 [INFO] Starting program: test
+2026-09-25 05:06:33 [INFO] Starting program: test
+2026-09-25 05:06:33 [INFO] Spawning process for: test
+2026-09-25 05:06:33 [INFO] Spawned PID 5973
+2026-09-25 05:06:33 [INFO] Spawning process for: test
+2026-09-25 05:06:33 [INFO] Spawned PID 5974
+2026-09-25 05:06:33 [INFO] Spawning process for: test
+2026-09-25 05:06:33 [INFO] Spawned PID 5975
+2026-09-25 05:06:33 [INFO] SUPERVISOR: PID 5973 died with exitcode 1
+2026-09-25 05:06:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:06:33 [INFO] SUPERVISOR: PID 5974 died with exitcode 1
+2026-09-25 05:06:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:06:33 [INFO] SUPERVISOR: PID 5975 died with exitcode 1
+2026-09-25 05:06:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:10:08 [INFO] Taskmaster initalized
+2026-09-25 05:10:08 [INFO] Loading configuration: config/task.json
+2026-09-25 05:10:08 [INFO] Configuration loaded successfully
+2026-09-25 05:10:08 [INFO] Starting interactive Shell
+2026-09-25 05:10:59 [INFO] Taskmaster initalized
+2026-09-25 05:10:59 [INFO] Loading configuration: config/task.json
+2026-09-25 05:10:59 [INFO] Configuration loaded successfully
+2026-09-25 05:10:59 [INFO] Starting interactive Shell
+2026-09-25 05:11:24 [INFO] Starting program: test
+2026-09-25 05:11:24 [INFO] Starting program: test
+2026-09-25 05:11:24 [INFO] Spawning process for: test
+2026-09-25 05:11:24 [INFO] Spawned PID 6060
+2026-09-25 05:11:24 [INFO] Spawning process for: test
+2026-09-25 05:11:24 [INFO] Spawned PID 6061
+2026-09-25 05:11:24 [INFO] Spawning process for: test
+2026-09-25 05:11:24 [INFO] Spawned PID 6062
+2026-09-25 05:11:25 [INFO] Process test is now RUNNING
+2026-09-25 05:11:25 [INFO] Process test is now RUNNING
+2026-09-25 05:11:25 [INFO] Process test is now RUNNING
+2026-09-25 05:11:26 [INFO] SUPERVISOR: PID 6060 died with exitcode 1
+2026-09-25 05:11:26 [INFO] Restarting process test
+2026-09-25 05:11:26 [INFO] Spawning process for: test
+2026-09-25 05:11:26 [INFO] Spawned PID 6067
+2026-09-25 05:11:26 [INFO] SUPERVISOR: PID 6061 died with exitcode 1
+2026-09-25 05:11:26 [INFO] Restarting process test
+2026-09-25 05:11:26 [INFO] Spawning process for: test
+2026-09-25 05:11:26 [INFO] Spawned PID 6068
+2026-09-25 05:11:26 [INFO] SUPERVISOR: PID 6062 died with exitcode 1
+2026-09-25 05:11:26 [INFO] Restarting process test
+2026-09-25 05:11:26 [INFO] Spawning process for: test
+2026-09-25 05:11:26 [INFO] Spawned PID 6069
+2026-09-25 05:11:27 [INFO] Process test is now RUNNING
+2026-09-25 05:11:27 [INFO] Process test is now RUNNING
+2026-09-25 05:11:27 [INFO] Process test is now RUNNING
+2026-09-25 05:11:28 [INFO] SUPERVISOR: PID 6067 died with exitcode 1
+2026-09-25 05:11:28 [INFO] Restarting process test
+2026-09-25 05:11:28 [INFO] Spawning process for: test
+2026-09-25 05:11:28 [INFO] Spawned PID 6074
+2026-09-25 05:11:28 [INFO] SUPERVISOR: PID 6068 died with exitcode 1
+2026-09-25 05:11:28 [INFO] Restarting process test
+2026-09-25 05:11:28 [INFO] Spawning process for: test
+2026-09-25 05:11:28 [INFO] Spawned PID 6075
+2026-09-25 05:11:28 [INFO] SUPERVISOR: PID 6069 died with exitcode 1
+2026-09-25 05:11:28 [INFO] Restarting process test
+2026-09-25 05:11:28 [INFO] Spawning process for: test
+2026-09-25 05:11:28 [INFO] Spawned PID 6076
+2026-09-25 05:11:29 [INFO] Process test is now RUNNING
+2026-09-25 05:11:29 [INFO] Process test is now RUNNING
+2026-09-25 05:11:29 [INFO] Process test is now RUNNING
+2026-09-25 05:11:30 [INFO] SUPERVISOR: PID 6076 died with exitcode 1
+2026-09-25 05:11:30 [INFO] Restarting process test
+2026-09-25 05:11:30 [INFO] Spawning process for: test
+2026-09-25 05:11:30 [INFO] Spawned PID 6080
+2026-09-25 05:11:30 [INFO] SUPERVISOR: PID 6074 died with exitcode 1
+2026-09-25 05:11:30 [INFO] Restarting process test
+2026-09-25 05:11:30 [INFO] Spawning process for: test
+2026-09-25 05:11:30 [INFO] Spawned PID 6082
+2026-09-25 05:11:30 [INFO] SUPERVISOR: PID 6075 died with exitcode 1
+2026-09-25 05:11:30 [INFO] Restarting process test
+2026-09-25 05:11:30 [INFO] Spawning process for: test
+2026-09-25 05:11:30 [INFO] Spawned PID 6083
+2026-09-25 05:11:31 [INFO] Process test is now RUNNING
+2026-09-25 05:11:31 [INFO] Process test is now RUNNING
+2026-09-25 05:11:31 [INFO] Process test is now RUNNING
+2026-09-25 05:11:32 [INFO] SUPERVISOR: PID 6083 died with exitcode 1
+2026-09-25 05:11:32 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:11:33 [INFO] SUPERVISOR: PID 6082 died with exitcode 1
+2026-09-25 05:11:33 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:11:33 [INFO] SUPERVISOR: PID 6080 died with exitcode 1
+2026-09-25 05:11:33 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:14:13 [INFO] Taskmaster initalized
+2026-09-25 05:14:13 [INFO] Loading configuration: config/task.json
+2026-09-25 05:14:13 [INFO] Configuration loaded successfully
+2026-09-25 05:14:13 [INFO] Starting interactive Shell
+2026-09-25 05:14:15 [INFO] Starting program: test
+2026-09-25 05:14:15 [INFO] Starting program: test
+2026-09-25 05:14:15 [INFO] Spawning process for: test
+2026-09-25 05:14:15 [INFO] Spawned PID 6140
+2026-09-25 05:14:15 [INFO] Spawning process for: test
+2026-09-25 05:14:15 [INFO] Spawned PID 6141
+2026-09-25 05:14:15 [INFO] Spawning process for: test
+2026-09-25 05:14:15 [INFO] Spawned PID 6142
+2026-09-25 05:14:16 [INFO] Process test is now RUNNING
+2026-09-25 05:14:16 [INFO] SUPERVISOR: PID 6140 died with exitcode 1
+2026-09-25 05:14:16 [INFO] Restarting process test
+2026-09-25 05:14:16 [INFO] Spawning process for: test
+2026-09-25 05:14:16 [INFO] Spawned PID 6143
+2026-09-25 05:14:16 [INFO] Process test is now RUNNING
+2026-09-25 05:14:16 [INFO] SUPERVISOR: PID 6141 died with exitcode 1
+2026-09-25 05:14:16 [INFO] Restarting process test
+2026-09-25 05:14:16 [INFO] Spawning process for: test
+2026-09-25 05:14:16 [INFO] Spawned PID 6144
+2026-09-25 05:14:16 [INFO] Process test is now RUNNING
+2026-09-25 05:14:16 [INFO] SUPERVISOR: PID 6142 died with exitcode 1
+2026-09-25 05:14:16 [INFO] Restarting process test
+2026-09-25 05:14:16 [INFO] Spawning process for: test
+2026-09-25 05:14:16 [INFO] Spawned PID 6145
+2026-09-25 05:14:16 [INFO] SUPERVISOR: PID 6143 died with exitcode 1
+2026-09-25 05:14:16 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:14:16 [INFO] SUPERVISOR: PID 6144 died with exitcode 1
+2026-09-25 05:14:16 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:14:16 [INFO] SUPERVISOR: PID 6145 died with exitcode 1
+2026-09-25 05:14:16 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:18:07 [INFO] Taskmaster initalized
+2026-09-25 05:18:07 [INFO] Loading configuration: config/task.json
+2026-09-25 05:18:07 [INFO] Configuration loaded successfully
+2026-09-25 05:18:07 [INFO] Starting interactive Shell
+2026-09-25 05:18:19 [INFO] Taskmaster initalized
+2026-09-25 05:18:19 [INFO] Loading configuration: config/task.json
+2026-09-25 05:18:19 [INFO] Configuration loaded successfully
+2026-09-25 05:18:19 [INFO] Starting interactive Shell
+2026-09-25 05:18:25 [INFO] Starting program: test
+2026-09-25 05:18:25 [INFO] Starting program: test
+2026-09-25 05:18:25 [INFO] Spawning process for: test
+2026-09-25 05:18:25 [INFO] Spawned PID 6192
+2026-09-25 05:18:25 [INFO] Spawning process for: test
+2026-09-25 05:18:25 [INFO] Spawned PID 6193
+2026-09-25 05:18:25 [INFO] Spawning process for: test
+2026-09-25 05:18:25 [INFO] Spawned PID 6194
+2026-09-25 05:18:25 [INFO] SUPERVISOR: PID 6192 died with exitcode 1
+2026-09-25 05:18:25 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:18:25 [INFO] SUPERVISOR: PID 6193 died with exitcode 1
+2026-09-25 05:18:25 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:18:25 [INFO] SUPERVISOR: PID 6194 died with exitcode 1
+2026-09-25 05:18:25 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:26:36 [INFO] Taskmaster initalized
+2026-09-25 05:26:36 [INFO] Loading configuration: config/task.json
+2026-09-25 05:26:36 [INFO] Configuration loaded successfully
+2026-09-25 05:26:36 [INFO] Starting interactive Shell
+2026-09-25 05:26:54 [INFO] Starting program: test
+2026-09-25 05:26:54 [INFO] Starting program: test
+2026-09-25 05:26:54 [INFO] Spawning process for: test
+2026-09-25 05:26:54 [INFO] Spawned PID 6365
+2026-09-25 05:26:54 [INFO] Spawning process for: test
+2026-09-25 05:26:54 [INFO] Spawned PID 6366
+2026-09-25 05:26:54 [INFO] Spawning process for: test
+2026-09-25 05:26:54 [INFO] Spawned PID 6367
+2026-09-25 05:26:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:26:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:26:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:26:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:26:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:26:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:27:55 [INFO] Stopping program: test
+2026-09-25 05:27:55 [INFO] Stopping program: test
+2026-09-25 05:27:55 [INFO] Starting program: test
+2026-09-25 05:27:55 [INFO] Starting program: test
+2026-09-25 05:27:55 [INFO] Spawning process for: test
+2026-09-25 05:27:55 [INFO] Spawned PID 6380
+2026-09-25 05:27:55 [INFO] Spawning process for: test
+2026-09-25 05:27:55 [INFO] Spawned PID 6381
+2026-09-25 05:27:55 [INFO] Spawning process for: test
+2026-09-25 05:27:55 [INFO] Spawned PID 6382
+2026-09-25 05:27:55 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:27:55 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:27:55 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:27:55 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:27:55 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:27:55 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:28:26 [INFO] Stopping program: test
+2026-09-25 05:28:26 [INFO] Stopping program: test
+2026-09-25 05:28:26 [INFO] Starting program: test
+2026-09-25 05:28:26 [INFO] Starting program: test
+2026-09-25 05:28:26 [INFO] Spawning process for: test
+2026-09-25 05:28:26 [INFO] Spawned PID 6396
+2026-09-25 05:28:26 [INFO] Spawning process for: test
+2026-09-25 05:28:26 [INFO] Spawned PID 6397
+2026-09-25 05:28:26 [INFO] Spawning process for: test
+2026-09-25 05:28:26 [INFO] Spawned PID 6398
+2026-09-25 05:28:26 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:28:26 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:28:26 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:28:26 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:28:26 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:28:26 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:28:40 [INFO] Stopping program: test
+2026-09-25 05:28:40 [INFO] Stopping program: test
+2026-09-25 05:28:40 [INFO] Starting program: test
+2026-09-25 05:28:40 [INFO] Starting program: test
+2026-09-25 05:28:40 [INFO] Spawning process for: test
+2026-09-25 05:28:40 [INFO] Spawned PID 6405
+2026-09-25 05:28:40 [INFO] Spawning process for: test
+2026-09-25 05:28:40 [INFO] Spawned PID 6406
+2026-09-25 05:28:40 [INFO] Spawning process for: test
+2026-09-25 05:28:40 [INFO] Spawned PID 6407
+2026-09-25 05:28:40 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:28:40 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:28:40 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:28:40 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:28:40 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:28:40 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:35:24 [INFO] Taskmaster initalized
+2026-09-25 05:35:24 [INFO] Loading configuration: config/task.json
+2026-09-25 05:35:24 [INFO] Configuration loaded successfully
+2026-09-25 05:35:24 [INFO] Starting interactive Shell
+2026-09-25 05:35:33 [INFO] Starting program: test
+2026-09-25 05:35:33 [INFO] Starting program: test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6619
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6620
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6621
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6622
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6623
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6624
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6625
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6626
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6627
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6628
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6629
+2026-09-25 05:35:33 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:35:33 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:35:33 [INFO] BACKOFF: retrying process test
+2026-09-25 05:35:33 [INFO] Spawning process for: test
+2026-09-25 05:35:33 [INFO] Spawned PID 6630
+2026-09-25 05:35:34 [INFO] Process test is now RUNNING
+2026-09-25 05:35:34 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:35:34 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:35:34 [INFO] Process test is now RUNNING
+2026-09-25 05:35:34 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:35:34 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:35:34 [INFO] Process test is now RUNNING
+2026-09-25 05:35:34 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:35:34 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:42:55 [INFO] Stopping program: test
+2026-09-25 05:42:55 [INFO] Stopping program: test
+2026-09-25 05:42:55 [INFO] Starting program: test
+2026-09-25 05:42:55 [INFO] Starting program: test
+2026-09-25 05:42:55 [INFO] Spawning process for: test
+2026-09-25 05:42:55 [INFO] Spawned PID 6732
+2026-09-25 05:42:55 [INFO] Spawning process for: test
+2026-09-25 05:42:55 [INFO] Spawned PID 6733
+2026-09-25 05:42:55 [INFO] Spawning process for: test
+2026-09-25 05:42:55 [INFO] Spawned PID 6734
+2026-09-25 05:42:55 [INFO] AUTORESTART: retries now = 5
+2026-09-25 05:42:55 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:42:55 [INFO] AUTORESTART: retries now = 5
+2026-09-25 05:42:55 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:42:55 [INFO] AUTORESTART: retries now = 5
+2026-09-25 05:42:55 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:48:44 [INFO] Taskmaster initalized
+2026-09-25 05:48:44 [INFO] Loading configuration: config/task.json
+2026-09-25 05:48:44 [INFO] Configuration loaded successfully
+2026-09-25 05:48:44 [INFO] Starting interactive Shell
+2026-09-25 05:48:53 [INFO] Starting program: test
+2026-09-25 05:48:53 [INFO] Starting program: test
+2026-09-25 05:48:53 [INFO] Spawning process for: test
+2026-09-25 05:48:53 [INFO] Spawned PID 6870
+2026-09-25 05:48:53 [INFO] Spawning process for: test
+2026-09-25 05:48:53 [INFO] Spawned PID 6871
+2026-09-25 05:48:53 [INFO] Spawning process for: test
+2026-09-25 05:48:53 [INFO] Spawned PID 6872
+2026-09-25 05:48:54 [INFO] Process test is now RUNNING
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:48:54 [INFO] Restarting process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6873
+2026-09-25 05:48:54 [INFO] Process test is now RUNNING
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:48:54 [INFO] Restarting process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6874
+2026-09-25 05:48:54 [INFO] Process test is now RUNNING
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:48:54 [INFO] Restarting process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6875
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:48:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:48:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6876
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:48:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:48:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6877
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:48:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:48:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6878
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:48:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:48:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6879
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:48:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:48:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6880
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:48:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:48:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:48:54 [INFO] Spawning process for: test
+2026-09-25 05:48:54 [INFO] Spawned PID 6881
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:48:54 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:48:54 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:48:54 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:48:54 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:49:54 [INFO] Stopping program: test
+2026-09-25 05:49:54 [INFO] Stopping program: test
+2026-09-25 05:49:54 [INFO] Starting program: test
+2026-09-25 05:49:54 [INFO] Starting program: test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6892
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6893
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6894
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6895
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6896
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6897
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6898
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6899
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6900
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6901
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6902
+2026-09-25 05:49:54 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:49:54 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:49:54 [INFO] BACKOFF: retrying process test
+2026-09-25 05:49:54 [INFO] Spawning process for: test
+2026-09-25 05:49:54 [INFO] Spawned PID 6903
+2026-09-25 05:49:55 [INFO] Process test is now RUNNING
+2026-09-25 05:49:55 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:49:55 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:49:55 [INFO] Process test is now RUNNING
+2026-09-25 05:49:55 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:49:55 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:49:55 [INFO] Process test is now RUNNING
+2026-09-25 05:49:55 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:49:55 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:50:58 [INFO] Taskmaster initalized
+2026-09-25 05:50:58 [INFO] Loading configuration: config/task.json
+2026-09-25 05:50:58 [INFO] Configuration loaded successfully
+2026-09-25 05:50:58 [INFO] Starting interactive Shell
+2026-09-25 05:51:06 [INFO] Starting program: test
+2026-09-25 05:51:06 [INFO] Starting program: test
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6932
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6933
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6934
+2026-09-25 05:51:06 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:51:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:51:06 [INFO] BACKOFF: retrying process test
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6935
+2026-09-25 05:51:06 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:51:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:51:06 [INFO] BACKOFF: retrying process test
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6936
+2026-09-25 05:51:06 [INFO] AUTORESTART: retries now = 1
+2026-09-25 05:51:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:51:06 [INFO] BACKOFF: retrying process test
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6937
+2026-09-25 05:51:06 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:51:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:51:06 [INFO] BACKOFF: retrying process test
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6938
+2026-09-25 05:51:06 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:51:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:51:06 [INFO] BACKOFF: retrying process test
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6939
+2026-09-25 05:51:06 [INFO] AUTORESTART: retries now = 2
+2026-09-25 05:51:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 05:51:06 [INFO] BACKOFF: retrying process test
+2026-09-25 05:51:06 [INFO] Spawning process for: test
+2026-09-25 05:51:06 [INFO] Spawned PID 6940
+2026-09-25 05:51:07 [INFO] Process test is now RUNNING
+2026-09-25 05:51:07 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:51:07 [INFO] Restarting process test
+2026-09-25 05:51:07 [INFO] Spawning process for: test
+2026-09-25 05:51:07 [INFO] Spawned PID 6941
+2026-09-25 05:51:07 [INFO] Process test is now RUNNING
+2026-09-25 05:51:07 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:51:07 [INFO] Restarting process test
+2026-09-25 05:51:07 [INFO] Spawning process for: test
+2026-09-25 05:51:07 [INFO] Spawned PID 6942
+2026-09-25 05:51:07 [INFO] Process test is now RUNNING
+2026-09-25 05:51:07 [INFO] AUTORESTART: retries now = 3
+2026-09-25 05:51:07 [INFO] Restarting process test
+2026-09-25 05:51:07 [INFO] Spawning process for: test
+2026-09-25 05:51:07 [INFO] Spawned PID 6943
+2026-09-25 05:51:07 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:51:07 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:51:07 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:51:07 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:51:07 [INFO] AUTORESTART: retries now = 4
+2026-09-25 05:51:07 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:51:24 [INFO] Starting program: test
+2026-09-25 05:51:24 [INFO] Starting program: test
+2026-09-25 05:51:24 [INFO] Spawning process for: test
+2026-09-25 05:51:24 [INFO] Spawned PID 6946
+2026-09-25 05:51:24 [INFO] Spawning process for: test
+2026-09-25 05:51:24 [INFO] Spawned PID 6947
+2026-09-25 05:51:24 [INFO] Spawning process for: test
+2026-09-25 05:51:24 [INFO] Spawned PID 6948
+2026-09-25 05:51:25 [INFO] Process test is now RUNNING
+2026-09-25 05:51:25 [INFO] AUTORESTART: retries now = 5
+2026-09-25 05:51:25 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:51:25 [INFO] Process test is now RUNNING
+2026-09-25 05:51:25 [INFO] AUTORESTART: retries now = 5
+2026-09-25 05:51:25 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 05:51:25 [INFO] Process test is now RUNNING
+2026-09-25 05:51:25 [INFO] AUTORESTART: retries now = 5
+2026-09-25 05:51:25 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:12 [INFO] Reloadding conifguration 
+2026-09-25 06:00:12 [INFO] Loading configuration: config/task.json
+2026-09-25 06:00:12 [INFO] Configuration loaded successfully
+2026-09-25 06:00:12 [WARN] Program changed: test
+2026-09-25 06:00:12 [INFO] Stopping program: test
+2026-09-25 06:00:12 [INFO] Starting program: test
+2026-09-25 06:00:12 [INFO] Spawning process for: test
+2026-09-25 06:00:12 [INFO] Spawned PID 7070
+2026-09-25 06:00:12 [INFO] Spawning process for: test
+2026-09-25 06:00:12 [INFO] Spawned PID 7071
+2026-09-25 06:00:12 [INFO] Spawning process for: test
+2026-09-25 06:00:12 [INFO] Spawned PID 7072
+2026-09-25 06:00:12 [INFO] Reload diff complete.
+2026-09-25 06:00:13 [INFO] Process test is now RUNNING
+2026-09-25 06:00:13 [INFO] Process test is now RUNNING
+2026-09-25 06:00:13 [INFO] Process test is now RUNNING
+2026-09-25 06:00:14 [INFO] AUTORESTART: retries now = 1
+2026-09-25 06:00:14 [INFO] Restarting process test
+2026-09-25 06:00:14 [INFO] Spawning process for: test
+2026-09-25 06:00:14 [INFO] Spawned PID 7076
+2026-09-25 06:00:15 [INFO] AUTORESTART: retries now = 1
+2026-09-25 06:00:15 [INFO] Restarting process test
+2026-09-25 06:00:15 [INFO] Spawning process for: test
+2026-09-25 06:00:15 [INFO] Spawned PID 7078
+2026-09-25 06:00:15 [INFO] Process test is now RUNNING
+2026-09-25 06:00:15 [INFO] AUTORESTART: retries now = 1
+2026-09-25 06:00:15 [INFO] Restarting process test
+2026-09-25 06:00:15 [INFO] Spawning process for: test
+2026-09-25 06:00:15 [INFO] Spawned PID 7079
+2026-09-25 06:00:16 [INFO] Process test is now RUNNING
+2026-09-25 06:00:16 [INFO] Process test is now RUNNING
+2026-09-25 06:00:17 [INFO] AUTORESTART: retries now = 2
+2026-09-25 06:00:17 [INFO] Restarting process test
+2026-09-25 06:00:17 [INFO] Spawning process for: test
+2026-09-25 06:00:17 [INFO] Spawned PID 7083
+2026-09-25 06:00:17 [INFO] AUTORESTART: retries now = 2
+2026-09-25 06:00:17 [INFO] Restarting process test
+2026-09-25 06:00:17 [INFO] Spawning process for: test
+2026-09-25 06:00:17 [INFO] Spawned PID 7084
+2026-09-25 06:00:17 [INFO] AUTORESTART: retries now = 2
+2026-09-25 06:00:17 [INFO] Restarting process test
+2026-09-25 06:00:17 [INFO] Spawning process for: test
+2026-09-25 06:00:17 [INFO] Spawned PID 7087
+2026-09-25 06:00:18 [INFO] Process test is now RUNNING
+2026-09-25 06:00:18 [INFO] Process test is now RUNNING
+2026-09-25 06:00:18 [INFO] Process test is now RUNNING
+2026-09-25 06:00:19 [INFO] AUTORESTART: retries now = 3
+2026-09-25 06:00:19 [INFO] Restarting process test
+2026-09-25 06:00:19 [INFO] Spawning process for: test
+2026-09-25 06:00:19 [INFO] Spawned PID 7089
+2026-09-25 06:00:19 [INFO] AUTORESTART: retries now = 3
+2026-09-25 06:00:19 [INFO] Restarting process test
+2026-09-25 06:00:19 [INFO] Spawning process for: test
+2026-09-25 06:00:19 [INFO] Spawned PID 7091
+2026-09-25 06:00:19 [INFO] AUTORESTART: retries now = 3
+2026-09-25 06:00:19 [INFO] Restarting process test
+2026-09-25 06:00:19 [INFO] Spawning process for: test
+2026-09-25 06:00:19 [INFO] Spawned PID 7093
+2026-09-25 06:00:20 [INFO] Process test is now RUNNING
+2026-09-25 06:00:20 [INFO] Process test is now RUNNING
+2026-09-25 06:00:20 [INFO] Process test is now RUNNING
+2026-09-25 06:00:21 [INFO] AUTORESTART: retries now = 4
+2026-09-25 06:00:21 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:21 [INFO] AUTORESTART: retries now = 4
+2026-09-25 06:00:21 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:21 [INFO] AUTORESTART: retries now = 4
+2026-09-25 06:00:21 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:28 [INFO] Starting program: test
+2026-09-25 06:00:28 [INFO] Starting program: test
+2026-09-25 06:00:28 [INFO] Spawning process for: test
+2026-09-25 06:00:28 [INFO] Spawned PID 7097
+2026-09-25 06:00:28 [INFO] Spawning process for: test
+2026-09-25 06:00:28 [INFO] Spawned PID 7098
+2026-09-25 06:00:28 [INFO] Spawning process for: test
+2026-09-25 06:00:28 [INFO] Spawned PID 7099
+2026-09-25 06:00:29 [INFO] Process test is now RUNNING
+2026-09-25 06:00:29 [INFO] Process test is now RUNNING
+2026-09-25 06:00:29 [INFO] Process test is now RUNNING
+2026-09-25 06:00:30 [INFO] AUTORESTART: retries now = 5
+2026-09-25 06:00:30 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:30 [INFO] AUTORESTART: retries now = 5
+2026-09-25 06:00:30 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:30 [INFO] AUTORESTART: retries now = 5
+2026-09-25 06:00:30 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:44 [INFO] Stopping program: test
+2026-09-25 06:00:44 [INFO] Stopping program: test
+2026-09-25 06:00:44 [INFO] Starting program: test
+2026-09-25 06:00:44 [INFO] Starting program: test
+2026-09-25 06:00:44 [INFO] Spawning process for: test
+2026-09-25 06:00:44 [INFO] Spawned PID 7105
+2026-09-25 06:00:44 [INFO] Spawning process for: test
+2026-09-25 06:00:44 [INFO] Spawned PID 7106
+2026-09-25 06:00:44 [INFO] Spawning process for: test
+2026-09-25 06:00:44 [INFO] Spawned PID 7107
+2026-09-25 06:00:45 [INFO] Process test is now RUNNING
+2026-09-25 06:00:45 [INFO] Process test is now RUNNING
+2026-09-25 06:00:45 [INFO] Process test is now RUNNING
+2026-09-25 06:00:46 [INFO] AUTORESTART: retries now = 1
+2026-09-25 06:00:46 [INFO] Restarting process test
+2026-09-25 06:00:46 [INFO] Spawning process for: test
+2026-09-25 06:00:46 [INFO] Spawned PID 7111
+2026-09-25 06:00:46 [INFO] AUTORESTART: retries now = 1
+2026-09-25 06:00:46 [INFO] Restarting process test
+2026-09-25 06:00:46 [INFO] Spawning process for: test
+2026-09-25 06:00:46 [INFO] Spawned PID 7112
+2026-09-25 06:00:46 [INFO] AUTORESTART: retries now = 1
+2026-09-25 06:00:46 [INFO] Restarting process test
+2026-09-25 06:00:46 [INFO] Spawning process for: test
+2026-09-25 06:00:46 [INFO] Spawned PID 7113
+2026-09-25 06:00:47 [INFO] Process test is now RUNNING
+2026-09-25 06:00:47 [INFO] Process test is now RUNNING
+2026-09-25 06:00:47 [INFO] Process test is now RUNNING
+2026-09-25 06:00:48 [INFO] AUTORESTART: retries now = 2
+2026-09-25 06:00:48 [INFO] Restarting process test
+2026-09-25 06:00:48 [INFO] Spawning process for: test
+2026-09-25 06:00:48 [INFO] Spawned PID 7117
+2026-09-25 06:00:48 [INFO] AUTORESTART: retries now = 2
+2026-09-25 06:00:48 [INFO] Restarting process test
+2026-09-25 06:00:48 [INFO] Spawning process for: test
+2026-09-25 06:00:48 [INFO] Spawned PID 7118
+2026-09-25 06:00:48 [INFO] AUTORESTART: retries now = 2
+2026-09-25 06:00:48 [INFO] Restarting process test
+2026-09-25 06:00:48 [INFO] Spawning process for: test
+2026-09-25 06:00:48 [INFO] Spawned PID 7121
+2026-09-25 06:00:49 [INFO] Process test is now RUNNING
+2026-09-25 06:00:49 [INFO] Process test is now RUNNING
+2026-09-25 06:00:49 [INFO] Process test is now RUNNING
+2026-09-25 06:00:50 [INFO] AUTORESTART: retries now = 3
+2026-09-25 06:00:50 [INFO] Restarting process test
+2026-09-25 06:00:50 [INFO] Spawning process for: test
+2026-09-25 06:00:50 [INFO] Spawned PID 7123
+2026-09-25 06:00:50 [INFO] AUTORESTART: retries now = 3
+2026-09-25 06:00:50 [INFO] Restarting process test
+2026-09-25 06:00:50 [INFO] Spawning process for: test
+2026-09-25 06:00:50 [INFO] Spawned PID 7125
+2026-09-25 06:00:50 [INFO] AUTORESTART: retries now = 3
+2026-09-25 06:00:50 [INFO] Restarting process test
+2026-09-25 06:00:50 [INFO] Spawning process for: test
+2026-09-25 06:00:50 [INFO] Spawned PID 7126
+2026-09-25 06:00:51 [INFO] Process test is now RUNNING
+2026-09-25 06:00:51 [INFO] Process test is now RUNNING
+2026-09-25 06:00:51 [INFO] Process test is now RUNNING
+2026-09-25 06:00:52 [INFO] AUTORESTART: retries now = 4
+2026-09-25 06:00:52 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:53 [INFO] AUTORESTART: retries now = 4
+2026-09-25 06:00:53 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:00:53 [INFO] AUTORESTART: retries now = 4
+2026-09-25 06:00:53 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:05:33 [INFO] Taskmaster initalized
+2026-09-25 06:05:33 [INFO] Loading configuration: config/task.json
+2026-09-25 06:05:33 [INFO] Configuration loaded successfully
+2026-09-25 06:05:33 [INFO] Starting interactive Shell
+2026-09-25 06:05:46 [INFO] Starting program: test
+2026-09-25 06:05:46 [INFO] Starting program: test
+2026-09-25 06:05:46 [INFO] Spawning process for: test
+2026-09-25 06:05:46 [INFO] Spawned PID 7269
+2026-09-25 06:05:46 [INFO] Spawning process for: test
+2026-09-25 06:05:46 [INFO] Spawned PID 7270
+2026-09-25 06:05:46 [INFO] Spawning process for: test
+2026-09-25 06:05:46 [INFO] Spawned PID 7271
+2026-09-25 06:05:47 [INFO] Process test is now RUNNING
+2026-09-25 06:05:47 [INFO] Process test is now RUNNING
+2026-09-25 06:05:47 [INFO] Process test is now RUNNING
+2026-09-25 06:05:48 [INFO] Process test exited with code 1
+2026-09-25 06:05:48 [INFO] Restarting process test
+2026-09-25 06:05:48 [INFO] Spawning process for: test
+2026-09-25 06:05:48 [INFO] Spawned PID 7275
+2026-09-25 06:05:48 [INFO] Process test exited with code 1
+2026-09-25 06:05:48 [INFO] Restarting process test
+2026-09-25 06:05:48 [INFO] Spawning process for: test
+2026-09-25 06:05:48 [INFO] Spawned PID 7276
+2026-09-25 06:05:48 [INFO] Process test exited with code 1
+2026-09-25 06:05:48 [INFO] Restarting process test
+2026-09-25 06:05:48 [INFO] Spawning process for: test
+2026-09-25 06:05:48 [INFO] Spawned PID 7277
+2026-09-25 06:05:49 [INFO] Process test is now RUNNING
+2026-09-25 06:05:49 [INFO] Process test is now RUNNING
+2026-09-25 06:05:49 [INFO] Process test is now RUNNING
+2026-09-25 06:05:50 [INFO] Process test exited with code 1
+2026-09-25 06:05:50 [INFO] Restarting process test
+2026-09-25 06:05:50 [INFO] Spawning process for: test
+2026-09-25 06:05:50 [INFO] Spawned PID 7281
+2026-09-25 06:05:50 [INFO] Process test exited with code 1
+2026-09-25 06:05:50 [INFO] Restarting process test
+2026-09-25 06:05:50 [INFO] Spawning process for: test
+2026-09-25 06:05:50 [INFO] Spawned PID 7282
+2026-09-25 06:05:50 [INFO] Process test exited with code 1
+2026-09-25 06:05:50 [INFO] Restarting process test
+2026-09-25 06:05:50 [INFO] Spawning process for: test
+2026-09-25 06:05:50 [INFO] Spawned PID 7283
+2026-09-25 06:05:51 [INFO] Process test is now RUNNING
+2026-09-25 06:05:51 [INFO] Process test is now RUNNING
+2026-09-25 06:05:51 [INFO] Process test is now RUNNING
+2026-09-25 06:05:52 [INFO] Process test exited with code 1
+2026-09-25 06:05:52 [INFO] Restarting process test
+2026-09-25 06:05:52 [INFO] Spawning process for: test
+2026-09-25 06:05:52 [INFO] Spawned PID 7287
+2026-09-25 06:05:52 [INFO] Process test exited with code 1
+2026-09-25 06:05:52 [INFO] Restarting process test
+2026-09-25 06:05:52 [INFO] Spawning process for: test
+2026-09-25 06:05:52 [INFO] Spawned PID 7289
+2026-09-25 06:05:52 [INFO] Process test exited with code 1
+2026-09-25 06:05:52 [INFO] Restarting process test
+2026-09-25 06:05:52 [INFO] Spawning process for: test
+2026-09-25 06:05:52 [INFO] Spawned PID 7290
+2026-09-25 06:05:53 [INFO] Process test is now RUNNING
+2026-09-25 06:05:53 [INFO] Process test is now RUNNING
+2026-09-25 06:05:53 [INFO] Process test is now RUNNING
+2026-09-25 06:05:54 [INFO] Process test exited with code 1
+2026-09-25 06:05:54 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:05:54 [INFO] Process test exited with code 1
+2026-09-25 06:05:54 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:05:54 [INFO] Process test exited with code 1
+2026-09-25 06:05:54 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:07:52 [INFO] Stopping program: test
+2026-09-25 06:07:52 [INFO] Stopping program: test
+2026-09-25 06:08:32 [ERROR] ERROR: Program not found: tets
+2026-09-25 06:08:44 [INFO] Stopping program: test
+2026-09-25 06:08:44 [INFO] Stopping program: test
+2026-09-25 06:09:36 [INFO] Starting program: test
+2026-09-25 06:09:36 [INFO] Starting program: test
+2026-09-25 06:09:36 [INFO] Spawning process for: test
+2026-09-25 06:09:36 [INFO] Spawned PID 7426
+2026-09-25 06:09:36 [INFO] Spawning process for: test
+2026-09-25 06:09:36 [INFO] Spawned PID 7427
+2026-09-25 06:09:36 [INFO] Spawning process for: test
+2026-09-25 06:09:36 [INFO] Spawned PID 7428
+2026-09-25 06:09:37 [INFO] Process test is now RUNNING
+2026-09-25 06:09:37 [INFO] Process test is now RUNNING
+2026-09-25 06:09:37 [INFO] Process test is now RUNNING
+2026-09-25 06:09:38 [INFO] Process test exited with code 1
+2026-09-25 06:09:38 [INFO] Restarting process test
+2026-09-25 06:09:38 [INFO] Spawning process for: test
+2026-09-25 06:09:38 [INFO] Spawned PID 7433
+2026-09-25 06:09:38 [INFO] Process test exited with code 1
+2026-09-25 06:09:38 [INFO] Restarting process test
+2026-09-25 06:09:38 [INFO] Spawning process for: test
+2026-09-25 06:09:38 [INFO] Spawned PID 7434
+2026-09-25 06:09:38 [INFO] Process test exited with code 1
+2026-09-25 06:09:38 [INFO] Restarting process test
+2026-09-25 06:09:38 [INFO] Spawning process for: test
+2026-09-25 06:09:38 [INFO] Spawned PID 7437
+2026-09-25 06:09:39 [INFO] Process test is now RUNNING
+2026-09-25 06:09:39 [INFO] Process test is now RUNNING
+2026-09-25 06:09:39 [INFO] Process test is now RUNNING
+2026-09-25 06:09:40 [INFO] Process test exited with code 1
+2026-09-25 06:09:40 [INFO] Restarting process test
+2026-09-25 06:09:40 [INFO] Spawning process for: test
+2026-09-25 06:09:40 [INFO] Spawned PID 7439
+2026-09-25 06:09:40 [INFO] Process test exited with code 1
+2026-09-25 06:09:40 [INFO] Restarting process test
+2026-09-25 06:09:40 [INFO] Spawning process for: test
+2026-09-25 06:09:40 [INFO] Spawned PID 7440
+2026-09-25 06:09:40 [INFO] Process test exited with code 1
+2026-09-25 06:09:40 [INFO] Restarting process test
+2026-09-25 06:09:40 [INFO] Spawning process for: test
+2026-09-25 06:09:40 [INFO] Spawned PID 7443
+2026-09-25 06:09:41 [INFO] Process test is now RUNNING
+2026-09-25 06:09:41 [INFO] Process test is now RUNNING
+2026-09-25 06:09:41 [INFO] Process test is now RUNNING
+2026-09-25 06:09:42 [INFO] Process test exited with code 1
+2026-09-25 06:09:42 [INFO] Restarting process test
+2026-09-25 06:09:42 [INFO] Spawning process for: test
+2026-09-25 06:09:42 [INFO] Spawned PID 7446
+2026-09-25 06:09:42 [INFO] Process test exited with code 1
+2026-09-25 06:09:42 [INFO] Restarting process test
+2026-09-25 06:09:42 [INFO] Spawning process for: test
+2026-09-25 06:09:42 [INFO] Spawned PID 7447
+2026-09-25 06:09:42 [INFO] Process test exited with code 1
+2026-09-25 06:09:42 [INFO] Restarting process test
+2026-09-25 06:09:42 [INFO] Spawning process for: test
+2026-09-25 06:09:42 [INFO] Spawned PID 7450
+2026-09-25 06:09:43 [INFO] Process test is now RUNNING
+2026-09-25 06:09:43 [INFO] Process test is now RUNNING
+2026-09-25 06:09:43 [INFO] Process test is now RUNNING
+2026-09-25 06:09:44 [INFO] Process test exited with code 1
+2026-09-25 06:09:44 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:09:44 [INFO] Process test exited with code 1
+2026-09-25 06:09:44 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:09:44 [INFO] Process test exited with code 1
+2026-09-25 06:09:44 [ERROR] Process test exceeded retries -> FATAL

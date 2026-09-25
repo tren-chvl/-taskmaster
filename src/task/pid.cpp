@@ -85,7 +85,6 @@ void Taskmaster::spawnProcess(Program &prog, ProcessInfo &proc)
 			if (chdir(prog.config.workingdir.c_str()) != 0)
 				_exit(1);
 		}
-		
 		std::string stdout_path = resolvePath(prog.config.stdout_file, prog.config.workingdir);
 		std::string stderr_path = resolvePath(prog.config.stderr_file, prog.config.workingdir);
 		mkdir("logs", 0755);
@@ -126,6 +125,5 @@ void Taskmaster::spawnProcess(Program &prog, ProcessInfo &proc)
 	proc.pid = pid;
 	proc.state = ProcessState::STARTING;
 	proc.start_timestamp = time(nullptr);
-	proc.retries = 0;
 	log("Spawned PID " + std::to_string(pid));
 }
