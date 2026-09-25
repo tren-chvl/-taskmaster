@@ -3,7 +3,7 @@
 	{
 		"test":
 		{
-			"cmd": "/home/marcheva/taskmaster/test.sh",
+			"cmd": "/home/marcheva/taskmaster/test_err_out.sh",
 			"numprocs": 3,
 			"autorestart": "always",
 			"exitcodes": [0],

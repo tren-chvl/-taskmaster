@@ -11195,3 +11195,270 @@
 2026-09-25 06:09:44 [ERROR] Process test exceeded retries -> FATAL
 2026-09-25 06:09:44 [INFO] Process test exited with code 1
 2026-09-25 06:09:44 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:23:33 [INFO] Taskmaster initalized
+2026-09-25 06:23:33 [INFO] Loading configuration: config/task.json
+2026-09-25 06:23:33 [INFO] Configuration loaded successfully
+2026-09-25 06:23:33 [INFO] Starting interactive Shell
+2026-09-25 06:23:58 [INFO] Taskmaster initalized
+2026-09-25 06:23:58 [INFO] Loading configuration: config/task.json
+2026-09-25 06:23:58 [INFO] Configuration loaded successfully
+2026-09-25 06:23:58 [INFO] Starting interactive Shell
+2026-09-25 06:24:06 [INFO] Starting program: test
+2026-09-25 06:24:06 [INFO] Starting program: test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4091
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4092
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4093
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4094
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4095
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4096
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4097
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4098
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4099
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4100
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4101
+2026-09-25 06:24:06 [INFO] Process test exited with code 1
+2026-09-25 06:24:06 [INFO] Process test died too fast -> BACKOFF
+2026-09-25 06:24:06 [INFO] BACKOFF: retrying process test
+2026-09-25 06:24:06 [INFO] Spawning process for: test
+2026-09-25 06:24:06 [INFO] Spawned PID 4102
+2026-09-25 06:24:07 [INFO] Process test is now RUNNING
+2026-09-25 06:24:07 [INFO] Process test exited with code 1
+2026-09-25 06:24:07 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:24:07 [INFO] Process test is now RUNNING
+2026-09-25 06:24:07 [INFO] Process test exited with code 1
+2026-09-25 06:24:07 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:24:07 [INFO] Process test is now RUNNING
+2026-09-25 06:24:07 [INFO] Process test exited with code 1
+2026-09-25 06:24:07 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:25:01 [INFO] Reloadding conifguration 
+2026-09-25 06:25:01 [INFO] Loading configuration: config/task.json
+2026-09-25 06:25:01 [INFO] Configuration loaded successfully
+2026-09-25 06:25:01 [WARN] Program changed: test
+2026-09-25 06:25:01 [INFO] Stopping program: test
+2026-09-25 06:25:01 [INFO] Starting program: test
+2026-09-25 06:25:01 [INFO] Spawning process for: test
+2026-09-25 06:25:01 [INFO] Spawned PID 4144
+2026-09-25 06:25:01 [INFO] Spawning process for: test
+2026-09-25 06:25:01 [INFO] Spawned PID 4145
+2026-09-25 06:25:01 [INFO] Spawning process for: test
+2026-09-25 06:25:01 [INFO] Spawned PID 4146
+2026-09-25 06:25:01 [INFO] Reload diff complete.
+2026-09-25 06:25:02 [INFO] Process test is now RUNNING
+2026-09-25 06:25:02 [INFO] Process test is now RUNNING
+2026-09-25 06:25:02 [INFO] Process test is now RUNNING
+2026-09-25 06:25:06 [INFO] Starting program: test
+2026-09-25 06:25:06 [INFO] Starting program: test
+2026-09-25 06:25:06 [INFO] Spawning process for: test
+2026-09-25 06:25:06 [INFO] Spawned PID 4172
+2026-09-25 06:25:06 [INFO] Spawning process for: test
+2026-09-25 06:25:06 [INFO] Spawned PID 4173
+2026-09-25 06:25:06 [INFO] Spawning process for: test
+2026-09-25 06:25:06 [INFO] Spawned PID 4174
+2026-09-25 06:25:07 [INFO] Process test is now RUNNING
+2026-09-25 06:25:07 [INFO] Process test is now RUNNING
+2026-09-25 06:25:07 [INFO] Process test is now RUNNING
+2026-09-25 06:25:35 [INFO] Stopping program: test
+2026-09-25 06:25:35 [INFO] Stopping program: test
+2026-09-25 06:25:35 [INFO] Stopping PID 4172 using SIGUSR1
+2026-09-25 06:25:35 [INFO] Stopping PID 4173 using SIGUSR1
+2026-09-25 06:25:35 [INFO] Stopping PID 4174 using SIGUSR1
+2026-09-25 06:25:47 [INFO] Stopping program: test
+2026-09-25 06:25:47 [INFO] Stopping program: test
+2026-09-25 06:25:47 [INFO] Starting program: test
+2026-09-25 06:25:47 [INFO] Starting program: test
+2026-09-25 06:25:47 [INFO] Spawning process for: test
+2026-09-25 06:25:47 [INFO] Spawned PID 4389
+2026-09-25 06:25:47 [INFO] Spawning process for: test
+2026-09-25 06:25:47 [INFO] Spawned PID 4390
+2026-09-25 06:25:47 [INFO] Spawning process for: test
+2026-09-25 06:25:47 [INFO] Spawned PID 4391
+2026-09-25 06:25:48 [INFO] Process test is now RUNNING
+2026-09-25 06:25:48 [INFO] Process test is now RUNNING
+2026-09-25 06:25:48 [INFO] Process test is now RUNNING
+2026-09-25 06:26:00 [INFO] Stopping program: test
+2026-09-25 06:26:00 [INFO] Stopping program: test
+2026-09-25 06:26:00 [INFO] Stopping PID 4389 using SIGUSR1
+2026-09-25 06:26:00 [INFO] Stopping PID 4390 using SIGUSR1
+2026-09-25 06:26:00 [INFO] Stopping PID 4391 using SIGUSR1
+2026-09-25 06:34:10 [INFO] Reloadding conifguration 
+2026-09-25 06:34:10 [INFO] Loading configuration: config/task.json
+2026-09-25 06:34:10 [INFO] Configuration loaded successfully
+2026-09-25 06:34:10 [INFO] Reload diff complete.
+2026-09-25 06:34:19 [INFO] Starting program: test
+2026-09-25 06:34:19 [INFO] Starting program: test
+2026-09-25 06:34:19 [INFO] Spawning process for: test
+2026-09-25 06:34:19 [INFO] Spawned PID 6132
+2026-09-25 06:34:19 [INFO] Spawning process for: test
+2026-09-25 06:34:19 [INFO] Spawned PID 6133
+2026-09-25 06:34:19 [INFO] Spawning process for: test
+2026-09-25 06:34:19 [INFO] Spawned PID 6134
+2026-09-25 06:34:20 [INFO] Process test is now RUNNING
+2026-09-25 06:34:20 [INFO] Process test is now RUNNING
+2026-09-25 06:34:20 [INFO] Process test is now RUNNING
+2026-09-25 06:35:07 [INFO] Reloadding conifguration 
+2026-09-25 06:35:07 [INFO] Loading configuration: config/task.json
+2026-09-25 06:35:07 [INFO] Configuration loaded successfully
+2026-09-25 06:35:07 [WARN] Program changed: test
+2026-09-25 06:35:07 [INFO] Stopping program: test
+2026-09-25 06:35:07 [INFO] Stopping PID 6132 using SIGUSR1
+2026-09-25 06:35:07 [INFO] Stopping PID 6133 using SIGUSR1
+2026-09-25 06:35:07 [INFO] Stopping PID 6134 using SIGUSR1
+2026-09-25 06:35:07 [INFO] Starting program: test
+2026-09-25 06:35:07 [INFO] Spawning process for: test
+2026-09-25 06:35:07 [INFO] Spawned PID 6439
+2026-09-25 06:35:07 [INFO] Spawning process for: test
+2026-09-25 06:35:07 [INFO] Spawned PID 6440
+2026-09-25 06:35:07 [INFO] Spawning process for: test
+2026-09-25 06:35:07 [INFO] Spawned PID 6441
+2026-09-25 06:35:07 [INFO] Reload diff complete.
+2026-09-25 06:35:08 [INFO] Process test is now RUNNING
+2026-09-25 06:35:08 [INFO] Process test is now RUNNING
+2026-09-25 06:35:08 [INFO] Process test is now RUNNING
+2026-09-25 06:35:08 [INFO] Process test exited with code 1
+2026-09-25 06:35:08 [INFO] Restarting process test
+2026-09-25 06:35:08 [INFO] Spawning process for: test
+2026-09-25 06:35:08 [INFO] Spawned PID 6448
+2026-09-25 06:35:08 [INFO] Process test exited with code 1
+2026-09-25 06:35:08 [INFO] Restarting process test
+2026-09-25 06:35:08 [INFO] Spawning process for: test
+2026-09-25 06:35:08 [INFO] Spawned PID 6449
+2026-09-25 06:35:08 [INFO] Process test exited with code 1
+2026-09-25 06:35:08 [INFO] Restarting process test
+2026-09-25 06:35:08 [INFO] Spawning process for: test
+2026-09-25 06:35:08 [INFO] Spawned PID 6450
+2026-09-25 06:35:09 [INFO] Process test is now RUNNING
+2026-09-25 06:35:09 [INFO] Process test is now RUNNING
+2026-09-25 06:35:09 [INFO] Process test is now RUNNING
+2026-09-25 06:35:09 [INFO] Process test exited with code 1
+2026-09-25 06:35:09 [INFO] Restarting process test
+2026-09-25 06:35:09 [INFO] Spawning process for: test
+2026-09-25 06:35:09 [INFO] Spawned PID 6460
+2026-09-25 06:35:09 [INFO] Process test exited with code 1
+2026-09-25 06:35:09 [INFO] Restarting process test
+2026-09-25 06:35:09 [INFO] Spawning process for: test
+2026-09-25 06:35:09 [INFO] Spawned PID 6461
+2026-09-25 06:35:09 [INFO] Process test exited with code 1
+2026-09-25 06:35:09 [INFO] Restarting process test
+2026-09-25 06:35:09 [INFO] Spawning process for: test
+2026-09-25 06:35:09 [INFO] Spawned PID 6462
+2026-09-25 06:35:10 [INFO] Process test is now RUNNING
+2026-09-25 06:35:10 [INFO] Process test is now RUNNING
+2026-09-25 06:35:10 [INFO] Process test is now RUNNING
+2026-09-25 06:35:10 [INFO] Process test exited with code 1
+2026-09-25 06:35:10 [INFO] Restarting process test
+2026-09-25 06:35:10 [INFO] Spawning process for: test
+2026-09-25 06:35:10 [INFO] Spawned PID 6469
+2026-09-25 06:35:10 [INFO] Process test exited with code 1
+2026-09-25 06:35:10 [INFO] Restarting process test
+2026-09-25 06:35:10 [INFO] Spawning process for: test
+2026-09-25 06:35:10 [INFO] Spawned PID 6470
+2026-09-25 06:35:10 [INFO] Process test exited with code 1
+2026-09-25 06:35:10 [INFO] Restarting process test
+2026-09-25 06:35:10 [INFO] Spawning process for: test
+2026-09-25 06:35:10 [INFO] Spawned PID 6471
+2026-09-25 06:35:11 [INFO] Process test is now RUNNING
+2026-09-25 06:35:11 [INFO] Process test is now RUNNING
+2026-09-25 06:35:11 [INFO] Process test is now RUNNING
+2026-09-25 06:35:11 [INFO] Process test exited with code 1
+2026-09-25 06:35:11 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:35:11 [INFO] Process test exited with code 1
+2026-09-25 06:35:11 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:35:11 [INFO] Process test exited with code 1
+2026-09-25 06:35:11 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:35:21 [INFO] Starting program: test
+2026-09-25 06:35:21 [INFO] Starting program: test
+2026-09-25 06:35:21 [INFO] Spawning process for: test
+2026-09-25 06:35:21 [INFO] Spawned PID 6506
+2026-09-25 06:35:21 [INFO] Spawning process for: test
+2026-09-25 06:35:21 [INFO] Spawned PID 6507
+2026-09-25 06:35:21 [INFO] Spawning process for: test
+2026-09-25 06:35:21 [INFO] Spawned PID 6508
+2026-09-25 06:35:22 [INFO] Process test is now RUNNING
+2026-09-25 06:35:22 [INFO] Process test is now RUNNING
+2026-09-25 06:35:22 [INFO] Process test is now RUNNING
+2026-09-25 06:35:22 [INFO] Process test exited with code 1
+2026-09-25 06:35:22 [INFO] Restarting process test
+2026-09-25 06:35:22 [INFO] Spawning process for: test
+2026-09-25 06:35:22 [INFO] Spawned PID 6515
+2026-09-25 06:35:22 [INFO] Process test exited with code 1
+2026-09-25 06:35:22 [INFO] Restarting process test
+2026-09-25 06:35:22 [INFO] Spawning process for: test
+2026-09-25 06:35:22 [INFO] Spawned PID 6516
+2026-09-25 06:35:22 [INFO] Process test exited with code 1
+2026-09-25 06:35:22 [INFO] Restarting process test
+2026-09-25 06:35:22 [INFO] Spawning process for: test
+2026-09-25 06:35:22 [INFO] Spawned PID 6517
+2026-09-25 06:35:23 [INFO] Process test is now RUNNING
+2026-09-25 06:35:23 [INFO] Process test is now RUNNING
+2026-09-25 06:35:23 [INFO] Process test is now RUNNING
+2026-09-25 06:35:23 [INFO] Process test exited with code 1
+2026-09-25 06:35:23 [INFO] Restarting process test
+2026-09-25 06:35:23 [INFO] Spawning process for: test
+2026-09-25 06:35:23 [INFO] Spawned PID 6524
+2026-09-25 06:35:23 [INFO] Process test exited with code 1
+2026-09-25 06:35:23 [INFO] Restarting process test
+2026-09-25 06:35:23 [INFO] Spawning process for: test
+2026-09-25 06:35:23 [INFO] Spawned PID 6525
+2026-09-25 06:35:23 [INFO] Process test exited with code 1
+2026-09-25 06:35:23 [INFO] Restarting process test
+2026-09-25 06:35:23 [INFO] Spawning process for: test
+2026-09-25 06:35:23 [INFO] Spawned PID 6526
+2026-09-25 06:35:24 [INFO] Process test is now RUNNING
+2026-09-25 06:35:24 [INFO] Process test is now RUNNING
+2026-09-25 06:35:24 [INFO] Process test is now RUNNING
+2026-09-25 06:35:24 [INFO] Process test exited with code 1
+2026-09-25 06:35:24 [INFO] Restarting process test
+2026-09-25 06:35:24 [INFO] Spawning process for: test
+2026-09-25 06:35:24 [INFO] Spawned PID 6533
+2026-09-25 06:35:24 [INFO] Process test exited with code 1
+2026-09-25 06:35:24 [INFO] Restarting process test
+2026-09-25 06:35:24 [INFO] Spawning process for: test
+2026-09-25 06:35:24 [INFO] Spawned PID 6534
+2026-09-25 06:35:24 [INFO] Process test exited with code 1
+2026-09-25 06:35:24 [INFO] Restarting process test
+2026-09-25 06:35:24 [INFO] Spawning process for: test
+2026-09-25 06:35:24 [INFO] Spawned PID 6535
+2026-09-25 06:35:25 [INFO] Process test is now RUNNING
+2026-09-25 06:35:25 [INFO] Process test is now RUNNING
+2026-09-25 06:35:25 [INFO] Process test is now RUNNING
+2026-09-25 06:35:25 [INFO] Process test exited with code 1
+2026-09-25 06:35:25 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:35:25 [INFO] Process test exited with code 1
+2026-09-25 06:35:25 [ERROR] Process test exceeded retries -> FATAL
+2026-09-25 06:35:25 [INFO] Process test exited with code 1
+2026-09-25 06:35:25 [ERROR] Process test exceeded retries -> FATAL
