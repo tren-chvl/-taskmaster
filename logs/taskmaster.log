@@ -11839,3 +11839,537 @@
 2026-09-25 10:04:54 [INFO] Configuration loaded successfully
 2026-09-25 10:04:54 [INFO] Starting interactive Shell
 2026-09-25 10:04:54 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 04:29:22 [INFO] Taskmaster initalized
+2026-10-12 04:29:22 [INFO] Loading configuration: config/task.json
+2026-10-12 04:29:22 [INFO] Configuration loaded successfully
+2026-10-12 04:29:22 [INFO] Starting interactive Shell
+2026-10-12 04:29:22 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 04:29:45 [ERROR] ERROR: program not found: test
+2026-10-12 04:30:04 [INFO] Starting program: running
+2026-10-12 04:30:04 [INFO] Starting program: running
+2026-10-12 04:30:04 [INFO] Spawning process for: running
+2026-10-12 04:30:04 [INFO] Spawned PID 4204
+2026-10-12 04:30:04 [INFO] Process running exited with code 1
+2026-10-12 04:30:04 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 04:30:05 [INFO] BACKOFF: retrying process running
+2026-10-12 04:30:05 [INFO] Spawning process for: running
+2026-10-12 04:30:05 [INFO] Spawned PID 4206
+2026-10-12 04:30:05 [INFO] Process running exited with code 1
+2026-10-12 04:30:05 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 04:30:06 [INFO] BACKOFF: retrying process running
+2026-10-12 04:30:06 [INFO] Spawning process for: running
+2026-10-12 04:30:06 [INFO] Spawned PID 4209
+2026-10-12 04:30:06 [INFO] Process running exited with code 1
+2026-10-12 04:30:06 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 04:32:20 [INFO] Reloadding conifguration 
+2026-10-12 04:32:20 [INFO] Loading configuration: config/task.json
+2026-10-12 04:32:20 [INFO] Configuration loaded successfully
+2026-10-12 04:32:20 [WARN] Program changed: running
+2026-10-12 04:32:20 [INFO] Stopping program: running
+2026-10-12 04:32:20 [INFO] Starting program: running
+2026-10-12 04:32:20 [INFO] Spawning process for: running
+2026-10-12 04:32:20 [INFO] Spawned PID 4291
+2026-10-12 04:32:20 [INFO] Reload diff complete.
+2026-10-12 04:32:20 [INFO] Process running exited with code 1
+2026-10-12 04:32:20 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 04:32:21 [INFO] BACKOFF: retrying process running
+2026-10-12 04:32:21 [INFO] Spawning process for: running
+2026-10-12 04:32:21 [INFO] Spawned PID 4293
+2026-10-12 04:32:21 [INFO] Process running exited with code 1
+2026-10-12 04:32:21 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 04:32:22 [INFO] BACKOFF: retrying process running
+2026-10-12 04:32:22 [INFO] Spawning process for: running
+2026-10-12 04:32:22 [INFO] Spawned PID 4294
+2026-10-12 04:32:22 [INFO] Process running exited with code 1
+2026-10-12 04:32:22 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 04:32:51 [INFO] Reloadding conifguration 
+2026-10-12 04:32:51 [INFO] Loading configuration: config/task.json
+2026-10-12 04:32:51 [INFO] Configuration loaded successfully
+2026-10-12 04:32:51 [INFO] Reload diff complete.
+2026-10-12 04:33:02 [INFO] Starting program: running
+2026-10-12 04:33:02 [INFO] Starting program: running
+2026-10-12 04:33:02 [INFO] Spawning process for: running
+2026-10-12 04:33:02 [INFO] Spawned PID 4298
+2026-10-12 04:33:03 [INFO] Process running is now RUNNING
+2026-10-12 04:33:03 [INFO] Process running exited with code 1
+2026-10-12 04:33:03 [INFO] Restarting process running
+2026-10-12 04:33:03 [INFO] Spawning process for: running
+2026-10-12 04:33:03 [INFO] Spawned PID 4299
+2026-10-12 04:33:03 [INFO] Process running exited with code 1
+2026-10-12 04:33:03 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 04:33:04 [INFO] BACKOFF: retrying process running
+2026-10-12 04:33:04 [INFO] Spawning process for: running
+2026-10-12 04:33:04 [INFO] Spawned PID 4300
+2026-10-12 04:33:04 [INFO] Process running exited with code 1
+2026-10-12 04:33:04 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 04:33:46 [INFO] Reloadding conifguration 
+2026-10-12 04:33:46 [INFO] Loading configuration: config/task.json
+2026-10-12 04:33:46 [INFO] Configuration loaded successfully
+2026-10-12 04:33:46 [WARN] Program changed: running
+2026-10-12 04:33:46 [INFO] Stopping program: running
+2026-10-12 04:33:46 [INFO] Starting program: running
+2026-10-12 04:33:46 [INFO] Spawning process for: running
+2026-10-12 04:33:46 [INFO] Spawned PID 4377
+2026-10-12 04:33:46 [WARN] Program changed: test_err
+2026-10-12 04:33:46 [INFO] Stopping program: test_err
+2026-10-12 04:33:46 [INFO] Starting program: test_err
+2026-10-12 04:33:46 [INFO] Spawning process for: test_err
+2026-10-12 04:33:46 [INFO] Spawned PID 4378
+2026-10-12 04:33:46 [INFO] Spawning process for: test_err
+2026-10-12 04:33:46 [INFO] Spawned PID 4379
+2026-10-12 04:33:46 [INFO] Spawning process for: test_err
+2026-10-12 04:33:46 [INFO] Spawned PID 4380
+2026-10-12 04:33:46 [INFO] Reload diff complete.
+2026-10-12 04:33:47 [INFO] Process running is now RUNNING
+2026-10-12 04:33:47 [INFO] Process test_err is now RUNNING
+2026-10-12 04:33:47 [INFO] Process test_err exited with code 0
+2026-10-12 04:33:47 [INFO] Exit code is expected → no autorestart
+2026-10-12 04:33:47 [INFO] Process test_err is now RUNNING
+2026-10-12 04:33:47 [INFO] Process test_err exited with code 0
+2026-10-12 04:33:47 [INFO] Exit code is expected → no autorestart
+2026-10-12 04:33:47 [INFO] Process test_err is now RUNNING
+2026-10-12 04:33:47 [INFO] Process test_err exited with code 0
+2026-10-12 04:33:47 [INFO] Exit code is expected → no autorestart
+2026-10-12 04:38:24 [INFO] Taskmaster initalized
+2026-10-12 04:38:24 [INFO] Loading configuration: config/task.json
+2026-10-12 04:38:24 [INFO] Configuration loaded successfully
+2026-10-12 04:38:24 [INFO] Starting interactive Shell
+2026-10-12 04:38:24 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 04:40:18 [INFO] Taskmaster initalized
+2026-10-12 04:40:18 [INFO] Loading configuration: config/task.json
+2026-10-12 04:40:18 [INFO] Configuration loaded successfully
+2026-10-12 04:40:18 [INFO] Starting interactive Shell
+2026-10-12 04:40:18 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 04:40:30 [INFO] Starting program: running
+2026-10-12 04:40:30 [INFO] Starting program: running
+2026-10-12 04:40:30 [INFO] Spawning process for: running
+2026-10-12 04:40:30 [INFO] Spawned PID 4980
+2026-10-12 04:40:31 [INFO] Process running is now RUNNING
+2026-10-12 04:42:12 [INFO] Stopping program: running
+2026-10-12 04:42:12 [INFO] Stopping program: running
+2026-10-12 04:42:12 [INFO] Stopping PID 4980 using SIGTERM
+2026-10-12 04:52:15 [INFO] Starting program: test_err
+2026-10-12 04:52:15 [INFO] Starting program: test_err
+2026-10-12 04:52:15 [INFO] Spawning process for: test_err
+2026-10-12 04:52:15 [INFO] Spawned PID 6410
+2026-10-12 04:52:15 [INFO] Spawning process for: test_err
+2026-10-12 04:52:15 [INFO] Spawned PID 6411
+2026-10-12 04:52:15 [INFO] Spawning process for: test_err
+2026-10-12 04:52:15 [INFO] Spawned PID 6412
+2026-10-12 04:52:16 [INFO] Process test_err is now RUNNING
+2026-10-12 04:52:16 [INFO] Process test_err exited with code 0
+2026-10-12 04:52:16 [INFO] Exit code is expected -> no autorestart
+2026-10-12 04:52:16 [INFO] Process test_err is now RUNNING
+2026-10-12 04:52:16 [INFO] Process test_err exited with code 0
+2026-10-12 04:52:16 [INFO] Exit code is expected -> no autorestart
+2026-10-12 04:52:16 [INFO] Process test_err is now RUNNING
+2026-10-12 04:52:16 [INFO] Process test_err exited with code 0
+2026-10-12 04:52:16 [INFO] Exit code is expected -> no autorestart
+2026-10-12 05:04:09 [INFO] Reloadding configuration 
+2026-10-12 05:04:09 [INFO] Loading configuration: config/task.json
+2026-10-12 05:04:09 [INFO] Configuration loaded successfully
+2026-10-12 05:04:09 [WARN] Program changed: running
+2026-10-12 05:04:09 [INFO] Stopping program: running
+2026-10-12 05:04:09 [INFO] Starting program: running
+2026-10-12 05:04:09 [INFO] Spawning process for: running
+2026-10-12 05:04:09 [INFO] Spawned PID 7285
+2026-10-12 05:04:09 [INFO] Reload diff complete.
+2026-10-12 05:04:10 [INFO] Process running is now RUNNING
+2026-10-12 05:04:10 [INFO] Process running exited with code 1
+2026-10-12 05:04:10 [INFO] Restarting process running
+2026-10-12 05:04:10 [INFO] Spawning process for: running
+2026-10-12 05:04:10 [INFO] Spawned PID 7287
+2026-10-12 05:04:10 [INFO] Process running exited with code 1
+2026-10-12 05:04:10 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:04:11 [INFO] BACKOFF: retrying process running
+2026-10-12 05:04:11 [INFO] Spawning process for: running
+2026-10-12 05:04:11 [INFO] Spawned PID 7289
+2026-10-12 05:04:11 [INFO] Process running exited with code 1
+2026-10-12 05:04:11 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 05:04:26 [INFO] Starting program: running
+2026-10-12 05:04:26 [INFO] Starting program: running
+2026-10-12 05:04:26 [INFO] Spawning process for: running
+2026-10-12 05:04:26 [INFO] Spawned PID 7307
+2026-10-12 05:04:26 [INFO] Process running exited with code 1
+2026-10-12 05:04:26 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:04:27 [INFO] BACKOFF: retrying process running
+2026-10-12 05:04:27 [INFO] Spawning process for: running
+2026-10-12 05:04:27 [INFO] Spawned PID 7310
+2026-10-12 05:04:27 [INFO] Process running exited with code 1
+2026-10-12 05:04:27 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:04:28 [INFO] BACKOFF: retrying process running
+2026-10-12 05:04:28 [INFO] Spawning process for: running
+2026-10-12 05:04:28 [INFO] Spawned PID 7312
+2026-10-12 05:04:28 [INFO] Process running exited with code 1
+2026-10-12 05:04:28 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 05:06:09 [INFO] Starting program: running
+2026-10-12 05:06:09 [INFO] Starting program: running
+2026-10-12 05:06:09 [INFO] Spawning process for: running
+2026-10-12 05:06:09 [INFO] Spawned PID 7467
+2026-10-12 05:06:09 [INFO] Process running exited with code 1
+2026-10-12 05:06:09 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:06:10 [INFO] BACKOFF: retrying process running
+2026-10-12 05:06:10 [INFO] Spawning process for: running
+2026-10-12 05:06:10 [INFO] Spawned PID 7470
+2026-10-12 05:06:11 [INFO] Process running is now RUNNING
+2026-10-12 05:06:11 [INFO] Process running exited with code 1
+2026-10-12 05:06:11 [INFO] Restarting process running
+2026-10-12 05:06:11 [INFO] Spawning process for: running
+2026-10-12 05:06:11 [INFO] Spawned PID 7471
+2026-10-12 05:06:11 [INFO] Process running exited with code 1
+2026-10-12 05:06:11 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 05:08:19 [INFO] Starting program: running
+2026-10-12 05:08:19 [INFO] Starting program: running
+2026-10-12 05:08:19 [INFO] Spawning process for: running
+2026-10-12 05:08:19 [INFO] Spawned PID 7620
+2026-10-12 05:08:19 [INFO] Process running exited with code 1
+2026-10-12 05:08:19 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:08:20 [INFO] BACKOFF: retrying process running
+2026-10-12 05:08:20 [INFO] Spawning process for: running
+2026-10-12 05:08:20 [INFO] Spawned PID 7623
+2026-10-12 05:08:20 [INFO] Process running exited with code 1
+2026-10-12 05:08:20 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:08:21 [INFO] BACKOFF: retrying process running
+2026-10-12 05:08:21 [INFO] Spawning process for: running
+2026-10-12 05:08:21 [INFO] Spawned PID 7625
+2026-10-12 05:08:21 [INFO] Process running exited with code 1
+2026-10-12 05:08:21 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 05:10:57 [INFO] Reloadding configuration 
+2026-10-12 05:10:57 [INFO] Loading configuration: config/task.json
+2026-10-12 05:10:57 [INFO] Configuration loaded successfully
+2026-10-12 05:10:57 [WARN] Program changed: running
+2026-10-12 05:10:57 [INFO] Stopping program: running
+2026-10-12 05:10:57 [INFO] Starting program: running
+2026-10-12 05:10:57 [INFO] Spawning process for: running
+2026-10-12 05:10:57 [INFO] Spawned PID 7840
+2026-10-12 05:10:57 [INFO] Reload diff complete.
+2026-10-12 05:10:57 [INFO] Process running exited with code 1
+2026-10-12 05:10:57 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:10:58 [INFO] BACKOFF: retrying process running
+2026-10-12 05:10:58 [INFO] Spawning process for: running
+2026-10-12 05:10:58 [INFO] Spawned PID 7842
+2026-10-12 05:10:59 [INFO] Process running is now RUNNING
+2026-10-12 05:10:59 [INFO] Process running exited with code 1
+2026-10-12 05:10:59 [INFO] Restarting process running
+2026-10-12 05:10:59 [INFO] Spawning process for: running
+2026-10-12 05:10:59 [INFO] Spawned PID 7844
+2026-10-12 05:10:59 [INFO] Process running exited with code 1
+2026-10-12 05:10:59 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:11:00 [INFO] BACKOFF: retrying process running
+2026-10-12 05:11:00 [INFO] Spawning process for: running
+2026-10-12 05:11:00 [INFO] Spawned PID 7846
+2026-10-12 05:11:00 [INFO] Process running exited with code 1
+2026-10-12 05:11:00 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:11:01 [INFO] BACKOFF: retrying process running
+2026-10-12 05:11:01 [INFO] Spawning process for: running
+2026-10-12 05:11:01 [INFO] Spawned PID 7848
+2026-10-12 05:11:01 [INFO] Process running exited with code 1
+2026-10-12 05:11:01 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 05:12:50 [INFO] Starting program: running
+2026-10-12 05:12:50 [INFO] Starting program: running
+2026-10-12 05:12:50 [INFO] Spawning process for: running
+2026-10-12 05:12:50 [INFO] Spawned PID 7977
+2026-10-12 05:12:50 [INFO] Process running exited with code 1
+2026-10-12 05:12:50 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:12:51 [INFO] BACKOFF: retrying process running
+2026-10-12 05:12:51 [INFO] Spawning process for: running
+2026-10-12 05:12:51 [INFO] Spawned PID 7979
+2026-10-12 05:12:51 [INFO] Process running exited with code 1
+2026-10-12 05:12:51 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:12:52 [INFO] BACKOFF: retrying process running
+2026-10-12 05:12:52 [INFO] Spawning process for: running
+2026-10-12 05:12:52 [INFO] Spawned PID 7981
+2026-10-12 05:12:53 [INFO] Process running is now RUNNING
+2026-10-12 05:12:53 [INFO] Process running exited with code 1
+2026-10-12 05:12:53 [INFO] Restarting process running
+2026-10-12 05:12:53 [INFO] Spawning process for: running
+2026-10-12 05:12:53 [INFO] Spawned PID 7982
+2026-10-12 05:12:53 [INFO] Process running exited with code 1
+2026-10-12 05:12:53 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 05:12:54 [INFO] BACKOFF: retrying process running
+2026-10-12 05:12:54 [INFO] Spawning process for: running
+2026-10-12 05:12:54 [INFO] Spawned PID 7984
+2026-10-12 05:12:54 [INFO] Process running exited with code 1
+2026-10-12 05:12:54 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 05:59:16 [INFO] Taskmaster initalized
+2026-10-12 05:59:16 [INFO] Loading configuration: config/task.json
+2026-10-12 05:59:16 [INFO] Configuration loaded successfully
+2026-10-12 05:59:16 [INFO] Starting interactive Shell
+2026-10-12 05:59:16 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 06:00:36 [INFO] Starting program: running
+2026-10-12 06:00:36 [INFO] Starting program: running
+2026-10-12 06:00:36 [INFO] Spawning process for: running
+2026-10-12 06:00:36 [INFO] Spawned PID 12235
+2026-10-12 06:00:36 [INFO] Process running exited with code 1
+2026-10-12 06:00:36 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 06:00:37 [INFO] BACKOFF: retrying process running
+2026-10-12 06:00:37 [INFO] Spawning process for: running
+2026-10-12 06:00:37 [INFO] Spawned PID 12239
+2026-10-12 06:00:37 [INFO] Process running exited with code 1
+2026-10-12 06:00:37 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 06:00:38 [INFO] BACKOFF: retrying process running
+2026-10-12 06:00:38 [INFO] Spawning process for: running
+2026-10-12 06:00:38 [INFO] Spawned PID 12241
+2026-10-12 06:00:38 [INFO] Process running exited with code 1
+2026-10-12 06:00:38 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 06:00:39 [INFO] BACKOFF: retrying process running
+2026-10-12 06:00:39 [INFO] Spawning process for: running
+2026-10-12 06:00:39 [INFO] Spawned PID 12243
+2026-10-12 06:00:40 [INFO] Process running is now RUNNING
+2026-10-12 06:00:40 [INFO] Process running exited with code 1
+2026-10-12 06:00:40 [INFO] Restarting process running
+2026-10-12 06:00:40 [INFO] Spawning process for: running
+2026-10-12 06:00:40 [INFO] Spawned PID 12245
+2026-10-12 06:00:40 [INFO] Process running exited with code 1
+2026-10-12 06:00:40 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 06:04:12 [INFO] Stopping program: running
+2026-10-12 06:04:12 [INFO] Stopping program: running
+2026-10-12 06:04:12 [INFO] Starting program: running
+2026-10-12 06:04:12 [INFO] Starting program: running
+2026-10-12 06:04:12 [INFO] Spawning process for: running
+2026-10-12 06:04:12 [INFO] Spawned PID 12524
+2026-10-12 06:04:12 [INFO] Process running exited with code 1
+2026-10-12 06:04:12 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 06:04:13 [INFO] BACKOFF: retrying process running
+2026-10-12 06:04:13 [INFO] Spawning process for: running
+2026-10-12 06:04:13 [INFO] Spawned PID 12526
+2026-10-12 06:04:13 [INFO] Process running exited with code 1
+2026-10-12 06:04:13 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 06:04:14 [INFO] BACKOFF: retrying process running
+2026-10-12 06:04:14 [INFO] Spawning process for: running
+2026-10-12 06:04:14 [INFO] Spawned PID 12532
+2026-10-12 06:04:14 [INFO] Process running exited with code 1
+2026-10-12 06:04:14 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 06:04:15 [INFO] BACKOFF: retrying process running
+2026-10-12 06:04:15 [INFO] Spawning process for: running
+2026-10-12 06:04:15 [INFO] Spawned PID 12534
+2026-10-12 06:04:15 [INFO] Process running exited with code 1
+2026-10-12 06:04:15 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 06:04:16 [INFO] BACKOFF: retrying process running
+2026-10-12 06:04:16 [INFO] Spawning process for: running
+2026-10-12 06:04:16 [INFO] Spawned PID 12537
+2026-10-12 06:04:17 [INFO] Process running is now RUNNING
+2026-10-12 06:04:17 [INFO] Process running exited with code 1
+2026-10-12 06:04:17 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 07:35:15 [INFO] Taskmaster initalized
+2026-10-12 07:35:15 [INFO] Loading configuration: config/task.json
+2026-10-12 07:35:15 [INFO] Configuration loaded successfully
+2026-10-12 07:35:15 [INFO] Starting interactive Shell
+2026-10-12 07:35:15 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 07:39:30 [INFO] Starting program: running
+2026-10-12 07:39:30 [INFO] Starting program: running
+2026-10-12 07:39:30 [INFO] Spawning process for: running
+2026-10-12 07:39:30 [INFO] Spawned PID 19691
+2026-10-12 07:39:30 [INFO] Process running exited with code 1
+2026-10-12 07:39:30 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 07:39:31 [INFO] BACKOFF: retrying process running
+2026-10-12 07:39:31 [INFO] Spawning process for: running
+2026-10-12 07:39:31 [INFO] Spawned PID 19693
+2026-10-12 07:39:31 [INFO] Process running exited with code 1
+2026-10-12 07:39:31 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 07:39:32 [INFO] BACKOFF: retrying process running
+2026-10-12 07:39:32 [INFO] Spawning process for: running
+2026-10-12 07:39:32 [INFO] Spawned PID 19695
+2026-10-12 07:39:32 [INFO] Process running exited with code 1
+2026-10-12 07:39:32 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 07:39:33 [INFO] BACKOFF: retrying process running
+2026-10-12 07:39:33 [INFO] Spawning process for: running
+2026-10-12 07:39:33 [INFO] Spawned PID 19698
+2026-10-12 07:39:33 [INFO] Process running exited with code 1
+2026-10-12 07:39:33 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 07:39:34 [INFO] BACKOFF: retrying process running
+2026-10-12 07:39:34 [INFO] Spawning process for: running
+2026-10-12 07:39:34 [INFO] Spawned PID 19700
+2026-10-12 07:39:35 [INFO] Process running is now RUNNING
+2026-10-12 07:39:35 [INFO] Process running exited with code 1
+2026-10-12 07:39:35 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 07:40:10 [INFO] Reloadding configuration 
+2026-10-12 07:40:10 [INFO] Loading configuration: config/task.json
+2026-10-12 07:40:10 [INFO] Configuration loaded successfully
+2026-10-12 07:40:10 [INFO] Reload diff complete.
+2026-10-12 07:41:48 [INFO] Taskmaster initalized
+2026-10-12 07:41:48 [INFO] Loading configuration: config/task.json
+2026-10-12 07:41:48 [INFO] Configuration loaded successfully
+2026-10-12 07:41:48 [INFO] Starting interactive Shell
+2026-10-12 07:41:48 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 07:43:28 [INFO] Taskmaster initalized
+2026-10-12 07:43:28 [INFO] Loading configuration: config/task.json
+2026-10-12 07:43:28 [INFO] Configuration loaded successfully
+2026-10-12 07:43:28 [INFO] Starting interactive Shell
+2026-10-12 07:43:28 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 07:43:51 [INFO] Starting program: running
+2026-10-12 07:43:51 [INFO] Starting program: running
+2026-10-12 07:43:51 [INFO] Spawning process for: running
+2026-10-12 07:43:51 [INFO] Spawned PID 20023
+2026-10-12 07:43:51 [INFO] Process running exited with code 1
+2026-10-12 07:43:51 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 07:43:52 [INFO] BACKOFF: retrying process running
+2026-10-12 07:43:52 [INFO] Spawning process for: running
+2026-10-12 07:43:52 [INFO] Spawned PID 20026
+2026-10-12 07:43:52 [INFO] Process running exited with code 1
+2026-10-12 07:43:52 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 07:43:53 [INFO] BACKOFF: retrying process running
+2026-10-12 07:43:53 [INFO] Spawning process for: running
+2026-10-12 07:43:53 [INFO] Spawned PID 20028
+2026-10-12 07:43:53 [INFO] Process running exited with code 1
+2026-10-12 07:43:53 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 07:43:54 [INFO] BACKOFF: retrying process running
+2026-10-12 07:43:54 [INFO] Spawning process for: running
+2026-10-12 07:43:54 [INFO] Spawned PID 20030
+2026-10-12 07:43:54 [INFO] Process running exited with code 1
+2026-10-12 07:43:54 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 07:43:55 [INFO] BACKOFF: retrying process running
+2026-10-12 07:43:55 [INFO] Spawning process for: running
+2026-10-12 07:43:55 [INFO] Spawned PID 20032
+2026-10-12 07:43:56 [INFO] Process running is now RUNNING
+2026-10-12 07:43:56 [INFO] Process running exited with code 1
+2026-10-12 07:43:56 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 08:04:16 [INFO] Taskmaster initalized
+2026-10-12 08:04:16 [INFO] Loading configuration: config/task.json
+2026-10-12 08:04:16 [INFO] Configuration loaded successfully
+2026-10-12 08:04:16 [INFO] Starting interactive Shell
+2026-10-12 08:04:16 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 08:04:27 [INFO] Starting program: running
+2026-10-12 08:04:27 [INFO] Starting program: running
+2026-10-12 08:04:27 [INFO] Spawning process for: running
+2026-10-12 08:04:27 [INFO] Spawned PID 21614
+2026-10-12 08:04:27 [INFO] Process running exited with code 1
+2026-10-12 08:04:27 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 08:04:28 [INFO] BACKOFF: retrying process running
+2026-10-12 08:04:28 [INFO] Spawning process for: running
+2026-10-12 08:04:28 [INFO] Spawned PID 21616
+2026-10-12 08:04:29 [INFO] Process running is now RUNNING
+2026-10-12 08:04:29 [INFO] Process running exited with code 1
+2026-10-12 08:04:29 [INFO] Restarting process running
+2026-10-12 08:04:29 [INFO] Spawning process for: running
+2026-10-12 08:04:29 [INFO] Spawned PID 21617
+2026-10-12 08:04:29 [INFO] Process running exited with code 1
+2026-10-12 08:04:29 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 08:04:30 [INFO] BACKOFF: retrying process running
+2026-10-12 08:04:30 [INFO] Spawning process for: running
+2026-10-12 08:04:30 [INFO] Spawned PID 21619
+2026-10-12 08:04:30 [INFO] Process running exited with code 1
+2026-10-12 08:04:30 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 08:04:31 [INFO] BACKOFF: retrying process running
+2026-10-12 08:04:31 [INFO] Spawning process for: running
+2026-10-12 08:04:31 [INFO] Spawned PID 21621
+2026-10-12 08:04:31 [INFO] Process running exited with code 1
+2026-10-12 08:04:31 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 08:45:22 [INFO] Taskmaster initalized
+2026-10-12 08:45:22 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 08:45:22 [INFO] Configuration loaded successfully
+2026-10-12 08:45:43 [INFO] Taskmaster initalized
+2026-10-12 08:45:43 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 08:45:43 [INFO] Configuration loaded successfully
+2026-10-12 08:45:43 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 08:45:43 [INFO] Starting interactive Shell
+2026-10-12 08:45:43 [ERROR] ERROR: bind() failed
+2026-10-12 08:50:02 [INFO] Taskmaster initalized
+2026-10-12 08:50:02 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 08:50:02 [INFO] Configuration loaded successfully
+2026-10-12 08:50:02 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 08:50:02 [INFO] Starting interactive Shell
+2026-10-12 08:50:02 [ERROR] ERROR: bind() failed
+2026-10-12 08:50:25 [ERROR] ERROR: program not found: runnning
+2026-10-12 08:50:37 [INFO] Starting program: running
+2026-10-12 08:50:37 [INFO] Starting program: running
+2026-10-12 08:50:37 [INFO] Spawning process for: running
+2026-10-12 08:50:37 [INFO] Spawned PID 25386
+2026-10-12 08:50:37 [INFO] Process running exited with code 1
+2026-10-12 08:50:37 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 08:50:38 [INFO] BACKOFF: retrying process running
+2026-10-12 08:50:38 [INFO] Spawning process for: running
+2026-10-12 08:50:38 [INFO] Spawned PID 25388
+2026-10-12 08:50:38 [INFO] Process running exited with code 1
+2026-10-12 08:50:38 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 08:50:39 [INFO] BACKOFF: retrying process running
+2026-10-12 08:50:39 [INFO] Spawning process for: running
+2026-10-12 08:50:39 [INFO] Spawned PID 25391
+2026-10-12 08:50:40 [INFO] Process running is now RUNNING
+2026-10-12 08:50:40 [INFO] Process running exited with code 1
+2026-10-12 08:50:40 [INFO] Restarting process running
+2026-10-12 08:50:40 [INFO] Spawning process for: running
+2026-10-12 08:50:40 [INFO] Spawned PID 25392
+2026-10-12 08:50:40 [INFO] Process running exited with code 1
+2026-10-12 08:50:40 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 08:50:41 [INFO] BACKOFF: retrying process running
+2026-10-12 08:50:41 [INFO] Spawning process for: running
+2026-10-12 08:50:41 [INFO] Spawned PID 25394
+2026-10-12 08:50:41 [INFO] Process running exited with code 1
+2026-10-12 08:50:41 [ERROR] Process running exceeded retries -> FATAL
+2026-10-12 08:54:42 [INFO] Taskmaster initalized
+2026-10-12 08:54:42 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 08:54:42 [INFO] Configuration loaded successfully
+2026-10-12 08:54:42 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 08:54:42 [INFO] Starting interactive Shell
+2026-10-12 08:54:42 [ERROR] ERROR: bind() failed
+2026-10-12 08:56:33 [INFO] Taskmaster initalized
+2026-10-12 08:56:33 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 08:56:33 [INFO] Configuration loaded successfully
+2026-10-12 08:56:33 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 08:56:33 [INFO] Starting interactive Shell
+2026-10-12 08:56:33 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 08:56:52 [INFO] Taskmaster initalized
+2026-10-12 08:56:52 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 08:56:52 [INFO] Configuration loaded successfully
+2026-10-12 08:56:52 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 08:56:52 [INFO] Starting interactive Shell
+2026-10-12 08:56:52 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 09:03:44 [INFO] Taskmaster initalized
+2026-10-12 09:03:44 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 09:03:44 [INFO] Configuration loaded successfully
+2026-10-12 09:03:44 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 09:03:44 [INFO] Starting interactive Shell
+2026-10-12 09:03:44 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 09:09:30 [INFO] Taskmaster initalized
+2026-10-12 09:09:30 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 09:09:30 [INFO] Configuration loaded successfully
+2026-10-12 09:09:30 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 09:09:30 [INFO] Starting interactive Shell
+2026-10-12 09:09:30 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 09:12:39 [INFO] Taskmaster initalized
+2026-10-12 09:12:39 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 09:12:39 [INFO] Configuration loaded successfully
+2026-10-12 09:12:39 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 09:12:39 [INFO] Starting interactive Shell
+2026-10-12 09:12:39 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 09:15:06 [INFO] Taskmaster initalized
+2026-10-12 09:15:06 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 09:15:06 [INFO] Configuration loaded successfully
+2026-10-12 09:15:06 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 09:15:06 [INFO] Starting interactive Shell
+2026-10-12 09:15:06 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 09:19:30 [INFO] Received SIGHUP: reloading configuration
+2026-10-12 09:19:30 [INFO] Received SIGHUP: reloading configuration
+2026-10-12 09:24:25 [INFO] Taskmaster initalized
+2026-10-12 09:24:25 [INFO] Loading configuration: /home/marcheva/taskmaster/config/task.json
+2026-10-12 09:24:25 [INFO] Configuration loaded successfully
+2026-10-12 09:24:25 [INFO] Privileges dropped: running as taskmaster
+2026-10-12 09:24:25 [INFO] Starting interactive Shell
+2026-10-12 09:24:25 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-12 09:26:02 [INFO] Starting program: running
+2026-10-12 09:26:02 [INFO] Starting program: running
+2026-10-12 09:26:02 [INFO] Spawning process for: running
+2026-10-12 09:26:02 [INFO] Spawned PID 3238
+2026-10-12 09:26:02 [INFO] Process running exited with code 1
+2026-10-12 09:26:02 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 09:26:03 [INFO] BACKOFF: retrying process running
+2026-10-12 09:26:03 [INFO] Spawning process for: running
+2026-10-12 09:26:03 [INFO] Spawned PID 3239
+2026-10-12 09:26:03 [INFO] Process running exited with code 1
+2026-10-12 09:26:03 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 09:26:04 [INFO] BACKOFF: retrying process running
+2026-10-12 09:26:04 [INFO] Spawning process for: running
+2026-10-12 09:26:04 [INFO] Spawned PID 3240
+2026-10-12 09:26:05 [INFO] Process running is now RUNNING
+2026-10-12 09:26:05 [INFO] Process running exited with code 1
+2026-10-12 09:26:05 [INFO] Restarting process running
+2026-10-12 09:26:05 [INFO] Spawning process for: running
+2026-10-12 09:26:05 [INFO] Spawned PID 3241
+2026-10-12 09:26:05 [INFO] Process running exited with code 1
+2026-10-12 09:26:05 [INFO] Process running died too fast -> BACKOFF
+2026-10-12 09:26:06 [INFO] BACKOFF: retrying process running
+2026-10-12 09:26:06 [INFO] Spawning process for: running
+2026-10-12 09:26:06 [INFO] Spawned PID 3242
+2026-10-12 09:26:06 [INFO] Process running exited with code 1
+2026-10-12 09:26:06 [ERROR] Process running exceeded retries -> FATAL

@@ -4,10 +4,14 @@
 
 Taskmaster::Taskmaster(const std::string &path) : config_path(path)
 {
+	openlog("taskmaster", LOG_PID | LOG_CONS, LOG_DAEMON);
 	log("Taskmaster initalized");
 }
 
-
+Taskmaster::~Taskmaster()
+{
+	closelog();
+}
 
 void Taskmaster::loadConfig()
 {

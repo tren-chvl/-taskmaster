@@ -11,6 +11,7 @@
 #include <sys/wait.h>
 #include <fcntl.h>
 #include <sys/socket.h>
+#include <syslog.h>
 #include <sys/un.h>
 #include <ctime>
 #include <iostream>
@@ -21,7 +22,11 @@
 #include <jsoncpp/json/json.h>
 #include <thread>
 #include <chrono>
-
+#include <pwd.h>
+#include <grp.h>
+#include <cerrno>
+#include <cstring>
+#include <filesystem>
 
 
 #define ANSI_RESET   "\033[0m"
@@ -88,10 +93,13 @@ struct Program
 	std::vector<ProcessInfo> processes;
 };
 
+bool dropPrivileges(const char *username);
+
 class Taskmaster
 {
 	public:
 		Taskmaster(const std::string &config_path);
+		~Taskmaster();
 		void loadConfig();
 		std::string signalName(int sig);
 		bool validateProgramConfig(const ProgramConfig &cfg);
@@ -119,6 +127,7 @@ class Taskmaster
 		bool handleAutorestart(Program &prog, ProcessInfo &proc, int exitcode);
 		std::string colorState(ProcessState st);
 		std::string formatUptime(time_t start);
+		int	levelToSyslogPriority(LogLevel lvl);
 
 	private:	
 		std::string config_path;

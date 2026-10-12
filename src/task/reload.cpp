@@ -4,7 +4,7 @@
 void Taskmaster::reloadConfigDiff()
 {
 	std::lock_guard<std::mutex> lock(programs_mutex);
-	log("Reloadding conifguration ");
+	log("Reloadding configuration ");
 	auto old_prog = programs;
 	loadConfig();
 	auto &new_prog = programs;

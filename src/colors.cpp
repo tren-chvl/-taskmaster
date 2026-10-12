@@ -1,7 +1,5 @@
 #include "taskmaster.hpp"
 
-
-
 std::string Taskmaster::colorState(ProcessState st)
 {
 	switch (st)

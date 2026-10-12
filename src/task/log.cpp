@@ -26,6 +26,20 @@ std::string Taskmaster::levelToString(LogLevel lvl)
 	}
 }
 
+int Taskmaster::levelToSyslogPriority(LogLevel lvl)
+{
+	switch (lvl)
+	{
+		case LogLevel::INFO:
+			return LOG_INFO;
+		case LogLevel::WARN:
+			return LOG_WARNING;
+		case LogLevel::ERROR:
+			return LOG_ERR;
+		default:
+			return LOG_INFO;
+	}
+}
 
 void Taskmaster::ensureLogArchiveDir()
 {
@@ -38,7 +52,7 @@ bool Taskmaster::isLogTooBig(const char *path)
 	struct stat st{};
 	if (stat(path, &st) == -1)
 		return false;
-	return st.st_size >= (1 * 1024 * 1024); // 1 MB
+	return st.st_size >= (1 * 1024 * 1024);
 }
 
 void Taskmaster::rotateLog()
@@ -56,6 +70,7 @@ void Taskmaster::rotateLog()
 	rename(log_path, oss.str().c_str());
 }
 
+
 void Taskmaster::log(const std::string &msg, LogLevel lvl)
 {
 	ensureLogArchiveDir();
@@ -64,8 +79,10 @@ void Taskmaster::log(const std::string &msg, LogLevel lvl)
 	std::ofstream ofs(path, std::ios::app);
 	if (!ofs)
 	{
-		std::cerr << "[LOGGER ERROR] Cannot open log file: " << path << "\n";
+		std::cerr << "[LOGGER ERROR] Cannot open log file\n";
 		return;
 	}
-	ofs << timestamp() << " [" << levelToString(lvl) << "] " << msg << "\n";
+	ofs << timestamp() << " [" << levelToString(lvl)
+		<< "] " << msg << "\n";
+	syslog(levelToSyslogPriority(lvl), "%s", msg.c_str());
 }

@@ -8,6 +8,7 @@ TASK_DIR    = $(SRC_DIR)/task
 OBJ_DIR     = obj
 
 SRC = \
+	src/bonus/root/root.cpp \
 	src/bonus/client_ctl/server.cpp \
 	$(SRC_DIR)/main.cpp \
 	$(SRC_DIR)/taskmaster.cpp \
@@ -35,6 +36,7 @@ $(OBJ_DIR)/%.o: %.cpp
 	@mkdir -p $(OBJ_DIR)/$(SRC_DIR)
 	@mkdir -p $(OBJ_DIR)/$(SRC_DIR)/task
 	@mkdir -p $(OBJ_DIR)/$(SRC_DIR)/bonus/client_ctl
+	@mkdir -p $(OBJ_DIR)/$(SRC_DIR)/bonus/root
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:

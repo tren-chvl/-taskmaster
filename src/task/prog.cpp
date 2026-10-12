@@ -50,7 +50,6 @@ void Taskmaster::stopProgram(const std::string &name)
 void Taskmaster::stopProgram(Program &prog)
 {
 	log("Stopping program: " + prog.config.name);
-
 	for (auto &proc : prog.processes)
 	{
 		stopProcess(prog, proc);
@@ -71,72 +70,49 @@ void Taskmaster::restartProgram(const std::string &name)
 
 bool Taskmaster::handleAutorestart(Program &prog, ProcessInfo &proc, int exitcode)
 {
-    // -----------------------------
-    // 1. Déterminer si on doit restart
-    // -----------------------------
-    bool restart = false;
-
-    if (prog.config.autorestart == ProgramRestart::ALWAYS)
-    {
-        restart = true;
-    }
-    else if (prog.config.autorestart == ProgramRestart::UNEXPECTED)
-    {
-        bool expected = false;
-        for (int c : prog.config.exitcodes)
-        {
-            if (c == exitcode)
-            {
-                expected = true;
-                break;
-            }
-        }
-
-        if (!expected)
-            restart = true;
-    }
-
-    // Si pas de restart → STOP
-    if (!restart)
-        return false;
-
-    // -----------------------------
-    // 2. Trop de retries → FATAL
-    // -----------------------------
-    proc.retries++;
-    if (proc.retries > prog.config.startretries)
-    {
-        proc.state = ProcessState::FATAL;
-        log("Process " + prog.config.name + " exceeded retries -> FATAL");
-        return false;
-    }
-
-    // -----------------------------
-    // 3. BACKOFF si mort trop vite
-    // -----------------------------
-    time_t now = time(nullptr);
-
-    if (now - proc.start_timestamp < prog.config.starttime)
-    {
-        proc.state = ProcessState::BACKOFF;
-        log("Process " + prog.config.name + " died too fast -> BACKOFF");
-
-        // Attendre un peu avant restart (Supervisor fait pareil)
-        std::this_thread::sleep_for(std::chrono::seconds(1));
-
-        log("BACKOFF: retrying process " + prog.config.name);
-        spawnProcess(prog, proc);
-        proc.state = ProcessState::STARTING;
-        proc.start_timestamp = time(nullptr);
-        return true;
-    }
-
-    // -----------------------------
-    // 4. Restart normal
-    // -----------------------------
-    log("Restarting process " + prog.config.name);
-    spawnProcess(prog, proc);
-    proc.state = ProcessState::STARTING;
-    proc.start_timestamp = time(nullptr);
-    return true;
+	bool restart = false;
+	if (prog.config.autorestart == ProgramRestart::ALWAYS)
+	{
+		restart = true;
+	}
+	else if (prog.config.autorestart == ProgramRestart::UNEXPECTED)
+	{
+		bool expected = false;
+		for (int c : prog.config.exitcodes)
+		{
+			if (c == exitcode)
+			{
+				expected = true;
+				break;
+			}
+		}
+		if (!expected)
+			restart = true;
+	}
+	if (!restart)
+		return false;
+	proc.retries++;
+	if (proc.retries > prog.config.startretries)
+	{
+		proc.state = ProcessState::FATAL;
+		log("Process " + prog.config.name + " exceeded retries -> FATAL");
+		return false;
+	}
+	time_t now = time(nullptr);
+	if (now - proc.start_timestamp < prog.config.starttime)
+	{
+		proc.state = ProcessState::BACKOFF;
+		log("Process " + prog.config.name + " died too fast -> BACKOFF");
+		std::this_thread::sleep_for(std::chrono::seconds(1));
+		log("BACKOFF: retrying process " + prog.config.name);
+		spawnProcess(prog, proc);
+		proc.state = ProcessState::STARTING;
+		proc.start_timestamp = time(nullptr);
+		return true;
+	}
+	log("Restarting process " + prog.config.name);
+	spawnProcess(prog, proc);
+	proc.state = ProcessState::STARTING;
+	proc.start_timestamp = time(nullptr);
+	return true;
 }

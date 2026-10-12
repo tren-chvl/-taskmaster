@@ -3,7 +3,7 @@
 	{
 		"test_err":
 		{
-			"cmd": "/home/marcheva/taskmaster/test_err_out.sh",
+			"cmd": "/home/marcheva/taskmaster/sh/test_err_out.sh",
 			"numprocs": 3,
 			"autorestart": "always",
 			"exitcodes": [0],
@@ -18,17 +18,17 @@
 			"env":
 			{
 				"VAR":"VALUE"
-			} 
+			}
 		},
 		"running": 
 		{
-			"cmd": "/home/marcheva/taskmaster/running.sh",
+			"cmd": "/home/marcheva/taskmaster/sh/backoff.sh",
 			"numprocs": 1,
 			"autorestart": "unexpected",
 			"exitcodes": [0],
-			"startretries": 2,
+			"startretries": 4,
 			"starttime": 1,
-			"stoptime": 5,
+			"stoptime": 3,
 			"stopsignal": "TERM",
 			"stdout": "./logs/test2.out",
 			"stderr": "./logs/test2.err",

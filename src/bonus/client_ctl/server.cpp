@@ -91,6 +91,13 @@ void Taskmaster::runServer()
 		close(server_fd);
 		return;
 	}
+	if (chmod("/tmp/taskmaster.sock", 0660) == -1)
+	{
+		log("ERROR: chmod socket failed: " + std::string(std::strerror(errno)));
+		close(server_fd);
+		unlink("/tmp/taskmaster.sock");
+		return;
+	}
 	if (listen(server_fd, 10) < 0)
 	{
 		log("ERROR: listen() failed");
