@@ -117,7 +117,6 @@ void Taskmaster::runServer()
 			close(client_fd);
 			continue;
 		}
-
 		buffer[n] = '\0';
 		std::string cmd(buffer);
 		std::string reply = handleCommand(cmd);

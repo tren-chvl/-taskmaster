@@ -1,6 +1,6 @@
 NAME = taskmasterctl
 CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -g
+CXXFLAGS = -Wall -Wextra -Werror -g -pthread
 
 SRC = client.cpp
 OBJ = $(SRC:.cpp=.o)

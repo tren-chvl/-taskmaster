@@ -3,8 +3,8 @@
 	{
 		"test_err":
 		{
-			"cmd": "/home/marcheva/taskmaster/sh/test_err_out.sh",
-			"numprocs": 3,
+			"cmd": "/home/marcheva/taskmaster/sh/test.sh",
+			"numprocs": 2,
 			"autorestart": "always",
 			"exitcodes": [0],
 			"startretries": 3,
@@ -37,3 +37,5 @@
 		}
 	}
 }
+
+

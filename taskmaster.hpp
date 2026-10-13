@@ -27,6 +27,10 @@
 #include <cerrno>
 #include <cstring>
 #include <filesystem>
+#include <memory>
+#include <termios.h>
+#include <sys/ioctl.h>
+#include <cstdlib>
 
 
 #define ANSI_RESET   "\033[0m"
@@ -59,6 +63,16 @@ enum class LogLevel
 	ERROR
 };
 
+struct PtySession
+{
+	int master_fd = -1;
+	int log_fd = -1;
+	int attached_fd = -1;
+	std::mutex mutex;
+};
+
+
+
 struct ProgramConfig
 {
 	std::string name;
@@ -82,6 +96,7 @@ struct ProcessInfo
 {
 	pid_t pid = -1;
 	ProcessState state = ProcessState::STOPPED;
+	std::shared_ptr<PtySession> pty;
 	int retries = 0;
 	time_t start_timestamp = 0;
 	int exitcode = -1;
