@@ -131,6 +131,8 @@ class Taskmaster
 		std::string getStatusString();
 		std::string handleCommand(const std::string &cmd);
 		std::string resolvePath(const std::string &path, const std::string &workindir);
+		void handleClient(int client_fd);
+		void handleAttach(int client_fd, const std::string &name);
 		void checkProcessStatus(Program &prog, ProcessInfo &proc);
 		void spawnProcess(Program &prog, ProcessInfo &proc);
 		void stopProcess(Program &prog, ProcessInfo &proc);
@@ -143,6 +145,8 @@ class Taskmaster
 		std::string colorState(ProcessState st);
 		std::string formatUptime(time_t start);
 		int	levelToSyslogPriority(LogLevel lvl);
+		void pumpPty(std::shared_ptr<PtySession> session);
+		std::shared_ptr<PtySession> getPtySession(const std::string &name);
 
 	private:	
 		std::string config_path;

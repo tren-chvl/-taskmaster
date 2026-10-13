@@ -14,6 +14,7 @@ SRC = \
 	$(SRC_DIR)/taskmaster.cpp \
 	$(SRC_DIR)/colors.cpp \
 	$(TASK_DIR)/log.cpp \
+	$(TASK_DIR)/pty.cpp \
 	$(TASK_DIR)/pid.cpp \
 	$(TASK_DIR)/prog.cpp \
 	$(TASK_DIR)/reload.cpp \
