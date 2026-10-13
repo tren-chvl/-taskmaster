@@ -10,6 +10,7 @@ OBJ_DIR     = obj
 SRC = \
 	src/bonus/root/root.cpp \
 	src/bonus/client_ctl/server.cpp \
+	src/bonus/client_ctl/cmd.cpp \
 	$(SRC_DIR)/main.cpp \
 	$(SRC_DIR)/taskmaster.cpp \
 	$(SRC_DIR)/colors.cpp \

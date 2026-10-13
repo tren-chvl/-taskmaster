@@ -1,5 +1,19 @@
 #include "taskmaster.hpp"
 
+std::shared_ptr<PtySession> Taskmaster::getPtySession(const std::string &name)
+{
+	std::lock_guard<std::mutex> lock(programs_mutex);
+	auto it = programs.find(name);
+	if (it == programs.end())
+		return nullptr;
+	for (auto &proc : it->second.processes)
+	{
+		if (proc.pid > 0 && proc.pty)
+			return proc.pty;
+	}
+	return nullptr;
+}
+
 
 void Taskmaster::pumpPty(std::shared_ptr<PtySession> session)
 {
