@@ -118,8 +118,6 @@ void Taskmaster::loadConfig()
 }
 
 
-
-
 void Taskmaster::log(const std::string &msg)
 {
 	LogLevel lvl = LogLevel::INFO;

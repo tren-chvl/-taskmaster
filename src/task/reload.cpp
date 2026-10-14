@@ -47,8 +47,6 @@ void Taskmaster::reloadConfigDiff()
 
 
 
-
-
 bool Taskmaster::compareProgramConfig(const ProgramConfig &old_prog, const ProgramConfig &new_prog)
 {
 	bool same = true;
