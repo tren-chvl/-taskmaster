@@ -27,6 +27,29 @@ void Taskmaster::pumpPty(std::shared_ptr<PtySession> session)
         {
             std::lock_guard<std::mutex> lock(session->mutex);
 
+            // Write PTY output to stdout log.
+            if (session->stdout_log_fd >= 0)
+            {
+                size_t total = 0;
+
+                while (total < static_cast<size_t>(n))
+                {
+                    ssize_t written = write(
+                        session->stdout_log_fd,
+                        buffer + total,
+                        static_cast<size_t>(n) - total);
+
+                    if (written < 0 && errno == EINTR)
+                        continue;
+
+                    if (written <= 0)
+                        break;
+
+                    total += static_cast<size_t>(written);
+                }
+            }
+
+            // Forward output to attached client.
             if (session->attached_fd >= 0)
             {
                 size_t total = 0;
@@ -55,5 +78,19 @@ void Taskmaster::pumpPty(std::shared_ptr<PtySession> session)
             continue;
 
         break;
+    }
+
+    std::lock_guard<std::mutex> lock(session->mutex);
+
+    if (session->stdout_log_fd >= 0)
+    {
+        close(session->stdout_log_fd);
+        session->stdout_log_fd = -1;
+    }
+
+    if (session->master_fd >= 0)
+    {
+        close(session->master_fd);
+        session->master_fd = -1;
     }
 }

@@ -24,6 +24,13 @@ void Taskmaster::shell()
 			continue;
 		if (line == "quit" || line == "exit")
 			break;
+		command_history.push_back(line);
+		if (line == "history")
+		{
+			for (size_t i = 0; i < command_history.size(); ++i)
+				std::cout << i + 1 << "  " << command_history[i] << "\n";
+			continue;
+		}
 		if (line == "status")
 		{
 			status();

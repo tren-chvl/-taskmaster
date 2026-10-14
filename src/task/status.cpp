@@ -43,11 +43,15 @@ void Taskmaster::status()
 }
 
 
+
 std::string Taskmaster::resolvePath(const std::string &path, const std::string &workindir)
 {
 	if (path.empty())
 		return path;
-	if (path[0] == '/')
-		return path;
-	return workindir +"/" + path;
+	std::filesystem::path p(path);
+	if (p.is_absolute())
+		return p.lexically_normal().string();
+	if (!workindir.empty())
+		return (std::filesystem::path(workindir) / p).lexically_normal().string();
+	return std::filesystem::absolute(p).lexically_normal().string();
 }

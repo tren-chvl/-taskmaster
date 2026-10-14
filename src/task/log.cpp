@@ -1,5 +1,33 @@
 #include "taskmaster.hpp"
 
+
+bool ensureLogDirectory(const std::string &logPath)
+{
+    if (logPath.empty())
+        return true;
+
+    std::filesystem::path path(logPath);
+    if (!path.is_absolute())
+        path = std::filesystem::absolute(path);
+
+    std::filesystem::path parent = path.parent_path();
+    if (parent.empty())
+        return true;
+
+    std::error_code ec;
+    std::filesystem::create_directories(parent, ec);
+
+    if (ec)
+    {
+        std::cerr << "[LOGGER ERROR] Cannot create directory "
+                  << parent << ": " << ec.message() << '\n';
+        return false;
+    }
+
+    return true;
+}
+
+
 std::string Taskmaster::timestamp()
 {
 	std::time_t t = std::time(nullptr);
@@ -43,8 +71,17 @@ int Taskmaster::levelToSyslogPriority(LogLevel lvl)
 
 void Taskmaster::ensureLogArchiveDir()
 {
-	mkdir("./logs", 0755);
-	mkdir("./logs/archive", 0755);
+    if (mkdir("./logs", 0755) == -1 && errno != EEXIST)
+    {
+        std::cerr << "[LOGGER ERROR] Cannot create ./logs: "
+                  << std::strerror(errno) << '\n';
+        return;
+    }
+    if (mkdir("./logs/archive", 0755) == -1 && errno != EEXIST)
+    {
+        std::cerr << "[LOGGER ERROR] Cannot create ./logs/archive: "
+                  << std::strerror(errno) << '\n';
+    }
 }
 
 bool Taskmaster::isLogTooBig(const char *path)

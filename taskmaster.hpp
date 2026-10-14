@@ -63,14 +63,15 @@ enum class LogLevel
 	ERROR
 };
 
+
 struct PtySession
 {
-	int master_fd = -1;
-	int log_fd = -1;
-	int attached_fd = -1;
-	std::mutex mutex;
+    int master_fd = -1;
+    int stdout_log_fd = -1;
+    int stderr_log_fd = -1;
+    int attached_fd = -1;
+    std::mutex mutex;
 };
-
 
 
 struct ProgramConfig
@@ -117,6 +118,7 @@ class Taskmaster
 		~Taskmaster();
 		void loadConfig();
 		std::string signalName(int sig);
+		bool ensureLogDirectory(const std::string &logPath);
 		bool validateProgramConfig(const ProgramConfig &cfg);
 		bool compareProgramConfig(const ProgramConfig &old_prog, const ProgramConfig &new_prog);
 		void reloadConfigDiff();
@@ -148,7 +150,8 @@ class Taskmaster
 		void pumpPty(std::shared_ptr<PtySession> session);
 		std::shared_ptr<PtySession> getPtySession(const std::string &name);
 
-	private:	
+	private:
+		std::vector<std::string> command_history;
 		std::string config_path;
 		std::map<std::string, Program> programs;
 		std::mutex programs_mutex;

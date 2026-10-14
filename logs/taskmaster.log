@@ -13464,3 +13464,755 @@
 2026-10-13 09:22:16 [INFO] Process test_err is now RUNNING
 2026-10-13 09:22:16 [INFO] Process test_err is now RUNNING
 2026-10-13 09:22:16 [INFO] Process test_err is now RUNNING
+2026-10-14 04:36:31 [INFO] Taskmaster initalized
+2026-10-14 04:36:31 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 04:36:31 [INFO] Configuration loaded successfully
+2026-10-14 04:36:31 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 04:36:31 [INFO] Starting interactive Shell
+2026-10-14 04:36:31 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 04:37:45 [INFO] Starting program: test_err
+2026-10-14 04:37:45 [INFO] Starting program: test_err
+2026-10-14 04:37:45 [INFO] Spawning process for: test_err
+2026-10-14 04:37:45 [INFO] Spawned PID 5550
+2026-10-14 04:37:45 [INFO] Spawning process for: test_err
+2026-10-14 04:37:45 [INFO] Spawned PID 5552
+2026-10-14 04:37:45 [INFO] Spawning process for: test_err
+2026-10-14 04:37:45 [INFO] Spawned PID 5554
+2026-10-14 04:37:46 [INFO] Process test_err is now RUNNING
+2026-10-14 04:37:46 [INFO] Process test_err is now RUNNING
+2026-10-14 04:37:46 [INFO] Process test_err is now RUNNING
+2026-10-14 04:38:02 [INFO] Stopping program: test_err
+2026-10-14 04:38:02 [INFO] Stopping program: test_err
+2026-10-14 04:38:02 [INFO] Stopping PID 5550 using SIGUSR1
+2026-10-14 04:38:02 [INFO] Stopping PID 5552 using SIGUSR1
+2026-10-14 04:38:02 [INFO] Stopping PID 5554 using SIGUSR1
+2026-10-14 04:44:43 [INFO] Taskmaster initalized
+2026-10-14 04:44:43 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 04:44:43 [INFO] Configuration loaded successfully
+2026-10-14 04:44:43 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 04:44:43 [INFO] Starting interactive Shell
+2026-10-14 04:44:43 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 04:47:28 [INFO] Taskmaster initalized
+2026-10-14 04:47:28 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 04:47:28 [INFO] Configuration loaded successfully
+2026-10-14 04:49:33 [INFO] Taskmaster initalized
+2026-10-14 04:49:33 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 04:49:33 [INFO] Configuration loaded successfully
+2026-10-14 04:49:33 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 04:49:33 [INFO] Starting interactive Shell
+2026-10-14 04:49:33 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 04:51:17 [INFO] Starting program: test_err
+2026-10-14 04:51:17 [INFO] Starting program: test_err
+2026-10-14 04:51:17 [INFO] Spawning process for: test_err
+2026-10-14 04:51:17 [INFO] Spawned PID 5922
+2026-10-14 04:51:17 [INFO] Spawning process for: test_err
+2026-10-14 04:51:17 [INFO] Spawned PID 5924
+2026-10-14 04:51:17 [INFO] Spawning process for: test_err
+2026-10-14 04:51:17 [INFO] Spawned PID 5926
+2026-10-14 04:51:18 [INFO] Process test_err is now RUNNING
+2026-10-14 04:51:18 [INFO] Process test_err is now RUNNING
+2026-10-14 04:51:18 [INFO] Process test_err is now RUNNING
+2026-10-14 04:54:01 [INFO] Stopping program: test_err
+2026-10-14 04:54:01 [INFO] Stopping program: test_err
+2026-10-14 04:54:01 [INFO] Stopping PID 5922 using SIGUSR1
+2026-10-14 04:54:01 [INFO] Stopping PID 5924 using SIGUSR1
+2026-10-14 04:54:01 [INFO] Stopping PID 5926 using SIGUSR1
+2026-10-14 04:55:03 [INFO] Stopping program: test_err
+2026-10-14 04:55:03 [INFO] Stopping program: test_err
+2026-10-14 04:55:03 [INFO] Starting program: test_err
+2026-10-14 04:55:03 [INFO] Starting program: test_err
+2026-10-14 04:55:03 [INFO] Spawning process for: test_err
+2026-10-14 04:55:03 [INFO] Spawned PID 6499
+2026-10-14 04:55:03 [INFO] Spawning process for: test_err
+2026-10-14 04:55:03 [INFO] Spawned PID 6501
+2026-10-14 04:55:03 [INFO] Spawning process for: test_err
+2026-10-14 04:55:03 [INFO] Spawned PID 6503
+2026-10-14 04:55:04 [INFO] Process test_err is now RUNNING
+2026-10-14 04:55:04 [INFO] Process test_err is now RUNNING
+2026-10-14 04:55:04 [INFO] Process test_err is now RUNNING
+2026-10-14 04:56:48 [INFO] Reloadding configuration 
+2026-10-14 04:56:48 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 04:56:48 [INFO] Configuration loaded successfully
+2026-10-14 04:56:48 [WARN] Program changed: test_err
+2026-10-14 04:56:48 [INFO] Stopping program: test_err
+2026-10-14 04:56:48 [INFO] Stopping PID 6499 using SIGUSR1
+2026-10-14 04:56:48 [INFO] Stopping PID 6501 using SIGUSR1
+2026-10-14 04:56:48 [INFO] Stopping PID 6503 using SIGUSR1
+2026-10-14 04:56:48 [INFO] Starting program: test_err
+2026-10-14 04:56:48 [INFO] Spawning process for: test_err
+2026-10-14 04:56:48 [INFO] Spawned PID 6869
+2026-10-14 04:56:48 [INFO] Spawning process for: test_err
+2026-10-14 04:56:48 [INFO] Spawned PID 6871
+2026-10-14 04:56:48 [INFO] Spawning process for: test_err
+2026-10-14 04:56:48 [INFO] Spawned PID 6873
+2026-10-14 04:56:48 [INFO] Reload diff complete.
+2026-10-14 04:56:48 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:48 [INFO] Process test_err died too fast -> BACKOFF
+2026-10-14 04:56:49 [INFO] BACKOFF: retrying process test_err
+2026-10-14 04:56:49 [INFO] Spawning process for: test_err
+2026-10-14 04:56:49 [INFO] Spawned PID 6875
+2026-10-14 04:56:49 [INFO] Process test_err is now RUNNING
+2026-10-14 04:56:49 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:49 [INFO] Restarting process test_err
+2026-10-14 04:56:49 [INFO] Spawning process for: test_err
+2026-10-14 04:56:49 [INFO] Spawned PID 6877
+2026-10-14 04:56:49 [INFO] Process test_err is now RUNNING
+2026-10-14 04:56:49 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:49 [INFO] Restarting process test_err
+2026-10-14 04:56:49 [INFO] Spawning process for: test_err
+2026-10-14 04:56:49 [INFO] Spawned PID 6879
+2026-10-14 04:56:49 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:49 [INFO] Process test_err died too fast -> BACKOFF
+2026-10-14 04:56:50 [INFO] BACKOFF: retrying process test_err
+2026-10-14 04:56:50 [INFO] Spawning process for: test_err
+2026-10-14 04:56:50 [INFO] Spawned PID 6881
+2026-10-14 04:56:50 [INFO] Process test_err is now RUNNING
+2026-10-14 04:56:50 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:50 [INFO] Restarting process test_err
+2026-10-14 04:56:50 [INFO] Spawning process for: test_err
+2026-10-14 04:56:50 [INFO] Spawned PID 6883
+2026-10-14 04:56:50 [INFO] Process test_err is now RUNNING
+2026-10-14 04:56:50 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:50 [INFO] Restarting process test_err
+2026-10-14 04:56:50 [INFO] Spawning process for: test_err
+2026-10-14 04:56:50 [INFO] Spawned PID 6885
+2026-10-14 04:56:51 [INFO] Process test_err is now RUNNING
+2026-10-14 04:56:51 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:51 [INFO] Restarting process test_err
+2026-10-14 04:56:51 [INFO] Spawning process for: test_err
+2026-10-14 04:56:51 [INFO] Spawned PID 6887
+2026-10-14 04:56:51 [INFO] Process test_err is now RUNNING
+2026-10-14 04:56:51 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:51 [INFO] Restarting process test_err
+2026-10-14 04:56:51 [INFO] Spawning process for: test_err
+2026-10-14 04:56:51 [INFO] Spawned PID 6889
+2026-10-14 04:56:51 [INFO] Process test_err is now RUNNING
+2026-10-14 04:56:51 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:51 [INFO] Restarting process test_err
+2026-10-14 04:56:51 [INFO] Spawning process for: test_err
+2026-10-14 04:56:51 [INFO] Spawned PID 6891
+2026-10-14 04:56:51 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:51 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 04:56:51 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:51 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 04:56:51 [INFO] Process test_err exited with code 1
+2026-10-14 04:56:51 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 04:56:55 [INFO] Reloadding configuration 
+2026-10-14 04:56:55 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 04:56:55 [INFO] Configuration loaded successfully
+2026-10-14 04:56:55 [INFO] Reload diff complete.
+2026-10-14 04:57:20 [INFO] Starting program: test_err
+2026-10-14 04:57:20 [INFO] Starting program: test_err
+2026-10-14 04:57:20 [INFO] Spawning process for: test_err
+2026-10-14 04:57:20 [INFO] Spawned PID 6900
+2026-10-14 04:57:20 [INFO] Spawning process for: test_err
+2026-10-14 04:57:20 [INFO] Spawned PID 6902
+2026-10-14 04:57:20 [INFO] Spawning process for: test_err
+2026-10-14 04:57:20 [INFO] Spawned PID 6904
+2026-10-14 04:57:20 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:20 [INFO] Process test_err died too fast -> BACKOFF
+2026-10-14 04:57:21 [INFO] BACKOFF: retrying process test_err
+2026-10-14 04:57:21 [INFO] Spawning process for: test_err
+2026-10-14 04:57:21 [INFO] Spawned PID 6906
+2026-10-14 04:57:21 [INFO] Process test_err is now RUNNING
+2026-10-14 04:57:21 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:21 [INFO] Restarting process test_err
+2026-10-14 04:57:21 [INFO] Spawning process for: test_err
+2026-10-14 04:57:21 [INFO] Spawned PID 6908
+2026-10-14 04:57:21 [INFO] Process test_err is now RUNNING
+2026-10-14 04:57:21 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:21 [INFO] Restarting process test_err
+2026-10-14 04:57:21 [INFO] Spawning process for: test_err
+2026-10-14 04:57:21 [INFO] Spawned PID 6910
+2026-10-14 04:57:21 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:21 [INFO] Process test_err died too fast -> BACKOFF
+2026-10-14 04:57:22 [INFO] BACKOFF: retrying process test_err
+2026-10-14 04:57:22 [INFO] Spawning process for: test_err
+2026-10-14 04:57:22 [INFO] Spawned PID 6912
+2026-10-14 04:57:22 [INFO] Process test_err is now RUNNING
+2026-10-14 04:57:22 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:22 [INFO] Restarting process test_err
+2026-10-14 04:57:22 [INFO] Spawning process for: test_err
+2026-10-14 04:57:22 [INFO] Spawned PID 6914
+2026-10-14 04:57:22 [INFO] Process test_err is now RUNNING
+2026-10-14 04:57:22 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:22 [INFO] Restarting process test_err
+2026-10-14 04:57:22 [INFO] Spawning process for: test_err
+2026-10-14 04:57:22 [INFO] Spawned PID 6916
+2026-10-14 04:57:22 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:22 [INFO] Process test_err died too fast -> BACKOFF
+2026-10-14 04:57:23 [INFO] BACKOFF: retrying process test_err
+2026-10-14 04:57:23 [INFO] Spawning process for: test_err
+2026-10-14 04:57:23 [INFO] Spawned PID 6918
+2026-10-14 04:57:23 [INFO] Process test_err is now RUNNING
+2026-10-14 04:57:23 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:23 [INFO] Restarting process test_err
+2026-10-14 04:57:23 [INFO] Spawning process for: test_err
+2026-10-14 04:57:23 [INFO] Spawned PID 6920
+2026-10-14 04:57:23 [INFO] Process test_err is now RUNNING
+2026-10-14 04:57:23 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:23 [INFO] Restarting process test_err
+2026-10-14 04:57:23 [INFO] Spawning process for: test_err
+2026-10-14 04:57:23 [INFO] Spawned PID 6922
+2026-10-14 04:57:23 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:23 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 04:57:23 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:23 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 04:57:23 [INFO] Process test_err exited with code 1
+2026-10-14 04:57:23 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 04:58:09 [INFO] Reloadding configuration 
+2026-10-14 04:58:09 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 04:58:09 [INFO] Configuration loaded successfully
+2026-10-14 04:58:09 [WARN] Program changed: test_err
+2026-10-14 04:58:09 [INFO] Stopping program: test_err
+2026-10-14 04:58:09 [INFO] Starting program: test_err
+2026-10-14 04:58:09 [INFO] Spawning process for: test_err
+2026-10-14 04:58:09 [INFO] Spawned PID 6940
+2026-10-14 04:58:09 [INFO] Spawning process for: test_err
+2026-10-14 04:58:09 [INFO] Spawned PID 6942
+2026-10-14 04:58:09 [INFO] Reload diff complete.
+2026-10-14 04:58:09 [INFO] Process test_err exited with code 1
+2026-10-14 04:58:09 [INFO] Exit code is expected -> no autorestart
+2026-10-14 04:58:09 [INFO] Process test_err exited with code 1
+2026-10-14 04:58:09 [INFO] Exit code is expected -> no autorestart
+2026-10-14 04:58:17 [INFO] Reloadding configuration 
+2026-10-14 04:58:17 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 04:58:17 [INFO] Configuration loaded successfully
+2026-10-14 04:58:17 [INFO] Reload diff complete.
+2026-10-14 04:58:48 [INFO] Starting program: test_err
+2026-10-14 04:58:48 [INFO] Starting program: test_err
+2026-10-14 04:58:48 [INFO] Spawning process for: test_err
+2026-10-14 04:58:48 [INFO] Spawned PID 6952
+2026-10-14 04:58:48 [INFO] Spawning process for: test_err
+2026-10-14 04:58:48 [INFO] Spawned PID 6954
+2026-10-14 04:58:48 [INFO] Process test_err exited with code 1
+2026-10-14 04:58:48 [INFO] Exit code is expected -> no autorestart
+2026-10-14 04:58:48 [INFO] Process test_err exited with code 1
+2026-10-14 04:58:48 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:11:14 [INFO] Reloadding configuration 
+2026-10-14 05:11:14 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:11:14 [INFO] Configuration loaded successfully
+2026-10-14 05:11:14 [WARN] Program changed: test_err
+2026-10-14 05:11:14 [INFO] Stopping program: test_err
+2026-10-14 05:11:14 [INFO] Starting program: test_err
+2026-10-14 05:11:14 [INFO] Spawning process for: test_err
+2026-10-14 05:11:14 [INFO] Spawned PID 7631
+2026-10-14 05:11:14 [INFO] Spawning process for: test_err
+2026-10-14 05:11:14 [INFO] Spawned PID 7633
+2026-10-14 05:11:14 [INFO] Reload diff complete.
+2026-10-14 05:11:15 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:15 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:16 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:16 [INFO] Restarting process test_err
+2026-10-14 05:11:16 [INFO] Spawning process for: test_err
+2026-10-14 05:11:16 [INFO] Spawned PID 7637
+2026-10-14 05:11:16 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:16 [INFO] Restarting process test_err
+2026-10-14 05:11:16 [INFO] Spawning process for: test_err
+2026-10-14 05:11:16 [INFO] Spawned PID 7639
+2026-10-14 05:11:17 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:17 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:18 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:18 [INFO] Restarting process test_err
+2026-10-14 05:11:18 [INFO] Spawning process for: test_err
+2026-10-14 05:11:18 [INFO] Spawned PID 7644
+2026-10-14 05:11:18 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:18 [INFO] Restarting process test_err
+2026-10-14 05:11:18 [INFO] Spawning process for: test_err
+2026-10-14 05:11:18 [INFO] Spawned PID 7646
+2026-10-14 05:11:19 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:19 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:20 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:20 [INFO] Restarting process test_err
+2026-10-14 05:11:20 [INFO] Spawning process for: test_err
+2026-10-14 05:11:20 [INFO] Spawned PID 7652
+2026-10-14 05:11:20 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:20 [INFO] Restarting process test_err
+2026-10-14 05:11:20 [INFO] Spawning process for: test_err
+2026-10-14 05:11:20 [INFO] Spawned PID 7654
+2026-10-14 05:11:21 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:21 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:22 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:22 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:11:22 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:22 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:11:27 [INFO] Starting program: test_err
+2026-10-14 05:11:27 [INFO] Starting program: test_err
+2026-10-14 05:11:27 [INFO] Spawning process for: test_err
+2026-10-14 05:11:27 [INFO] Spawned PID 7660
+2026-10-14 05:11:27 [INFO] Spawning process for: test_err
+2026-10-14 05:11:27 [INFO] Spawned PID 7662
+2026-10-14 05:11:28 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:28 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:29 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:29 [INFO] Restarting process test_err
+2026-10-14 05:11:29 [INFO] Spawning process for: test_err
+2026-10-14 05:11:29 [INFO] Spawned PID 7667
+2026-10-14 05:11:29 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:29 [INFO] Restarting process test_err
+2026-10-14 05:11:29 [INFO] Spawning process for: test_err
+2026-10-14 05:11:29 [INFO] Spawned PID 7669
+2026-10-14 05:11:30 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:30 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:31 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:31 [INFO] Restarting process test_err
+2026-10-14 05:11:31 [INFO] Spawning process for: test_err
+2026-10-14 05:11:31 [INFO] Spawned PID 7673
+2026-10-14 05:11:31 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:31 [INFO] Restarting process test_err
+2026-10-14 05:11:31 [INFO] Spawning process for: test_err
+2026-10-14 05:11:31 [INFO] Spawned PID 7675
+2026-10-14 05:11:32 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:32 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:33 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:33 [INFO] Restarting process test_err
+2026-10-14 05:11:33 [INFO] Spawning process for: test_err
+2026-10-14 05:11:33 [INFO] Spawned PID 7679
+2026-10-14 05:11:33 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:33 [INFO] Restarting process test_err
+2026-10-14 05:11:33 [INFO] Spawning process for: test_err
+2026-10-14 05:11:33 [INFO] Spawned PID 7681
+2026-10-14 05:11:34 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:34 [INFO] Process test_err is now RUNNING
+2026-10-14 05:11:35 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:35 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:11:35 [INFO] Process test_err exited with code 0
+2026-10-14 05:11:35 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:14:19 [INFO] Reloadding configuration 
+2026-10-14 05:14:19 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:14:19 [INFO] Configuration loaded successfully
+2026-10-14 05:14:19 [WARN] Program changed: test_err
+2026-10-14 05:14:19 [INFO] Stopping program: test_err
+2026-10-14 05:14:19 [INFO] Starting program: test_err
+2026-10-14 05:14:19 [INFO] Spawning process for: test_err
+2026-10-14 05:14:19 [INFO] Spawned PID 7786
+2026-10-14 05:14:19 [INFO] Spawning process for: test_err
+2026-10-14 05:14:19 [INFO] Spawned PID 7788
+2026-10-14 05:14:19 [INFO] Reload diff complete.
+2026-10-14 05:14:20 [INFO] Process test_err is now RUNNING
+2026-10-14 05:14:20 [INFO] Process test_err is now RUNNING
+2026-10-14 05:14:21 [INFO] Process test_err exited with code 0
+2026-10-14 05:14:21 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:14:21 [INFO] Process test_err exited with code 0
+2026-10-14 05:14:21 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:14:43 [INFO] Starting program: test_err
+2026-10-14 05:14:43 [INFO] Starting program: test_err
+2026-10-14 05:14:43 [INFO] Spawning process for: test_err
+2026-10-14 05:14:43 [INFO] Spawned PID 7824
+2026-10-14 05:14:43 [INFO] Spawning process for: test_err
+2026-10-14 05:14:43 [INFO] Spawned PID 7826
+2026-10-14 05:14:44 [INFO] Process test_err is now RUNNING
+2026-10-14 05:14:44 [INFO] Process test_err is now RUNNING
+2026-10-14 05:14:45 [INFO] Process test_err exited with code 0
+2026-10-14 05:14:45 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:14:45 [INFO] Process test_err exited with code 0
+2026-10-14 05:14:45 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:21:55 [INFO] Starting program: test_err
+2026-10-14 05:21:55 [INFO] Starting program: test_err
+2026-10-14 05:21:55 [INFO] Spawning process for: test_err
+2026-10-14 05:21:55 [INFO] Spawned PID 8109
+2026-10-14 05:21:55 [INFO] Spawning process for: test_err
+2026-10-14 05:21:55 [INFO] Spawned PID 8111
+2026-10-14 05:21:56 [INFO] Process test_err is now RUNNING
+2026-10-14 05:21:56 [INFO] Process test_err is now RUNNING
+2026-10-14 05:21:57 [INFO] Process test_err exited with code 0
+2026-10-14 05:21:57 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:21:57 [INFO] Process test_err exited with code 0
+2026-10-14 05:21:57 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:24:01 [INFO] Taskmaster initalized
+2026-10-14 05:24:01 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:24:01 [INFO] Configuration loaded successfully
+2026-10-14 05:24:01 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 05:24:01 [INFO] Starting interactive Shell
+2026-10-14 05:24:01 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 05:24:39 [INFO] Starting program: test_err
+2026-10-14 05:24:39 [INFO] Starting program: test_err
+2026-10-14 05:24:39 [INFO] Spawning process for: test_err
+2026-10-14 05:24:39 [INFO] Spawned PID 8192
+2026-10-14 05:24:39 [INFO] Spawning process for: test_err
+2026-10-14 05:24:39 [INFO] Spawned PID 8194
+2026-10-14 05:24:40 [INFO] Process test_err is now RUNNING
+2026-10-14 05:24:40 [INFO] Process test_err is now RUNNING
+2026-10-14 05:24:41 [INFO] Process test_err exited with code 0
+2026-10-14 05:24:41 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:24:41 [INFO] Process test_err exited with code 0
+2026-10-14 05:24:41 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:28:09 [INFO] Starting program: test_err
+2026-10-14 05:28:09 [INFO] Starting program: test_err
+2026-10-14 05:28:09 [INFO] Spawning process for: test_err
+2026-10-14 05:28:09 [INFO] Spawned PID 8298
+2026-10-14 05:28:09 [INFO] Spawning process for: test_err
+2026-10-14 05:28:09 [INFO] Spawned PID 8300
+2026-10-14 05:28:10 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:10 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:11 [INFO] Process test_err exited with code 0
+2026-10-14 05:28:11 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:28:11 [INFO] Process test_err exited with code 0
+2026-10-14 05:28:11 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:28:36 [INFO] Stopping program: test_err
+2026-10-14 05:28:36 [INFO] Stopping program: test_err
+2026-10-14 05:28:37 [INFO] Starting program: test_err
+2026-10-14 05:28:37 [INFO] Starting program: test_err
+2026-10-14 05:28:37 [INFO] Spawning process for: test_err
+2026-10-14 05:28:37 [INFO] Spawned PID 8308
+2026-10-14 05:28:37 [INFO] Spawning process for: test_err
+2026-10-14 05:28:37 [INFO] Spawned PID 8310
+2026-10-14 05:28:38 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:38 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:39 [INFO] Process test_err exited with code 0
+2026-10-14 05:28:39 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:28:39 [INFO] Process test_err exited with code 0
+2026-10-14 05:28:39 [INFO] Exit code is expected -> no autorestart
+2026-10-14 05:28:54 [INFO] Reloadding configuration 
+2026-10-14 05:28:54 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:28:54 [INFO] Configuration loaded successfully
+2026-10-14 05:28:54 [WARN] Program changed: test_err
+2026-10-14 05:28:54 [INFO] Stopping program: test_err
+2026-10-14 05:28:54 [INFO] Starting program: test_err
+2026-10-14 05:28:54 [INFO] Spawning process for: test_err
+2026-10-14 05:28:54 [INFO] Spawned PID 8329
+2026-10-14 05:28:54 [INFO] Spawning process for: test_err
+2026-10-14 05:28:54 [INFO] Spawned PID 8331
+2026-10-14 05:28:54 [INFO] Reload diff complete.
+2026-10-14 05:28:55 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:55 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:56 [INFO] Process test_err exited with code 0
+2026-10-14 05:28:56 [INFO] Restarting process test_err
+2026-10-14 05:28:56 [INFO] Spawning process for: test_err
+2026-10-14 05:28:56 [INFO] Spawned PID 8336
+2026-10-14 05:28:56 [INFO] Process test_err exited with code 0
+2026-10-14 05:28:56 [INFO] Restarting process test_err
+2026-10-14 05:28:56 [INFO] Spawning process for: test_err
+2026-10-14 05:28:56 [INFO] Spawned PID 8338
+2026-10-14 05:28:57 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:57 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:58 [INFO] Process test_err exited with code 0
+2026-10-14 05:28:58 [INFO] Restarting process test_err
+2026-10-14 05:28:58 [INFO] Spawning process for: test_err
+2026-10-14 05:28:58 [INFO] Spawned PID 8342
+2026-10-14 05:28:58 [INFO] Process test_err exited with code 0
+2026-10-14 05:28:58 [INFO] Restarting process test_err
+2026-10-14 05:28:58 [INFO] Spawning process for: test_err
+2026-10-14 05:28:58 [INFO] Spawned PID 8344
+2026-10-14 05:28:59 [INFO] Process test_err is now RUNNING
+2026-10-14 05:28:59 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:00 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:00 [INFO] Restarting process test_err
+2026-10-14 05:29:00 [INFO] Spawning process for: test_err
+2026-10-14 05:29:00 [INFO] Spawned PID 8348
+2026-10-14 05:29:00 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:00 [INFO] Restarting process test_err
+2026-10-14 05:29:00 [INFO] Spawning process for: test_err
+2026-10-14 05:29:00 [INFO] Spawned PID 8350
+2026-10-14 05:29:01 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:01 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:02 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:02 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:29:02 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:02 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:29:24 [INFO] Starting program: test_err
+2026-10-14 05:29:24 [INFO] Starting program: test_err
+2026-10-14 05:29:24 [INFO] Spawning process for: test_err
+2026-10-14 05:29:24 [INFO] Spawned PID 8360
+2026-10-14 05:29:24 [INFO] Spawning process for: test_err
+2026-10-14 05:29:24 [INFO] Spawned PID 8362
+2026-10-14 05:29:25 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:25 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:26 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:26 [INFO] Restarting process test_err
+2026-10-14 05:29:26 [INFO] Spawning process for: test_err
+2026-10-14 05:29:26 [INFO] Spawned PID 8367
+2026-10-14 05:29:26 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:26 [INFO] Restarting process test_err
+2026-10-14 05:29:26 [INFO] Spawning process for: test_err
+2026-10-14 05:29:26 [INFO] Spawned PID 8369
+2026-10-14 05:29:27 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:27 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:28 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:28 [INFO] Restarting process test_err
+2026-10-14 05:29:28 [INFO] Spawning process for: test_err
+2026-10-14 05:29:28 [INFO] Spawned PID 8373
+2026-10-14 05:29:28 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:28 [INFO] Restarting process test_err
+2026-10-14 05:29:28 [INFO] Spawning process for: test_err
+2026-10-14 05:29:28 [INFO] Spawned PID 8375
+2026-10-14 05:29:29 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:29 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:30 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:30 [INFO] Restarting process test_err
+2026-10-14 05:29:30 [INFO] Spawning process for: test_err
+2026-10-14 05:29:30 [INFO] Spawned PID 8380
+2026-10-14 05:29:30 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:30 [INFO] Restarting process test_err
+2026-10-14 05:29:30 [INFO] Spawning process for: test_err
+2026-10-14 05:29:30 [INFO] Spawned PID 8382
+2026-10-14 05:29:31 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:31 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:32 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:32 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:29:32 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:32 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:29:45 [INFO] Stopping program: test_err
+2026-10-14 05:29:45 [INFO] Stopping program: test_err
+2026-10-14 05:29:45 [INFO] Starting program: test_err
+2026-10-14 05:29:45 [INFO] Starting program: test_err
+2026-10-14 05:29:45 [INFO] Spawning process for: test_err
+2026-10-14 05:29:45 [INFO] Spawned PID 8390
+2026-10-14 05:29:45 [INFO] Spawning process for: test_err
+2026-10-14 05:29:45 [INFO] Spawned PID 8392
+2026-10-14 05:29:46 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:46 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:47 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:47 [INFO] Restarting process test_err
+2026-10-14 05:29:47 [INFO] Spawning process for: test_err
+2026-10-14 05:29:47 [INFO] Spawned PID 8396
+2026-10-14 05:29:47 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:47 [INFO] Restarting process test_err
+2026-10-14 05:29:47 [INFO] Spawning process for: test_err
+2026-10-14 05:29:47 [INFO] Spawned PID 8398
+2026-10-14 05:29:48 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:48 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:49 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:49 [INFO] Restarting process test_err
+2026-10-14 05:29:49 [INFO] Spawning process for: test_err
+2026-10-14 05:29:49 [INFO] Spawned PID 8403
+2026-10-14 05:29:49 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:49 [INFO] Restarting process test_err
+2026-10-14 05:29:49 [INFO] Spawning process for: test_err
+2026-10-14 05:29:49 [INFO] Spawned PID 8405
+2026-10-14 05:29:50 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:50 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:51 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:51 [INFO] Restarting process test_err
+2026-10-14 05:29:51 [INFO] Spawning process for: test_err
+2026-10-14 05:29:51 [INFO] Spawned PID 8409
+2026-10-14 05:29:51 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:51 [INFO] Restarting process test_err
+2026-10-14 05:29:51 [INFO] Spawning process for: test_err
+2026-10-14 05:29:51 [INFO] Spawned PID 8411
+2026-10-14 05:29:52 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:52 [INFO] Process test_err is now RUNNING
+2026-10-14 05:29:53 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:53 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:29:53 [INFO] Process test_err exited with code 0
+2026-10-14 05:29:53 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:30:06 [INFO] Starting program: test_err
+2026-10-14 05:30:06 [INFO] Starting program: test_err
+2026-10-14 05:30:06 [INFO] Spawning process for: test_err
+2026-10-14 05:30:06 [INFO] Spawned PID 8417
+2026-10-14 05:30:06 [INFO] Spawning process for: test_err
+2026-10-14 05:30:06 [INFO] Spawned PID 8419
+2026-10-14 05:30:07 [INFO] Process test_err is now RUNNING
+2026-10-14 05:30:07 [INFO] Process test_err is now RUNNING
+2026-10-14 05:30:08 [INFO] Process test_err exited with code 0
+2026-10-14 05:30:08 [INFO] Restarting process test_err
+2026-10-14 05:30:08 [INFO] Spawning process for: test_err
+2026-10-14 05:30:08 [INFO] Spawned PID 8425
+2026-10-14 05:30:08 [INFO] Process test_err exited with code 0
+2026-10-14 05:30:08 [INFO] Restarting process test_err
+2026-10-14 05:30:08 [INFO] Spawning process for: test_err
+2026-10-14 05:30:08 [INFO] Spawned PID 8427
+2026-10-14 05:30:09 [INFO] Process test_err is now RUNNING
+2026-10-14 05:30:09 [INFO] Process test_err is now RUNNING
+2026-10-14 05:30:10 [INFO] Process test_err exited with code 0
+2026-10-14 05:30:10 [INFO] Restarting process test_err
+2026-10-14 05:30:10 [INFO] Spawning process for: test_err
+2026-10-14 05:30:10 [INFO] Spawned PID 8431
+2026-10-14 05:30:10 [INFO] Process test_err exited with code 0
+2026-10-14 05:30:10 [INFO] Restarting process test_err
+2026-10-14 05:30:10 [INFO] Spawning process for: test_err
+2026-10-14 05:30:10 [INFO] Spawned PID 8433
+2026-10-14 05:30:11 [INFO] Process test_err is now RUNNING
+2026-10-14 05:30:11 [INFO] Process test_err is now RUNNING
+2026-10-14 05:30:12 [INFO] Process test_err exited with code 0
+2026-10-14 05:30:12 [INFO] Restarting process test_err
+2026-10-14 05:30:12 [INFO] Spawning process for: test_err
+2026-10-14 05:30:12 [INFO] Spawned PID 8438
+2026-10-14 05:30:12 [INFO] Process test_err exited with code 0
+2026-10-14 05:30:12 [INFO] Restarting process test_err
+2026-10-14 05:30:12 [INFO] Spawning process for: test_err
+2026-10-14 05:30:12 [INFO] Spawned PID 8440
+2026-10-14 05:30:13 [INFO] Process test_err is now RUNNING
+2026-10-14 05:30:13 [INFO] Process test_err is now RUNNING
+2026-10-14 05:30:14 [INFO] Process test_err exited with code 0
+2026-10-14 05:30:14 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:30:14 [INFO] Process test_err exited with code 0
+2026-10-14 05:30:14 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:34:55 [INFO] Taskmaster initalized
+2026-10-14 05:34:55 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:34:55 [INFO] Configuration loaded successfully
+2026-10-14 05:34:55 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 05:34:55 [INFO] Starting interactive Shell
+2026-10-14 05:34:55 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 05:35:10 [INFO] Starting program: test_err
+2026-10-14 05:35:10 [INFO] Starting program: test_err
+2026-10-14 05:35:10 [INFO] Spawning process for: test_err
+2026-10-14 05:35:10 [INFO] Spawned PID 8772
+2026-10-14 05:35:10 [INFO] Spawning process for: test_err
+2026-10-14 05:35:10 [INFO] Spawned PID 8774
+2026-10-14 05:35:11 [INFO] Process test_err is now RUNNING
+2026-10-14 05:35:11 [INFO] Process test_err is now RUNNING
+2026-10-14 05:35:12 [INFO] Process test_err exited with code 0
+2026-10-14 05:35:12 [INFO] Restarting process test_err
+2026-10-14 05:35:12 [INFO] Spawning process for: test_err
+2026-10-14 05:35:12 [INFO] Spawned PID 8778
+2026-10-14 05:35:12 [INFO] Process test_err exited with code 0
+2026-10-14 05:35:12 [INFO] Restarting process test_err
+2026-10-14 05:35:12 [INFO] Spawning process for: test_err
+2026-10-14 05:35:12 [INFO] Spawned PID 8780
+2026-10-14 05:35:13 [INFO] Process test_err is now RUNNING
+2026-10-14 05:35:13 [INFO] Process test_err is now RUNNING
+2026-10-14 05:35:14 [INFO] Process test_err exited with code 0
+2026-10-14 05:35:14 [INFO] Restarting process test_err
+2026-10-14 05:35:14 [INFO] Spawning process for: test_err
+2026-10-14 05:35:14 [INFO] Spawned PID 8787
+2026-10-14 05:35:14 [INFO] Process test_err exited with code 0
+2026-10-14 05:35:14 [INFO] Restarting process test_err
+2026-10-14 05:35:14 [INFO] Spawning process for: test_err
+2026-10-14 05:35:14 [INFO] Spawned PID 8789
+2026-10-14 05:35:15 [INFO] Process test_err is now RUNNING
+2026-10-14 05:35:15 [INFO] Process test_err is now RUNNING
+2026-10-14 05:35:16 [INFO] Process test_err exited with code 0
+2026-10-14 05:35:16 [INFO] Restarting process test_err
+2026-10-14 05:35:16 [INFO] Spawning process for: test_err
+2026-10-14 05:35:16 [INFO] Spawned PID 8793
+2026-10-14 05:35:16 [INFO] Process test_err exited with code 0
+2026-10-14 05:35:16 [INFO] Restarting process test_err
+2026-10-14 05:35:16 [INFO] Spawning process for: test_err
+2026-10-14 05:35:16 [INFO] Spawned PID 8795
+2026-10-14 05:35:17 [INFO] Process test_err is now RUNNING
+2026-10-14 05:35:17 [INFO] Process test_err is now RUNNING
+2026-10-14 05:35:18 [INFO] Process test_err exited with code 0
+2026-10-14 05:35:18 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:35:18 [INFO] Process test_err exited with code 0
+2026-10-14 05:35:18 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:38:18 [INFO] Stopping program: test_err
+2026-10-14 05:38:18 [INFO] Stopping program: test_err
+2026-10-14 05:38:18 [INFO] Starting program: test_err
+2026-10-14 05:38:18 [INFO] Starting program: test_err
+2026-10-14 05:38:18 [INFO] Spawning process for: test_err
+2026-10-14 05:38:18 [INFO] Spawned PID 8913
+2026-10-14 05:38:18 [INFO] Spawning process for: test_err
+2026-10-14 05:38:18 [INFO] Spawned PID 8915
+2026-10-14 05:38:19 [INFO] Process test_err is now RUNNING
+2026-10-14 05:38:19 [INFO] Process test_err is now RUNNING
+2026-10-14 05:38:20 [INFO] Process test_err exited with code 0
+2026-10-14 05:38:20 [INFO] Restarting process test_err
+2026-10-14 05:38:20 [INFO] Spawning process for: test_err
+2026-10-14 05:38:20 [INFO] Spawned PID 8919
+2026-10-14 05:38:20 [INFO] Process test_err exited with code 0
+2026-10-14 05:38:20 [INFO] Restarting process test_err
+2026-10-14 05:38:20 [INFO] Spawning process for: test_err
+2026-10-14 05:38:20 [INFO] Spawned PID 8921
+2026-10-14 05:38:21 [INFO] Process test_err is now RUNNING
+2026-10-14 05:38:21 [INFO] Process test_err is now RUNNING
+2026-10-14 05:38:22 [INFO] Process test_err exited with code 0
+2026-10-14 05:38:22 [INFO] Restarting process test_err
+2026-10-14 05:38:22 [INFO] Spawning process for: test_err
+2026-10-14 05:38:22 [INFO] Spawned PID 8925
+2026-10-14 05:38:22 [INFO] Process test_err exited with code 0
+2026-10-14 05:38:22 [INFO] Restarting process test_err
+2026-10-14 05:38:22 [INFO] Spawning process for: test_err
+2026-10-14 05:38:22 [INFO] Spawned PID 8927
+2026-10-14 05:38:23 [INFO] Process test_err is now RUNNING
+2026-10-14 05:38:23 [INFO] Process test_err is now RUNNING
+2026-10-14 05:38:24 [INFO] Process test_err exited with code 0
+2026-10-14 05:38:24 [INFO] Restarting process test_err
+2026-10-14 05:38:24 [INFO] Spawning process for: test_err
+2026-10-14 05:38:24 [INFO] Spawned PID 8932
+2026-10-14 05:38:24 [INFO] Process test_err exited with code 0
+2026-10-14 05:38:24 [INFO] Restarting process test_err
+2026-10-14 05:38:24 [INFO] Spawning process for: test_err
+2026-10-14 05:38:24 [INFO] Spawned PID 8934
+2026-10-14 05:38:25 [INFO] Process test_err is now RUNNING
+2026-10-14 05:38:25 [INFO] Process test_err is now RUNNING
+2026-10-14 05:38:26 [INFO] Process test_err exited with code 0
+2026-10-14 05:38:26 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:38:26 [INFO] Process test_err exited with code 0
+2026-10-14 05:38:26 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:38:41 [INFO] Taskmaster initalized
+2026-10-14 05:38:41 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:38:41 [INFO] Configuration loaded successfully
+2026-10-14 05:38:41 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 05:38:41 [INFO] Starting interactive Shell
+2026-10-14 05:38:41 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 05:41:44 [INFO] Taskmaster initalized
+2026-10-14 05:41:44 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:41:44 [INFO] Configuration loaded successfully
+2026-10-14 05:41:44 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 05:41:44 [INFO] Starting interactive Shell
+2026-10-14 05:41:44 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 05:45:25 [INFO] Taskmaster initalized
+2026-10-14 05:45:25 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:45:25 [INFO] Configuration loaded successfully
+2026-10-14 05:45:25 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 05:45:25 [INFO] Starting interactive Shell
+2026-10-14 05:45:25 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 05:46:10 [INFO] Starting program: running
+2026-10-14 05:46:10 [INFO] Starting program: running
+2026-10-14 05:46:10 [INFO] Spawning process for: running
+2026-10-14 05:46:10 [INFO] Spawned PID 9593
+2026-10-14 05:46:11 [INFO] Process running is now RUNNING
+2026-10-14 05:47:37 [ERROR] ERROR: Program not found: runnnig
+2026-10-14 05:47:45 [INFO] Stopping program: running
+2026-10-14 05:47:45 [INFO] Stopping program: running
+2026-10-14 05:47:45 [INFO] Stopping PID 9593 using SIGTERM
+2026-10-14 05:51:43 [INFO] Taskmaster initalized
+2026-10-14 05:51:43 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:51:43 [INFO] Configuration loaded successfully
+2026-10-14 05:51:43 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 05:51:43 [INFO] Starting interactive Shell
+2026-10-14 05:51:43 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 05:52:40 [INFO] Taskmaster initalized
+2026-10-14 05:52:40 [INFO] Loading configuration: /etc/taskmaster/task.json
+2026-10-14 05:52:40 [INFO] Configuration loaded successfully
+2026-10-14 05:52:40 [INFO] Privileges dropped: running as taskmaster
+2026-10-14 05:52:40 [INFO] Starting interactive Shell
+2026-10-14 05:52:40 [INFO] Server listening on /tmp/taskmaster.sock
+2026-10-14 05:53:01 [INFO] Starting program: running
+2026-10-14 05:53:01 [INFO] Starting program: running
+2026-10-14 05:53:01 [INFO] Spawning process for: running
+2026-10-14 05:53:01 [INFO] Spawned PID 10091
+2026-10-14 05:53:02 [INFO] Process running is now RUNNING
+2026-10-14 05:53:46 [INFO] Starting program: test_err
+2026-10-14 05:53:46 [INFO] Starting program: test_err
+2026-10-14 05:53:46 [INFO] Spawning process for: test_err
+2026-10-14 05:53:46 [INFO] Spawned PID 10138
+2026-10-14 05:53:46 [INFO] Spawning process for: test_err
+2026-10-14 05:53:46 [INFO] Spawned PID 10140
+2026-10-14 05:53:47 [INFO] Process test_err is now RUNNING
+2026-10-14 05:53:47 [INFO] Process test_err is now RUNNING
+2026-10-14 05:53:48 [INFO] Process test_err exited with code 0
+2026-10-14 05:53:48 [INFO] Restarting process test_err
+2026-10-14 05:53:48 [INFO] Spawning process for: test_err
+2026-10-14 05:53:48 [INFO] Spawned PID 10151
+2026-10-14 05:53:48 [INFO] Process test_err exited with code 0
+2026-10-14 05:53:48 [INFO] Restarting process test_err
+2026-10-14 05:53:48 [INFO] Spawning process for: test_err
+2026-10-14 05:53:48 [INFO] Spawned PID 10153
+2026-10-14 05:53:49 [INFO] Process test_err is now RUNNING
+2026-10-14 05:53:49 [INFO] Process test_err is now RUNNING
+2026-10-14 05:53:50 [INFO] Process test_err exited with code 0
+2026-10-14 05:53:50 [INFO] Restarting process test_err
+2026-10-14 05:53:50 [INFO] Spawning process for: test_err
+2026-10-14 05:53:50 [INFO] Spawned PID 10157
+2026-10-14 05:53:50 [INFO] Process test_err exited with code 0
+2026-10-14 05:53:50 [INFO] Restarting process test_err
+2026-10-14 05:53:50 [INFO] Spawning process for: test_err
+2026-10-14 05:53:50 [INFO] Spawned PID 10159
+2026-10-14 05:53:51 [INFO] Process test_err is now RUNNING
+2026-10-14 05:53:51 [INFO] Process test_err is now RUNNING
+2026-10-14 05:53:52 [INFO] Process test_err exited with code 0
+2026-10-14 05:53:52 [INFO] Restarting process test_err
+2026-10-14 05:53:52 [INFO] Spawning process for: test_err
+2026-10-14 05:53:52 [INFO] Spawned PID 10169
+2026-10-14 05:53:52 [INFO] Process test_err exited with code 0
+2026-10-14 05:53:52 [INFO] Restarting process test_err
+2026-10-14 05:53:52 [INFO] Spawning process for: test_err
+2026-10-14 05:53:52 [INFO] Spawned PID 10171
+2026-10-14 05:53:53 [INFO] Process test_err is now RUNNING
+2026-10-14 05:53:53 [INFO] Process test_err is now RUNNING
+2026-10-14 05:53:54 [INFO] Process test_err exited with code 0
+2026-10-14 05:53:54 [ERROR] Process test_err exceeded retries -> FATAL
+2026-10-14 05:53:54 [INFO] Process test_err exited with code 0
+2026-10-14 05:53:54 [ERROR] Process test_err exceeded retries -> FATAL
